@@ -1,0 +1,57 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+.jumbotron {
+	text-align: center;
+	margin-bottom: 0px;
+	background-image: url("../images/fantasy5.jpg");
+  color: maroon ;
+
+}
+
+
+.jumbotron h1{
+	font-size: 67px;
+	font-family: 'Macondo Swash Caps', cursive;
+	font-weight: 100;
+}
+
+.jumbotron p{
+
+	font-size: 26px;
+	font-family: 'Noto Serif', serif;
+	color: black !important;
+
+}
+
+.album {
+	padding-top: 80px !important;
+	background-color: #ccd3ff;
+}
+
+.btn-outline-secondary{
+	border-radius: 7px !important;
+}
+
+.btn-outline-secondary : first-child {
+
+}
+
+.card-body{
+	text-align: center;
+
+}
+
+.card-text-bookname {
+	font-family: 'Macondo Swash Caps', cursive;
+
+	font-size: 24px;
+}
+
+.card-text-writername{
+		font-family: 'Noto Serif', serif;
+
+}
+
+.footer p{
+	font-family: 'Macondo Swash Caps', cursive;
+}
