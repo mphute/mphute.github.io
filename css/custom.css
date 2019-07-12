@@ -3,7 +3,7 @@
 .jumbotron {
 	text-align: center;
 	margin-bottom: 0px;
-	background-image = "../images/fantasy1.jpg";
+	background-image = <img src="../images/fantasy1.jpg"> ;
 }
 
 
