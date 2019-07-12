@@ -1,0 +1,31 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+ 
+.jumbotron {
+	text-align: center;
+	background-color: #ffe9c8;
+	margin-bottom: 0px;
+}
+
+
+.jumbotron h1{
+	font-size: 67px;
+	font-family: 'Kalam', cursive;
+	     color: #4a205f;
+}
+
+.jumbotron p{
+
+	font-size: 26px;
+	font-family: 'Noto Serif', serif;
+	color: #554c4c !important;
+
+}
+
+.album {
+	padding-top: 80px !important;
+	background-color: #fff9f1;
+}
+
+.btn-outline-secondary{
+	border-radius: 7px !important;
+}
