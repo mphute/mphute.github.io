@@ -5,6 +5,7 @@
 	margin-bottom: 0px;
 	background-image: url("../images/romance1.jpg");
 	color:bisque;
+	padding: 20px;
 
 }
 
@@ -15,25 +16,17 @@
 	font-weight: 100;
 }
 
-.jumbotron p{
-
-	font-size: 26px;
-	font-family: 'Noto Serif', serif;
-	color:white !important;
-
-
-}
-
 
 
 .album {
-	padding-top: 80px !important;
+	padding-top: 250px !important;
 	background-color: #ffc6c6;
 
 }
 
 .card-body{
 	text-align: center;
+	background-color:  #fff5f5
 
 }
 
@@ -53,4 +46,88 @@
 
 .btn-outline-secondary{
 	border-radius: 7px !important;
+	background-color:  #fff5f5 ;
+	
+}
+
+.btn-outline-secondary:first-child{
+	
+	color :green;
+	border-color: green;
+	
+}
+
+.btn-outline-secondary:last-child{
+	
+	color: black;
+	border-color: black;
+	
+}
+
+
+.btn-outline-secondary:first-child:hover {
+	color: white; 
+	border-color: green;
+	background-color: green !important;
+	opacity: 0.7;
+
+  }
+
+  .btn-outline-secondary:last-child:hover { 
+	border-color: rgb(250, 150, 19);
+	background-color: rgb(250, 150, 19) !important; 
+	opacity: 0.8;
+  }
+
+  .col-md-6{
+	padding:15px;
+	color: black;
+	font-size: large;
+	text-align: right;
+	background-color: #fff5f5;
+}
+
+
+
+
+.col-md-3{
+	padding :10px;
+	text-align :center;
+	font-size: larger;
+	background-color: #fff5f5;
+}
+
+.containerf{
+    max-width: 1490px;
+}
+
+/*Responsive Styling*/
+@media (max-width: 1199px){
+	.album{
+		padding: 80px 100px !important;
+	}
+}
+
+@media (max-width: 992px){
+		.album{
+			padding: 80px 0px !important;
+		}
+
+	
+}
+	
+@media (max-width: 768px){
+		.album{
+			padding: 80px 100px!important;
+		}
+
+		.col-md-6{
+			text-align: center;
+			font-size: 17px;
+		}
+
+		.card-text-bookname{
+			font-size: 31px;
+		}
+	
 }
