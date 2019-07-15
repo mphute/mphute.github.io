@@ -19,7 +19,7 @@
 
 
 .album {
-	padding: 400px !important 10px !important;
+	padding: 250px !important;
 	background-color: #ffc6c6;
 
 }
@@ -132,3 +132,9 @@
 	
 }
 
+@media (max-width: 600px){
+	.album{
+			padding: 800px 10px!important;
+		}
+	
+}
