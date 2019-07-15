@@ -21,6 +21,7 @@
 .album {
 	padding: 250px !important;
 	background-color: #ffc6c6;
+	margin
 
 }
 
@@ -134,7 +135,7 @@
 
 @media (max-width: 600px){
 	.album{
-			padding: 500px 10px!important;
+			padding: 250px 10px!important;
 		}
 	
 }
