@@ -103,13 +103,13 @@
 /*Responsive Styling*/
 @media (max-width: 1199px){
 	.album{
-		padding: 80px 100px !important;
+		padding: 250px 100px !important;
 	}
 }
 
 @media (max-width: 992px){
 		.album{
-			padding: 80px 0px !important;
+			padding: 250px 0px !important;
 		}
 
 	
@@ -117,7 +117,7 @@
 	
 @media (max-width: 768px){
 		.album{
-			padding: 80px 100px!important;
+			padding: 250px 100px!important;
 		}
 
 		.col-md-6{
