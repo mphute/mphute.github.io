@@ -133,9 +133,9 @@
 	
 }
 
-@media (max-width: 600px){
+@media (max-width: 580px){
 	.album{
-			padding: 300px 10px!important;
+			padding: 200px 10px!important;
 		}
 	
 }
