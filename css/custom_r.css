@@ -19,7 +19,7 @@
 
 
 .album {
-	padding-top: 250px !important;
+	padding-top: 250px 10px !important;
 	background-color: #ffc6c6;
 
 }
