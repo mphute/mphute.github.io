@@ -131,3 +131,9 @@
 		}
 	
 }
+
+@media (max-width: 490px){
+	.album{
+		padding: 80px 50px!important;
+	}
+}
