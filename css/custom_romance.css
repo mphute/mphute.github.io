@@ -157,7 +157,7 @@
 
 @media (max-width: 768px){
 		.album{
-		padding: 250px 100px 25px 100px !important;
+		padding: 250px 90px 25px 90px !important;
 		}
 
 		.col-md-6{
@@ -178,7 +178,7 @@
 
 @media (max-width: 445px){
 		.album{
-			padding: 225px 100px!important;
+			padding: 225px 70px!important;
 		}
 
 		.col-md-6{
@@ -205,9 +205,9 @@
 		}
 }
 
-@media (max-width: 375px){
+@media (max-width: 350px){
 		.album{
-			padding: 250px 50px!important;
+			padding: 250px 20px!important;
 		}
 
 		.jumbotron h1{
