@@ -13,6 +13,7 @@
 .jumbotron h1{
 	font-size: 67px;
 	font-family: 'Playball', cursive;
+	font-family: 'Great Vibes', cursive;
 	font-weight: 100;
 }
 
@@ -33,8 +34,9 @@
 
 .card-text-bookname{
 		font-family: 'Playball', cursive;
+		font-family: 'Great Vibes', cursive;
 		text-align: center;
-			font-size: 26px;
+			font-size: 28px;
 }
 
 
