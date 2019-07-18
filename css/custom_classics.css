@@ -27,7 +27,7 @@ font-family: 'EB Garamond', serif;
 
 .btn-sm{
 	border-radius: 7px !important;
-	background-color:  #fdffbe ;
+	background-color:  cornsilk ;
 	color: black;
 	border-color: black;
 
@@ -75,10 +75,21 @@ font-family: 'EB Garamond', serif;
   }
 
 
-  .card-body{
-	text-align: center;
-	background-color: #fdffbe;
-}
+	.img-space{
+		background-color: cornsilk;
+		border-color: cornsilk;
+	}
+
+	.card{
+		background-color: cornsilk;
+		border-color:cornsilk;
+
+	}
+	.card-body {
+		text-align: center;
+		background-color: cornsilk;
+
+	}
 
 .card-text-bookname {
 	font-family: 'EB Garamond', serif;

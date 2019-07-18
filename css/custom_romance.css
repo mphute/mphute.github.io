@@ -26,9 +26,19 @@
 
 }
 
-.card-body{
+.img-space{
+	background-color: #ffc6c6;
+	border-color: #ffc6c6;
+}
+
+.card{
+	background-color: #ffc6c6;
+	border-color:#ffc6c6;
+
+}
+.card-body {
 	text-align: center;
-	background-color:  #fff5f5
+	background-color: #ffc6c6;
 
 }
 
@@ -53,7 +63,7 @@
 
 .btn-sm{
 	border-radius: 7px !important;
-	background-color:  #fff5f5 ;
+	background-color:  #ffc6c6;
 
 }
 .material-icons{

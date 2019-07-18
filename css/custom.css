@@ -66,13 +66,19 @@
 	opacity: 0.8;
   }
 
+.img-space{
+	background-color: #ccd3ff;
+	border-color: #ccd3ff
+}
+
 .card{
-	background-color: aliceblue;
+	background-color: #ccd3ff;
+	border-color:#ccd3ff
 
 }
 .card-body {
 	text-align: center;
-	background-color: aliceblue;
+	background-color: #ccd3ff;
 
 }
 
