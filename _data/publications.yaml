@@ -1,0 +1,27 @@
+# - id: iui-ishmap
+#   title: "Lessons from the Development of an Anomaly Detection Interface on the Mars Perseverance Rover using the ISHMAP Framework"
+#   authors:
+#     - Austin P. Wright
+#     - Peter Nemere
+#     - Adrian Galvin
+#     - Duen Horng (Polo) Chau
+#     - Scott Davidoff
+
+#   venue: Proceedings of the 28th International Conference on Intelligent User Interfaces
+#   year: 2023
+#   url: https://dl.acm.org/doi/abs/10.1145/3581641.3584036
+#   type: journal
+#   feature-title: Mars Anomalies
+#   feature-description: Developing Novel Design Frameworks for Scientific Anomaly Detection
+#   featured: true
+#   selected: true
+#   image: /images/papers/23-iui-ishmap.png
+#   bibtex: |-
+#     @inproceedings{wright2023lessons,
+#       title={Lessons from the Development of an Anomaly Detection Interface on the Mars Perseverance Rover using the ISHMAP Framework},
+#       author={Wright, Austin P and Nemere, Peter and Galvin, Adrian and Chau, Duen Horng and Davidoff, Scott},
+#       booktitle={Proceedings of the 28th International Conference on Intelligent User Interfaces},
+#       pages={91--105},
+#       year={2023}
+#     }
+

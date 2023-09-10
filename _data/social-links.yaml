@@ -1,0 +1,53 @@
+- id: home
+  description: "mansiphute.com"
+  color: "#515151"
+  class: "fas fa-home icon"
+  url: "https://mansiphute.com"
+  on-homepage: false
+  on-cv: true
+  cv-group: 1
+
+- id: email
+  description: "mphute6@gatech.edu"
+  color: "#515151"
+  class: "fas fa-envelope icon"
+  url: "mailto:mphute6@gatech.edu"
+  on-homepage: true
+  on-cv: true
+  cv-group: 1
+
+# - id: twitter
+#   description: "@austin_p_wright"
+#   color: "#1da1f2"
+#   class: "fab fa-twitter icon"
+#   url: https://twitter.com/austin_p_wright
+#   on-homepage: true
+#   on-cv: true
+#   cv-group: 2
+
+- id: github
+  description: "github.com/mphute"
+  color: "#6e5494"
+  class: "fab fa-github icon"
+  url: "https://github.com/mphute"
+  on-homepage: true
+  on-cv: true
+  cv-group: 2
+
+- id: scholar
+  description: "Google Scholar"
+  color: "#515151"
+  class: "fa fa-graduation-cap icon"
+  url: ""
+  on-homepage: true
+  on-cv: true
+  cv-group: 2
+
+- id: cv
+  description: CV PDF
+  color: "#ba2818"
+  class: "far fa-file-pdf icon"
+  url: "https://mansiphute.com/cv.pdf"
+  on-homepage: false
+  on-cv: false
+  cv-group: 1

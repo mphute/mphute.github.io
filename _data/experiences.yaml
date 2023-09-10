@@ -1,0 +1,51 @@
+- institution: Georgia Institute of Technology
+  location: "Atlanta, GA"
+  position: Graduate Research Assistant
+  group: School of Computational Science and Engineering
+  year: "Summer 2022 —"
+  year-extra: "Present"
+  mentors:
+    - Duen Horng (Polo) Chau
+  advisor: true
+  description: "Member of the Polo Club of Data Science where we bridge and innovate at the intersection of data mining and human-computer interaction to synthesize scalable, interactive, and interpretable tools that amplify human’s ability to understand and interact with big data."
+  institution-url: http://gatech.edu
+  group-url: https://poloclub.github.io
+  type: academic
+
+- institution: Georgia Institute of Technology
+  location: "Atlanta, GA"
+  position: Graduate Teaching Assistant
+  group: School of Computational Science and Engineering
+  year: "Spring 2022"
+  mentors:
+    - Duen Horng (Polo) Chau
+  description: ""
+  institution-url: http://gatech.edu
+  group-url: https://poloclub.github.io/cse6242-2022spring-campus/
+  type: academic
+
+- institution: Nanyang Technological University
+  location: "Remote"
+  position: Undergraduate Research Assistant
+  group: "Cyber Security Research Centre at NTU (CYSREN)"
+  year: "Fall 2021 —"
+  year-extra: "Summer 2022"
+  mentors:
+    - Thambipillai Srikanthan
+  description: "Introduced natural language processing and data visualization tools for detecting emerging trends in the opiod epidemic."
+  institution-url: https://www.ntu.edu.sg
+  group-url: https://www.ntu.edu.sg/cysren
+  type: academic
+
+- institution: Tech Mahindra Ltd
+  location: "Pune, India"
+  position: Intern, Web Development
+  year: "Summer 2019"
+  mentors:
+    - Rahul Bedmutha
+  description: "Introduced natural language processing and data visualization tools for detecting emerging trends in the opiod epidemic."
+  institution-url: https://www.techmahindra.com/en-in/?f=2081681769
+  type: industrial
+
+
+

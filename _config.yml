@@ -1,0 +1,43 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+# permalink:           "/:title"
+# relative_permalinks: true
+
+# Setup
+title: Austin P. Wright
+tagline: Ph.D. Student at GT
+url: http://austinpwright.com
+# gems:                [jekyll-paginate]
+# paginate:            5
+baseurl: ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# About/contact
+author:
+  name: Austin P. Wright
+  url: https://twitter.com/austin_p_wright
+  email: apwright@gatech.edu
+
+# Custom vars
+version: 2.0.0
+github:
+  repo: https://APWright/apwright.github.io
+
+nav_list:
+  Home: "/"
+  CV: "/cv"
+  # Projects: '/projects'
+  # Blog: '/blog'
+  Publications: "/cv#publications"
+  # Everything Else: '/everything-else'
+
+# paginate_path: "blog/page:num/"
+
+excerpt_separator: <!--more-->

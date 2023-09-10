@@ -1,0 +1,16 @@
+- degree: "M.S. in Computer Science"
+  description:
+    - "Specialization: Machine Learning"
+  institution: Georgia Institute of Technology
+  years: "Fall 2022 —"
+  years-extra: "Present"
+  institution-url: https://www.gatech.edu/
+
+- degree: "B.Tech. in Electronics and Telecommunication"
+  description:
+    - "Honors: Artificial Intelligence and Data Analytics"
+  years: "Fall 2018 — "
+  years-extra: "Spring 2022"
+  institution: Vishwakarma institute of Technology
+  description:
+    - "Overall GPA: , ENTC GPA: , Honors GPA: 4"
