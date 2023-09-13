@@ -6,7 +6,7 @@
 
 # Setup
 title: Mansi Phute
-tagline: Ph.D. Student at GT
+tagline: M.S. Student at GT
 url: mansiphute.com
 # gems:                [jekyll-paginate]
 # paginate:            5
@@ -21,14 +21,14 @@ sass:
 
 # About/contact
 author:
-  name: Austin P. Wright
-  url: https://twitter.com/austin_p_wright
-  email: apwright@gatech.edu
+  name: Mansi Phute
+  url: https://twitter.com/mansiphute
+  email: mphute6@gatech.edu
 
 # Custom vars
 version: 2.0.0
 github:
-  repo: https://APWright/apwright.github.io
+  repo: https://mphute/mphute.github.io
 
 nav_list:
   Home: "/"
