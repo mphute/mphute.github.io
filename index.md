@@ -17,20 +17,16 @@ title: Home
 	
 	<div class="intro-text">
 		<p markdown="1">
-		I’m an M.S. student in the [College of Computing][coc] at [Georgia Tech][gt] advised by [Polo Chau][poloclub]. 
-		</p>
-		<!-- <p markdown="1">
-  My research in **Scientific Human-Cenetered AI** aims to solve problems intersecting machine learning, human-computer interaction, and scientific computing, by using a strong principled basis in both mathematical and human centered principles to actualize the potential of new technologies by deep collaboration with scientists developing tools with _usability_, _interpretability_, and _real scientiifc impact_.
+		Hello! I’m an MS student in the [College of Computing][coc] at [Georgia Tech][gt]. I'm a member of the [Polo Club of Data Science][poloclub] advised by [Polo Chau][poloclub]. 
 		</p>
 		<p markdown="1">
-		This work has suported the missions of many public institutions including:  
-		<img class="intro-logo" style="width: 100px; padding-bottom: 10px;" src="/images/jpl.svg">
-		<img class="intro-logo" style="width: 100px; padding-bottom: 10px;" src="/images/nasa.svg">
-		<img class="intro-logo" style="width: 100px; padding-bottom: 10px;" src="/images/cdc.svg">
-		<img class="intro-logo" style="width: 150px; padding-bottom: 10px;" src="/images/lanl.svg">
-		<img class="intro-logo" style="width: 150px; padding-bottom: 30px;" src="/images/nssc.png">
-		<img class="intro-logo" style="width: 100px; padding-bottom: 10px;" src="/images/citris.png">
-		</p> -->
+       My research in **Adversarial ML** in developing effective defences against adversarial attacks. I am interested in developing toolkits that help strengthen current AI security while being scalable, reliable, and practicle.
+		</p>
+		<p markdown="1">
+		I have collaborated with researchers and developed solutions for the following institutions:  
+		<img class="intro-logo" style="width: 100px; padding-bottom: 10px;" src="/images/intellabs.svg">
+		<img class="intro-logo" style="width: 100px; padding-bottom: 10px;" src="/images/.svg">
+		</p>
 	</div>
 
     <div class="intro-image">
@@ -78,7 +74,7 @@ title: Home
 [archive]: {{ site.url }}/archive "Archive."
 
 [gt]: http://www.gatech.edu "Georgia Tech"
-[cse]: http://cse.gatech.edu "Georgia Tech Computational Science and Engineering"
+[cse]: http://cse.gatech.edu "Georgia Tech Computer Science"
 [coc]: http://www.cc.gatech.edu "Georgia Tech College of Computing"
 
 [cv]: {{ site.url }}/cv
