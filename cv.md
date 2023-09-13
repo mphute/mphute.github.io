@@ -23,7 +23,7 @@ I’m an M.S. student in the [College of Computing][coc] at [Georgia Tech][gt] a
 </span>
 
 <span class="cv-max-width">
-My research in **Adversarial Machine Learning** aims to develop toolboxes that help us create robust, open source defenses for attacks against current ML systems. My research focuses on reliability , scalability and interpretability of solutions I develop. I also work on understanding and leveraging **Generative Models** in various applications. 
+My research in **Adversarial Machine Learning** aims to develop toolboxes that help us create robust, open source defenses for attacks against current ML systems. My research focuses on reliability , scalability and interpretability of solutions I develop. I also work on understanding and leveraging **Generative Models** in various aplications
 </span>
 
 <div class="cv-image-links-wrapper" style="font-size: 16px; padding-bottom: 0;">
