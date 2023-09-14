@@ -11,7 +11,7 @@ jsarr:
 </a>
 </div>
 
-<h1><a style="color: #313131; font-weight: 500; font-size: 1.25em" href="https://austinpwright.com">Mansi Phute</a></h1>
+<h1><a style="color: #313131; font-weight: 500; font-size: 1.25em" href="https://mphute.github.io.com">Mansi Phute</a></h1>
 
 <span class="cv-subtitle">
 *<span class="cv-ai">Adversarial ML</span> + <span class="cv-soc">Social Computing</span> researcher*
@@ -152,7 +152,7 @@ My research in **Adversarial Machine Learning** aims to develop toolboxes that h
 ## Contact
 
 Austin P. Wright
-`apwright@gatech.edu`  
+`mphute6@gatech.edu`  
 Coda Tech Square
 Georgia Tech  
 756 W Peachtree St NW
@@ -165,5 +165,5 @@ Atlanta, GA 30308
 [cse]: http://cse.gatech.edu "GT Computational Science and Engineering"
 [coc]: http://www.cc.gatech.edu "GT College of Computing"
 [polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
-[twitter]: https:/www.twitter.com/austin_p_wright "@austin_p_wright"
-[github]: https:/www.github.com/APWright "github.com/APWright"
+[twitter]: https:/www.twitter.com/mansiphute "@mansiphute"
+[github]: https:/www.github.com/mphute "github.com/mphute"
