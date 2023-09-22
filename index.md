@@ -5,7 +5,6 @@ title: Home
 
 <div>
 <a href="https://mansiphute.com">
-<!-- <img class="title-logo" src="/images/apw_logo.svg"> -->
 </a>
 </div>
 

@@ -151,7 +151,7 @@ My research in **Adversarial Machine Learning** aims to develop toolboxes that h
 
 ## Contact
 
-Austin P. Wright
+Mansi Phute
 `mphute6@gatech.edu`  
 Coda Tech Square
 Georgia Tech  
