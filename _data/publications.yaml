@@ -1,27 +1,27 @@
-- id: iui-ishmap
+- id: llm-selfdefense
   title: "Lessons from the Development of an Anomaly Detection Interface on the Mars Perseverance Rover using the ISHMAP Framework"
   authors:
-    - Austin P. Wright
-    - Peter Nemere
-    - Adrian Galvin
+    - Alec Helbling
+    - Mansi Phute
+    - Matthew Hull
     - Duen Horng (Polo) Chau
-    - Scott Davidoff
 
-  venue: Proceedings of the 28th International Conference on Intelligent User Interfaces
+  venue: arXiv
   year: 2023
-  url: https://dl.acm.org/doi/abs/10.1145/3581641.3584036
-  type: journal
-  feature-title: Mars Anomalies
-  feature-description: Developing Novel Design Frameworks for Scientific Anomaly Detection
+  url: https://arxiv.org/abs/2308.07308
+  type: arXiv
+  feature-title: LLM Self Defense 
+  feature-description: LLM's can filter out harmful content produced by themselves!
   featured: true
   selected: true
-  image: /images/papers/23-iui-ishmap.png
+  image: /images/papers/23-llm-self-defense.png
   bibtex: |-
-    @inproceedings{wright2023lessons,
-      title={Lessons from the Development of an Anomaly Detection Interface on the Mars Perseverance Rover using the ISHMAP Framework},
-      author={Wright, Austin P and Nemere, Peter and Galvin, Adrian and Chau, Duen Horng and Davidoff, Scott},
-      booktitle={Proceedings of the 28th International Conference on Intelligent User Interfaces},
-      pages={91--105},
-      year={2023}
+    @misc{helbling2023llm,
+      title={LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked}, 
+      author={Alec Helbling and Mansi Phute and Matthew Hull and Duen Horng Chau},
+      year={2023},
+      eprint={2308.07308},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
     }
 
