@@ -24,7 +24,7 @@
   group-url: https://poloclub.github.io/cse6242-2022spring-campus/
   type: academic
 
-  - institution: Nanyang Technological University
+- institution: Nanyang Technological University
   location: "Remote"
   position: Undergraduate Research Assistant
   group: "Cyber Security Research Centre at NTU (CYSREN)"
@@ -59,7 +59,6 @@
     - Jyoti Madake
   description: "Developed AI based solutions for agricultural problems faced in India by usimg hyperspectral imaging to predict soil fertility in the land"
   institution-url: http://www.vit.edu
-  group-url: https://www.3ds.com
   type: academic
 
 - institution: Tech Mahindra Ltd
