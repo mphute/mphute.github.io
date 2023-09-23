@@ -7,7 +7,7 @@
   mentors:
     - Duen Horng (Polo) Chau
   advisor: true
-  description: "Member of the Polo Club of Data Science where we bridge and innovate at the intersection of data mining and human-computer interaction to synthesize scalable, interactive, and interpretable tools that amplify human’s ability to understand and interact with big data."
+  description: "Member of the Polo Club of Data Science where we bridge and innovate at the intersection of data mining and human-computer interaction to synthesize scalable, interactive, and interpretable tools that amplify human’s ability to understand and interact with big data. Developed defences against adversarial attacks in Language and Vision domain."
   institution-url: http://gatech.edu
   group-url: https://poloclub.github.io
   type: academic
@@ -16,7 +16,7 @@
   location: "Atlanta, GA"
   position: Graduate Teaching Assistant
   group: School of Computational Science and Engineering
-  year: "Spring 2022"
+  year: "Spring 2023"
   mentors:
     - Duen Horng (Polo) Chau
   description: ""
@@ -24,17 +24,42 @@
   group-url: https://poloclub.github.io/cse6242-2022spring-campus/
   type: academic
 
+  - institution: Nanyang Technological University
+  location: "Remote"
+  position: Undergraduate Research Assistant
+  group: "Cyber Security Research Centre at NTU (CYSREN)"
+  year: "Spring 2022 —"
+  year-extra: "Summer 2023"
+  mentors:
+    - Thambipillai Srikanthan
+  description: "Increasing python application security by analyzing libraries used. Developed dynamic dependency graph to trace vulnerabilities.
+  institution-url: https://www.ntu.edu.sg
+  group-url: https://www.ntu.edu.sg/cysren
+  type: academic
+
 - institution: Nanyang Technological University
   location: "Remote"
   position: Undergraduate Research Assistant
   group: "Cyber Security Research Centre at NTU (CYSREN)"
   year: "Fall 2021 —"
-  year-extra: "Summer 2022"
+  year-extra: "Spring 2022"
   mentors:
     - Thambipillai Srikanthan
-  description: "Introduced natural language processing and data visualization tools for detecting emerging trends in the opiod epidemic."
+  description: "Automated human resource planning and forecasting by combining business intelligence of NHS, UK with data analytics to properly shift the HR planning from manual to automated"
   institution-url: https://www.ntu.edu.sg
   group-url: https://www.ntu.edu.sg/cysren
+  type: academic
+
+- institution: Vishwakarma Institute of Technology
+  location: "India"
+  position: Undergraduate Research Assistant
+  group: "Associated with Dassault Systems"
+  year: "Spring 2021"
+  mentors:
+    - Jyoti Madake
+  description: "Developed AI based solutions for agricultural problems faced in India by usimg hyperspectral imaging to predict soil fertility in the land"
+  institution-url: http://www.vit.edu
+  group-url: https://www.3ds.com
   type: academic
 
 - institution: Tech Mahindra Ltd
@@ -43,7 +68,7 @@
   year: "Summer 2019"
   mentors:
     - Rahul Bedmutha
-  description: "Introduced natural language processing and data visualization tools for detecting emerging trends in the opiod epidemic."
+  description: ""
   institution-url: https://www.techmahindra.com/en-in/?f=2081681769
   type: industrial
 
