@@ -14,7 +14,7 @@ jsarr:
 <h1><a style="color: #313131; font-weight: 500; font-size: 1.25em" href="https://mphute.github.io.com">Mansi Phute</a></h1>
 
 <span class="cv-subtitle">
-*<span class="cv-ai">Adversarial ML</span> + <span class="cv-soc">Social Computing</span> researcher*
+*<span class="cv-ai">Adversarial ML</span> + <span class="cv-soc">Explainable AI</span> researcher*
 </span>
 
 <span class="cv-max-width">
