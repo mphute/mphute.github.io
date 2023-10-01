@@ -28,11 +28,11 @@
   location: "Remote"
   position: Undergraduate Research Assistant
   group: "Cyber Security Research Centre at NTU (CYSREN)"
-  year: "Spring 2022 —"
-  year-extra: "Summer 2023"
+  year: "Fall 2021 —"
+  year-extra: "Spring 2022"
   mentors:
     - Thambipillai Srikanthan
-  description: "Increasing python application security by analyzing libraries used. Developed dynamic dependency graph to trace vulnerabilities.
+  description: "Increasing python application security by analyzing libraries used. Developed dynamic dependency graph to trace vulnerabilities."
   institution-url: https://www.ntu.edu.sg
   group-url: https://www.ntu.edu.sg/cysren
   type: academic
