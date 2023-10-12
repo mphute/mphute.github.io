@@ -1,19 +1,21 @@
 - id: llm-selfdefense
   title: "LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked"
   authors:
-    - Alec Helbling
     - Mansi Phute
+    - Alec Helbling
     - Matthew Hull
+    - Sebastian Szyller
+    - Cory Cornelius
     - Duen Horng (Polo) Chau
 
-  venue: arXiv
+  venue: NeurIPS
   year: 2023
   url: https://arxiv.org/abs/2308.07308
-  type: arXiv
+  type: Workshop
   feature-title: LLM Self Defense 
   feature-description: LLM's can filter out harmful content produced by themselves!
   featured: true
-  selected: true
+  selected: false
   image: /images/papers/23-llm-self-defense.png
   bibtex: |-
     @misc{helbling2023llm,
@@ -24,6 +26,26 @@
       archivePrefix={arXiv},
       primaryClass={cs.CL}
     }
+
+- id: high-semantic-shift
+  title: "LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked"
+  authors:
+    - Julia Kruk
+    - Mansi Phute
+    - Amit Bhattacharjee
+    - Sanchita Porwal
+
+  venue: NeurIPS
+  year: 2023
+  url: 
+  type: arXiv
+  feature-title: Semantic Shift in Online Communities
+  feature-description: Unmasking Information Flow through Linguistic Fingerprints
+  featured: true
+  selected: false
+  image: /images/papers/23-high-semantic-shift.pdf
+  bibtex: 
+    
 
 - id: rob-arch
   title: "Robust Principles: Architectural Design Principles for Adversarially Robust CNNs"
@@ -69,7 +91,7 @@
   type: Conference
   feature-title: ML in Lithography
   feature-description: A Survey on Machine Learning in Lithography
-  featured: true
+  featured: false
   selected: true
   image: /images/papers/23-llm-self-defense.png
   bibtex: |-
@@ -95,7 +117,7 @@
   type: Conference
   feature-title: Precision Farming
   feature-description: Predict soil fertility using hyperspectral images
-  featured: true
+  featured: false
   selected: true
   image: /images/papers/23-llm-self-defense.png
   bibtex: |-
