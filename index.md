@@ -2,9 +2,9 @@
 layout: home
 title: Home
 ---
-
 <div>
-<a href="https://mansiphute.com">
+<a href="https://mphute.github.io">
+<img class="title-logo" src="/images/MP.svg">
 </a>
 </div>
 

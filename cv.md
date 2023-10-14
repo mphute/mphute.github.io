@@ -7,11 +7,12 @@ jsarr:
 ---
 
 <div>
-<a href="https://mansiphute.com">
+<a href="https://mphute.github.io">
+<img class="title-logo" src="/images/MP.svg">
 </a>
 </div>
 
-<h1><a style="color: #313131; font-weight: 500; font-size: 1.25em" href="https://mphute.github.io.com">Mansi Phute</a></h1>
+<h1><a style="color: #313131; font-weight: 500; font-size: 1.25em" href="https://mphute.github.io">Mansi Phute</a></h1>
 
 <span class="cv-subtitle">
 *<span class="cv-ai">Adversarial ML</span> + <span class="cv-soc">Explainable AI</span> researcher*
