@@ -1,5 +1,5 @@
 - id: home
-  description: "mphute.github.io""
+  description: "mphute.github.io"
   color: "#515151"
   class: "fas fa-home icon"
   url: "https://mphute.github.io"
