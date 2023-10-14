@@ -6,11 +6,11 @@ jsarr:
   - js/scripts.js
 ---
 
-<div>
+<!-- <div>
 <a href="https://mphute.github.io">
 <img class="title-logo" src="/images/MP.svg">
 </a>
-</div>
+</div> -->
 
 <h1><a style="color: #313131; font-weight: 500; font-size: 1.25em" href="https://mphute.github.io">Mansi Phute</a></h1>
 

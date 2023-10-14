@@ -2,11 +2,11 @@
 layout: home
 title: Home
 ---
-<div>
+<!-- <div>
 <a href="https://mphute.github.io">
 <img class="title-logo" src="/images/MP.svg">
 </a>
-</div>
+</div> -->
 
 <h1 class="intro-title">Mansi Phute</h1>
 
