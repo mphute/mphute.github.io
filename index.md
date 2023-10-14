@@ -24,7 +24,7 @@ title: Home
 		<p markdown="1">
 		I have collaborated with researchers and developed solutions for the following institutions:  
 		<img class="intro-logo" style="width: 100px; padding-bottom: 10px;" src="/images/intellabs.svg">
-		<!-- <img class="intro-logo" style="width: 100px; padding-bottom: 10px;" src="/images/.svg"> -->
+		<img class="intro-logo" style="width: 100px; padding-bottom: 10px;" src="/images/dassault_logo_small.svg">
 		</p>
 	</div>
 

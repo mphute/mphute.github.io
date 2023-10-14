@@ -21,7 +21,7 @@ hr {
 }
 
 .cv-award {
-  color: #fbc02d;
+  color: #CD79EC;
   font-weight: 600;
 }
 
@@ -71,6 +71,11 @@ hr {
   margin-top: 2.5rem;
   font-weight: 300;
   color: #313131;
+  margin-bottom: 0.5rem;
+  inline-size: fit-content;
+  border-bottom-color: #CD79EC;
+  border-bottom-style: solid;
+  display: inline-block;
 }
 
 #cv h1 {
@@ -160,9 +165,13 @@ a strong {
 }
 
 #cv .cv-soc {
-  color: #bf9000;
+  color: #CD79EC;
   // padding-bottom: 3px;
   // border-bottom: 1px solid #2196F3;
+}
+
+#cv .subsec-heading {
+  
 }
 
 #cv time {
