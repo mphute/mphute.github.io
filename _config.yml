@@ -1,34 +1,43 @@
-title: Fred Hohman
-tagline: Research Scientist at Apple
-url: http://fredhohman.com
-baseurl: ""
-# gems: [jekyll-paginate]
-# paginate: 5
-
+# Permalinks
+#
 # Use of `relative_permalinks` ensures post links from the index work properly.
-# permalink: "/:title"
+# permalink:           "/:title"
 # relative_permalinks: true
 
+# Setup
+title: Mansi Phute
+tagline: M.S. Student at GT
+url: mphute.github.io
+# gems:                [jekyll-paginate]
+# paginate:            5
+baseurl: ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir: _sass
-  style: compressed
+  style: :compressed
 
+# About/contact
 author:
-  name: Fred Hohman
-  url: http://fredhohman.com
-  email: fred.hohman@gmail.com
+  name: Mansi Phute
+  url: https://twitter.com/mansiphute
+  email: mphute6@gatech.edu
 
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    default_lang: html
-    css_class: 'syntax'
+# Custom vars
+version: 2.0.0
+github:
+  repo: https://mphute/mphute.github.io
+
+nav_list:
+  Home: "/"
+  CV: "/cv"
+  # Projects: '/projects'
+  # Blog: '/blog'
+  Publications: "/cv#publications"
+  # Everything Else: '/everything-else'
+
+# paginate_path: "blog/page:num/"
 
 excerpt_separator: <!--more-->
-
-plugins:
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-redirect-from

@@ -8,8 +8,8 @@ title: Home
 		<div id="intro-image-wrapper">
 			<img id="intro-image" src="/images/portrait.jpg"></div>
 		<div id="intro-title-text-wrapper">
-			<h1 id="intro-title">Hi, I'm Fred Hohman</h1>
-			<div id="intro-subtitle">I'm a Research Scientist at Apple</div>
+			<h1 id="intro-title">Hi, I'm Mansi Phute</h1>
+			<div id="intro-subtitle">I'm a MS student at Georgia Tech</div>
 			<div id="intro-title-socials">
 				{% for link in site.data.social-links %}
 					{% if link.on-homepage == true %}
@@ -26,15 +26,15 @@ title: Home
 		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div>
-		I design and develop interactive interfaces to help people <b>understand machine learning models</b> and data-driven systems. Besides building tools, I also create <b>data visualizations</b> and write interactive articles to simply communicate complex ideas.
+		 My research in **Adversarial ML** in developing effective defences against adversarial attacks. I am interested in developing toolkits that help strengthen current AI security while being scalable, reliable, and practicle.
 	</div>
-	<div style="height: 1rem"></div>
+	<!-- <div style="height: 1rem"></div>
 	<div>
 		I received my PhD from Georgia Tech where I worked with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a> and <a href="http://va.gatech.edu/endert/">Alex Endert</a>. My dissertation on <a href="/dissertation">interactive interfaces for interpretability</a> won the <i>ACM SIGCHI Outstanding Dissertation Award</i> and was supported by a <i>NASA Space Technology Research Fellowship</i>.
 	</div>
-	<div style="height: 1rem"></div>
+	<div style="height: 1rem"></div> -->
 	<div>
-		I have collaborated with designers, developers, artists, and scientists while working at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/apple.svg"> Apple, <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/microsoft.svg"> Microsoft Research, <img class="intro-logo" style="width: 24px" src="/images/nasa.svg"> NASA Jet Propulsion Lab, and <img class="intro-logo" style="width: 24px;" src="/images/pnnl.svg"> Pacific Northwest National Lab.
+		I have collaborated with designers, developers, artists, and scientists at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/intellabs.svg"> Intel labs, <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/dassault_logo_small.svg"> Dassault Systems, and <img class="intro-logo" style="width: 24px;" src="/images/ntu.svg"> Nanyang Technological University Cyber Security Lab.
 	</div>
 </div>
 
@@ -43,7 +43,8 @@ title: Home
 <h2 class="feature-title">Featured <a href="/cv/#publications">Research Publications</a></h2>
 
 <p class="feature-text">
-	Latest research for fans of human-computer interaction, data visualization, and machine learning.
+	Latest research 
+	<!-- for fans of adversarial machine learning, data visualization, and machine learning. -->
 </p>
 
 <div class="cover-wrapper cover-wrapper-3-col l-page">
@@ -58,14 +59,14 @@ title: Home
 <br>
 <h2 class="feature-title">Featured <a href="/dissertation">Dissertation Publications</a></h2>
 
-<p class="feature-text">
+<!-- <p class="feature-text">
 	My dissertation contributed interactive interfaces to enable machine learning interpretability at scale and for everyone.
 </p>
 
 <div class="cover-wrapper cover-wrapper-1-col l-text">
 	{% include dissertation/document.html details=false location=home %}
-</div>
-
+</div> -->
+<!-- 
 <div class="cover-wrapper cover-wrapper-3-col l-page">
 	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' %}
 	{% for feature in sortedPublications %}
@@ -73,10 +74,10 @@ title: Home
 			{% include feature.html feature=feature %}
 		{% endif %}
 	{% endfor %}
-</div>
+</div> -->
 
 <br>
-<h2 class="feature-title">Apple <a href="https://developer.apple.com/design/human-interface-guidelines/">Chart Design Guidelines</a></h2>
+<!-- <h2 class="feature-title">Apple <a href="https://developer.apple.com/design/human-interface-guidelines/">Chart Design Guidelines</a></h2>
 
 <p class="feature-text">
 	Guidance and best practices to help designers and developers create the best charts for Apple platforms.
@@ -88,10 +89,10 @@ title: Home
 			{% include feature.html feature=feature %}
 		{% endif %}
 	{% endfor %}
-</div>
+</div> -->
 
 <br>
-<h2 class="feature-title">Featured <a href="/cv/#interactive-articles">Interactive Articles</a></h2>
+<!-- <h2 class="feature-title">Featured <a href="/cv/#interactive-articles">Interactive Articles</a></h2>
 
 <p class="feature-text">
 	Enhanced reading experiences that demonstrate what's possible when dynamic media are effectively combined.
@@ -125,7 +126,7 @@ title: Home
 		{% include feature.html feature=feature %}
 	{% endfor %}
 </div>
-
+ -->
 
 
 [gt]: http://www.gatech.edu "Georgia Tech"
