@@ -2,80 +2,137 @@
 layout: home
 title: Home
 ---
-<!-- <div>
-<a href="https://mphute.github.io">
-<img class="title-logo" src="/images/MP.svg">
-</a>
+
+<div id="intro-wrapper" class="l-text">
+	<div id="intro-title-wrapper">
+		<div id="intro-image-wrapper">
+			<img id="intro-image" src="/images/portrait.jpg"></div>
+		<div id="intro-title-text-wrapper">
+			<h1 id="intro-title">Hi, I'm Mansi Phute</h1>
+			<div id="intro-subtitle">I'm a Masters in Computer Science student at Georgia Tech</div>
+			<div id="intro-title-socials">
+				{% for link in site.data.social-links %}
+					{% if link.on-homepage == true %}
+						{% include social-link.html link=link %}
+					{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+	<!-- <hr class="l-middle home-hr"> -->
+	<div id="everything-else" class="l-middle">
+		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
+		<a href="{{ site.url }}/projects"><div><i class="fa fa-shapes icon icon-right-space"></i>Projects</div></a>
+		<!-- <a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a> -->
+	</div>
+	<div>
+		I design and develop interactive interfaces to help people <b>understand machine learning models</b> and data-driven systems. Besides building tools, I also create <b>data visualizations</b> and write interactive articles to simply communicate complex ideas.
+	</div>
+	<div style="height: 1rem"></div>
+	<div>
+		I am currently working as a Research Assistant at Georgia Tech with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a> as a part of the <a href="http://poloclub.gatech.edu">Polo Club of Data Science</a>.
+	</div>
+	<div style="height: 1rem"></div>
+	<div>
+		I have collaborated with designers, developers, artists, and scientists at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/apple.svg"> Apple, <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/microsoft.svg"> Microsoft Research, <img class="intro-logo" style="width: 24px" src="/images/nasa.svg"> NASA Jet Propulsion Lab, and <img class="intro-logo" style="width: 24px;" src="/images/pnnl.svg"> Pacific Northwest National Lab.
+	</div>
+</div>
+
+<hr class="l-middle home-hr">
+
+<h2 class="feature-title">Featured <a href="/cv/#publications">Research Publications</a></h2>
+
+<p class="feature-text">
+	Latest research for fans of adversarial machine learning and language modelling.
+</p>
+
+<div class="cover-wrapper cover-wrapper-3-col l-page">
+	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' %}
+	{% for feature in sortedPublications %}
+		{% if feature.featured == true %}
+			{% include feature.html feature=feature %}
+		{% endif %}
+	{% endfor %}
+</div>
+
+<!-- <br>
+<h2 class="feature-title">Featured <a href="/dissertation">Dissertation Publications</a></h2>
+
+<p class="feature-text">
+	My dissertation contributed interactive interfaces to enable machine learning interpretability at scale and for everyone.
+</p>
+
+<div class="cover-wrapper cover-wrapper-1-col l-text">
+	{% include dissertation/document.html details=false location=home %}
 </div> -->
 
-<h1 class="intro-title">Mansi Phute</h1>
+<!-- <div class="cover-wrapper cover-wrapper-3-col l-page">
+	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' %}
+	{% for feature in sortedPublications %}
+		{% if feature.dissertation == true %}
+			{% include feature.html feature=feature %}
+		{% endif %}
+	{% endfor %}
+</div> -->
 
-<!-- {% include nav.html %} -->
+<!-- <br>
+<h2 class="feature-title">Apple <a href="https://developer.apple.com/design/human-interface-guidelines/">Chart Design Guidelines</a></h2>
 
-<div class="intro">
-	
-	<div class="intro-text">
-		<p markdown="1">
-		Hello! I’m an MS student in the [College of Computing][coc] at [Georgia Tech][gt]. I'm a member of the [Polo Club of Data Science][poloclub] advised by [Polo Chau][poloclub]. 
-		</p>
-		<p markdown="1">
-       My research in **Adversarial ML** in developing effective defences against adversarial attacks. I am interested in developing toolkits that help strengthen current AI security while being scalable, reliable, and practicle.
-		</p>
-		<p markdown="1">
-		I have collaborated with researchers and developed solutions for the following institutions:  
-		<img class="intro-logo" style="width: 100px; padding-bottom: 10px;" src="/images/intellabs.svg">
-		<img class="intro-logo" style="width: 100px; padding-bottom: 10px;" src="/images/3DS_corporate-logo_blue.svg">
-		</p>
-	</div>
+<p class="feature-text">
+	Guidance and best practices to help designers and developers create the best charts for Apple platforms.
+</p>
 
-    <div class="intro-image">
-      <img src="/images/portrait.jpg" style="border-radius: 4px;">
-
-      <div class="intro-image-links">
-    	{% for link in site.data.social-links %}
-    	{% if link.on-homepage == true %}
-    	{% include social-link.html link=link %}
-    	{% endif %}
-    	{% endfor %}
-    </div>
-
-    <div class="intro-cv-wrapper">
-    	<a href="/cv" style="color: #515151">
-    	<span class="intro-cv">
-    	Here's my CV.
-    	</span></a>
-    </div>
-
-    </div>
-
+<div class="cover-wrapper cover-wrapper-2-col l-middle">
+	{% for feature in site.data.designs %}
+		{% if feature.featured == true %}
+			{% include feature.html feature=feature %}
+		{% endif %}
+	{% endfor %}
 </div>
 
-<!-- <div style="padding-top:15px;"></div> -->
+<br>
+<h2 class="feature-title">Featured <a href="/cv/#interactive-articles">Interactive Articles</a></h2> -->
 
-<hr style="margin-left: 0;">
-<div class="cover-wrapper">
-	<div class="cover-side">
-		Featured <a href="/cv#publications" style="color: #303030"><strong>Research Publications</strong></a>
-	</div>
-{% assign sortedPublications = site.data.publications | sort: 'feature-order' %}
-{% for feature in sortedPublications %}
-{% if feature.featured == true %}
+<!-- <p class="feature-text">
+	Enhanced reading experiences that demonstrate what's possible when dynamic media are effectively combined.
+ 
+</p>
 
-{% include feature.html feature=feature %}
+<div class="cover-wrapper cover-wrapper-3-col l-page">
+	{% assign sortedArticles = site.data.articles | where: "featured", true %}
+	{% assign ia = site.categories.papers | where:"permalink", "papers/interactive-articles" %}
 
-{% endif %}
-{% endfor %}
+	{% assign feature = sortedArticles[1] %}
+	{% include feature.html feature=feature %}
 
-</div>
+	{% assign feature = sortedArticles[0] %}
+	{% include feature.html feature=feature %}
 
-[about]: {{ site.url }}/about
-[projects]: {{ site.url }}/projects
-[archive]: {{ site.url }}/archive "Archive."
+	{% assign feature = ia[0] %}
+	{% include feature.html feature=feature %}
+</div> -->
+
+<!-- <br>
+<h2 class="feature-title"><a href="https://parametric.press/about">Parametric Press</a></h2>
+
+<p class="feature-text">
+	A born-digital, experimental magazine dedicated to showcasing the expository power of the web.
+</p>
+
+<div class="cover-wrapper cover-wrapper-2-col l-middle">
+	{% assign parametric = site.data.articles | where: "parametric-issue", true %}
+	{% for feature in parametric %}
+		{% include feature.html feature=feature %}
+	{% endfor %}
+</div> -->
+
+
 
 [gt]: http://www.gatech.edu "Georgia Tech"
-[cse]: http://cse.gatech.edu "Georgia Tech Computer Science"
+[cse]: http://cse.gatech.edu "Georgia Tech Computational Science and Engineering"
 [coc]: http://www.cc.gatech.edu "Georgia Tech College of Computing"
 
 [cv]: {{ site.url }}/cv
-[polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau."
+[polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
 [poloclub]: http://poloclub.gatech.edu "Polo Club of Data Science"
+[nstrf]: https://www.nasa.gov/strg/nstrf "NASA Space Technology Research Fellowship"

@@ -1,11 +1,82 @@
-# - id: nuclear-network
-#   figure: /images/papers/nuclear-network.png
-#   caption: |
-#     An illustrative multiplex network of proliferation-relevant determinants, with layers from top to bottom showing the NCAs, alliances, conflict, and trade relationships between nodes. Panel a shows a schematic network representation, where the nodes represent states. These nodes participate in all network layers, but the relationships between nodes (edges) are unique in each layer based on the relevant interstate relations. Panel b shows the full network representation of the model for the year 1980, built using open-source data.
-#   abstract: |
-#     States facing the decision to develop a nuclear weapons program do so within a broader context of their relationships with other countries. How these diplomatic, economic, and strategic relationships impact proliferation decisions, however, remains under-specified. Adding to the existing empirical literature that attempts to model state proliferation decisions, this article introduces the first quantitative heterogeneous network analysis of how networks of conflict, alliances, trade, and nuclear cooperation interact to spur or deter nuclear proliferation. Using a multiplex network model, we conceptualize states as nodes linked by different modes of interaction represented on individual network layers. Node strength is used to quantify factors correlated with nuclear proliferation and these are combined in a weighted sum across layers to provide a metric characterizing the proliferation behavior of the state. This multiplex network modeling approach provides a means for identifying states with the highest relative likelihood of proliferation—based only on their relationships to other states. This work demonstrates that latent conflict and nuclear cooperation are positively correlated with proliferation, while an increased trade dependence suggests a decreased proliferation likelihood. A case study on Iran’s controversial nuclear program and past nuclear activity is also provided. These findings have clear, policy-relevant conclusions related to alliance posture, sanctions policy, and nuclear assistance.
+- id: llm-selfdefense
+  figure: /images/papers/20-chameleon-chi.png
+  caption: |
+    The Chameleon interface integrates multiple coordinated views to help practitioners explore their evolving datasets.
+    The <i>Data Version Timeline</i> (A) lists data versions across the top of the interface and allows users to select a primary and a secondary version to visualize below.
+    The <i>Sidebar</i> (B) shows version summaries and multiples views that visualize changing instance predictions.
+    Practitioners can use the sibebar views to filter data in the <i>Feature View</i> (C), which visualizes each feature of a dataset as a histogram with both selected data versions, faceted by performance and the train/testing split.
+    Dataset and feature names are redacted for anonymity.
+  abstract: |
+    Successful machine learning (ML) applications require iterations on both modeling and the underlying data.
+    While prior visualization tools for ML primarily focus on modeling, our interviews with 23 ML practitioners reveal that they improve model performance frequently by iterating on their data (e.g., collecting new data, adding labels) rather than their models.
+    We also identify common types of data iterations and associated analysis tasks and challenges.
+    To help attribute data iterations to model performance, we design a collection of interactive visualizations and integrate them into a prototype, Chameleon, that lets users compare data features, training/testing splits, and performance across data versions.
+    We present two case studies where developers apply Chameleon to their own evolving datasets on production ML projects.
+    Our interface helps them verify data collection efforts, find failure cases stretching across data versions, capture data processing changes that impacted performance, and identify opportunities for future data iterations.
 
-# - id: data-integration
-#   figure: /images/papers/data-integration.png
-#   abstract: |
-#     The International Atomic Energy Agency (IAEA) must ensure the peaceful use of all nuclear materials with a budget that has been compared in size to that of the police department in Vienna. This includes, for example, coverage of nearly 1,300 nuclear facilities spread around the globe and verification of over 200,000 significant quantities of nuclear material. The amount of information the IAEA collects is on an upward trajectory, and data overload is poised to be an ever- increasing stress on the IAEA’s ability to perform its safeguards mission. Los Alamos National Laboratory (LANL) has been investing over the past several years in experimental studies within a number of its unique facilities to characterize activity patterns and operational modes using automated methods for disparate data integration. Building on the success of these preliminary studies, there is currently an effort funded by the Laboratory-Directed Research and Development (LDRD) Program at Los Alamos to develop a testbed at one of the laboratory’s radiological facilities for advancing this work, specifically aimed at safeguards-relevant data streams. The overarching goal of this work is to develop and experimentally validate methods to improve the efficiency and effectiveness of safeguards verification at nuclear facilities, which will allow the IAEA to better utilize the data it is already collecting. The paper describes work that has been completed to date as well as implications for future areas of research.
+- id: high-semantic-shift
+  abstract: |
+    A new kind of widget has begun appearing in the data science notebook programming community that can fluidly switch its own appearance between two representations: a graphical user interface (GUI) tool and plain textual code.
+    Data scientists of all expertise levels routinely work in both visual GUIs (data visualizations or spreadsheets) and plaintext code (numerical, data manipulation, or machine learning libraries).
+    These work tools have typically been separate.
+    Here, we argue for the unique role and potential of fluid GUI/text programming to serve data work practices.
+    We contribute a generalized method and API for robust fluid GUI/text coding in notebooks that addresses key questions in code generation and user-interactions.
+    Finally, we demonstrate the potential of our method in two notebook tool examples and a usability study with professional data science and machine learning practitioners.
+
+
+- id: rob-arch
+  figure: /images/papers/20-cnn101-arxiv.png
+  caption: |
+    The CNN 101 user interface and its tightly coupled, multiple views.
+    The Overview (A) visualizes activation maps of all neurons as heatmaps connected with edges.
+    When user clicks a convolutional neuron in (A), the view transitions to the Convolutional Intermediate View (A) -> (B).
+    The Flatten Intermediate View appears when an output neuron is selected instead (A) -> (C).
+    (B) demonstrates the relationship between selected convolutional neuron and its previous layer.
+    (B) transitions to the Detail View which illustrates the convolution operation on selected input neuron (B) -> (D).
+    (C) explains the flatten layer between the second last layer and output layer.
+  abstract: |
+    The success of deep learning solving previously-thought hard problems has inspired many non-experts to learn and understand this exciting technology.
+    However, it is often challenging for learners to take the first steps due to the complexity of deep learning models.
+    We present our ongoing work, CNN 101, an interactive visualization system for explaining and teaching convolutional neural networks.
+    Through tightly integrated interactive views,
+    CNN 101 offers both overview and detailed descriptions of how a model works.
+    Built using modern web technologies, CNN 101 runs locally in users' web browsers without requiring specialized hardware, broadening the public's education access to modern deep learning techniques.
+
+- id: lithography
+  figure: /images/papers/20-massif-arxiv.png
+  caption: |
+      The Massif interface.
+      A user Hailey is studying a targeted version of the Fast Gradient Method (FGM) attack performed on the InceptionV1 neural network model. 
+      Using the control panel (A), she selects "giant panda" as the benign class and "armadillo" as the attack target class.
+      Massif generates an attribution graph of the model (B), which shows Hailey the neurons within the network that are suppressed in the attacked images (B1, colored blue on the left), shared by both benign and attacked images (B2, colored purple in the middle), and emphasized only in the attacked images (B3, colored red on the right). 
+      Each neuron is represented by a node and its feature visualization (C).
+      Hovering over any neuron displays example dataset patches that maximally activate the neuron, providing stronger evidence for what a neuron has learned to detect. 
+      Hovering over a neuron also highlights its most influential connections from the previous layer (D), allowing Hailey to determine where in the network the prediction diverges from the benign class to the attacked class.
+  abstract: |
+    Deep neural networks (DNNs) are increasingly powering high-stakes applications such as autonomous cars and healthcare; however, DNNs are often treated as "black boxes" in such applications.
+    Recent research has also revealed that DNNs are highly vulnerable to adversarial attacks, raising serious concerns over deploying DNNs in the real world.
+    To overcome these deficiencies, we are developing Massif, an interactive tool for deciphering adversarial attacks.
+    Massif identifies and interactively visualizes neurons and their connections inside a DNN that are strongly activated or suppressed by an adversarial attack.
+    Massif provides both a high-level, interpretable overview of the effect of an attack on a DNN, and a low-level, detailed description of the affected neurons. 
+    These tightly coupled views in Massif help people better understand which input features are most vulnerable or important for correct predictions.
+
+- id: precision-farming
+  figure: /images/papers/19-summit-vast.png
+  caption: |
+    With Summit, users can scalably summarize and interactively interpret deep neural networks by visualizing <i>what</i> features a network detects and <i>how</i> they are related.
+    In this example, InceptionV1 accurately classifies images of <i>tench</i> (yellow-brown fish).
+    However, Summit reveals surprising associations in the network (e.g., using parts of people) that contribute to its final outcome: the "tench" prediction is dependent on an intermediate "hands holding fish" feature (right callout), which is influenced by lower-level features like <i>"scales,"</i> <i>"person,"</i> and <i>"fish"</i>. 
+    A. The Embedding View summarizes all classes' aggregated activations using dimensionality reduction.
+    B. The Class Sidebar enables users to search, sort, and compare all classes within a model.
+    C. The Attribution Graph View visualizes highly activated neurons as vertices ("scales" "fish") and their most influential connections as edges (dashed purple edges).
+  abstract: |
+    Deep learning is increasingly used in decision-making tasks.
+    However, understanding how neural networks produce final predictions remains a fundamental challenge.
+    Existing work on interpreting neural network predictions for images often focuses on explaining predictions for single images or neurons.
+    As predictions are often computed from millions of weights that are optimized over millions of images, such explanations can easily miss a bigger picture.
+    We present Summit, an interactive system that scalably and systematically summarizes and visualizes what features a deep learning model has learned and how those features interact to make predictions.
+    Summit introduces two new scalable summarization techniques: (1) activation aggregation discovers important neurons, and (2) neuron-influence aggregation identifies relationships among such neurons. 
+    Summit combines these techniques to create the novel attribution graph that reveals and summarizes crucial neuron associations and substructures that contribute to a model's outcomes.
+    Summit scales to large data, such as the ImageNet dataset with 1.2M images, and leverages neural network feature visualization and dataset examples to help users distill large, complex neural network models into compact, interactive visualizations.
+    We present neural network exploration scenarios where Summit helps us discover multiple surprising insights into a prevalent, large-scale image classifier's learned representations and informs future neural network architecture design.
+    The Summit visualization runs in modern web browsers and is open-sourced.

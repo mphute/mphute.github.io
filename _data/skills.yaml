@@ -1,0 +1,32 @@
+# - name: OS
+#   items:
+#     - Mac OS X
+#     - Ubuntu
+#     - Unix Command Line
+#     - Windows
+
+- name: Programming
+  items:
+    - Python
+    - Matlab
+    - C / C++
+    - R
+
+
+- name: Web and Writing
+  items: 
+    - HTML
+    - CSS
+    - JavaScript
+    - D3
+    - SQL
+    - Bootstrap
+    - LaTeX
+    - Markdown
+    - Git
+
+- name: Graphics
+  items: 
+  - Affinity Designer
+  - Matplotlib
+  - Seaborn

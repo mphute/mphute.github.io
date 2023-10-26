@@ -3,161 +3,262 @@ layout: cv
 title: CV
 permalink: cv/
 jsarr:
-  - js/scripts.js
+- js/scripts.js
 ---
 
-<!-- <div>
-<a href="https://mphute.github.io">
-<img class="title-logo" src="/images/MP.svg">
-</a>
+<h1 id="cv-title"><a href="{{ site.url }}">Mansi Phute</a></h1>
+
+<p id="cv-subtitle"><i>Mansi Phute (<span class="cv-vis">Explainable AI</span> + <span class="cv-ai">Adversarial ML</span>)</i></p>
+
+<!-- <div id="cv-toc">
+<ul class="cv-description">
+	<li>Education</li>
+	<li>Industry Research</li>
+	<li>Academic Research</li>
+	<li>Honors and Awards</li>
+	<li>Publications</li>
+	<li>Talks</li>
+	<li>Press</li>
+	<li>Teaching</li>
+	<li>Mentoring</li>
+	<li>Grants and Funding</li>
+	<li>Interactive Articles</li>
+	<li>Service</li>
+	<li>Design</li>
+	<li>References</li>
+</ul>
 </div> -->
 
-<h1><a style="color: #313131; font-weight: 500; font-size: 1.25em" href="https://mphute.github.io">Mansi Phute</a></h1>
+<div>
+I design and develop <b><span class="cv-vis">interactive interfaces</span></b> to help people <b><span class="cv-ai">understand machine learning</span></b> models and data-driven systems. Besides building tools, I also create data visualizations and write interactive articles to simply communicate complex ideas.
+</div>
 
-<span class="cv-subtitle">
-*<span class="cv-ai">Adversarial ML</span> + <span class="cv-soc">Explainable AI</span> researcher*
-</span>
+<div class="cv-spacer"></div>
 
-<span class="cv-max-width">
-I’m an M.S. student in the [College of Computing][coc] at [Georgia Tech][gt] advised by [Polo Chau][poloclub]. 
-</span>
+<div>
+I have collaborated with researchers, designers, and developers, at Intel Labs, Dassault Systems and Nanyang Technological University.
+</div>
 
-<span class="cv-max-width">
-My research in **Adversarial Machine Learning** aims to develop toolboxes that help us create robust, open source defenses for attacks against current ML systems. My research focuses on reliability , scalability and interpretability of solutions I develop. I also work on understanding and leveraging **Generative Models** in various aplications
-</span>
+<div class="cv-spacer"></div>
 
-<div class="cv-image-links-wrapper" style="font-size: 16px; padding-bottom: 0;">
+<div class="cv-image-links-wrapper">
 	<div class="cv-image-links">
 		{% for link in site.data.social-links %}
 			{% if link.cv-group == 1 %}
-				{% include social-link.html link=link %}
+				{% include cv-social-link.html link=link %}
 			{% endif %}
 		{% endfor %}
 	</div>
 	<div class="cv-image-links">
 		{% for link in site.data.social-links %}
 			{% if link.cv-group == 2 %}
-				{% include social-link.html link=link %}
+				{% include cv-social-link.html link=link %}
 			{% endif %}
 		{% endfor %}
 	</div>
 </div>
 
----
+***
 
 ## Education
 
+{::nomarkdown}
 {% for degree in site.data.education %}
-{% include degree.html degree=degree %}
+{% include cv/degree.html degree=degree %}
 {% endfor %}
+{:/}
 
-## Research Experience
+## Industry Research Experience
 
 {% for experience in site.data.experiences %}
-{% include experience.html experience=experience %}
+{% if experience.type == 'industry' %}
+{% include cv/experience.html experience=experience %}
+{% endif %}
+{% endfor %}
+
+## Academic Research Experience
+
+{% for experience in site.data.experiences %}
+{% if experience.type == 'academic' %}
+{% include cv/experience.html experience=experience %}
+{% endif %}
 {% endfor %}
 
 ## Honors and Awards
 
 {% for award in site.data.awards %}
-{% include award.html award=award %}
+{% include cv/award.html award=award %}
 {% endfor %}
 
 ## Publications
 
-<!-- ### Selected: Latest & Greatest
+### Selected: Latest & Greatest
 
 {% assign selectedBoolForBibtex = true %}
-{% for pub in site.data.publications %}
-{% if pub.selected %}
-{% include publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endif %}
-{% endfor %} -->
+
+{% assign selected = site.categories.papers | where: 'selected', true %}
+{% for pub in selected %}
+{% include cv/publication.html pub=pub %}
+{% endfor %}
 
 <!-- ### All Publications -->
 
 {% assign selectedBoolForBibtex = false %}
-{% for pub in site.data.publications %}
-{% include publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
+
+### Journal
+
+{% assign journal = site.categories.papers | where: 'type', "journal" %}
+{% for pub in journal %}
+{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %}
 
-<!-- ## Press
+### Conference
 
-{% for press in site.data.press %}
-{% include press.html press=press %}
-{% endfor %} -->
+{% assign conference = site.categories.papers | where: 'type', "conference" %}
+{% for pub in conference %}
+{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
+{% endfor %}
+
+### Preprint
+
+{% assign preprint = site.categories.papers | where: 'type', "preprint" %}
+{% for pub in preprint %}
+{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
+{% endfor %}
+
+### Workshop
+
+{% assign workshop = site.categories.papers | where: 'type', "workshop" %}
+{% for pub in workshop %}
+{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
+{% endfor %}
+
+### Poster
+
+{% assign poster = site.categories.papers | where: 'type', "poster" %}
+{% for pub in poster %}
+{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
+{% endfor %}
+
+### Demo
+
+{% assign demo = site.categories.papers | where: 'type', "demo" %}
+{% for pub in demo %}
+{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
+{% endfor %}
+
+### Miscellaneous
+
+{% assign preprint = site.categories.papers | where: 'type', "misc" %}
+{% for pub in preprint %}
+{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
+{% endfor %}
 
 <!-- ## Talks
 
 {% assign talktitles = site.data.talks | group_by:"title" %}
 {% for title in talktitles %}
-{% include talk.html talk=title %}
+{% include cv/talk.html talk=title %}
 {% endfor %} -->
 
-<!--
+## Press
+
+{% for press in site.data.press %}
+{% include cv/press.html press=press %}
+{% endfor %}
 
 ## Teaching
 
 {% for teach in site.data.teaching %}
-{% include teaching.html teach=teach %}
-{% endfor %} -->
+{% include cv/teaching.html teach=teach %}
+{% endfor %}
 
 <!-- ## Mentoring
 
+{::nomarkdown}
 {% for mentee in site.data.mentoring %}
-{% include mentee.html mentee=mentee %}
-{% endfor %} -->
+{% include cv/mentee.html mentee=mentee %}
+{% endfor %}
+{:/} -->
 
-<!--
 ## Grants and Funding
 
 {% for fund in site.data.funding %}
-{% include fund.html fund=fund %}
+{% include cv/fund.html fund=fund %}
+{% endfor %}
+
+<!-- ## Interactive Articles
+
+{% for article in site.data.articles %}
+{% unless article.feature-only %}
+{% include cv/article.html article=article %}
+{% endunless %}
 {% endfor %} -->
-<!--
-## Technology Skills
+
+<!-- ## Technology Skills
 
 {% for skill in site.data.skills %}
-{% include skill.html skill=skill %}
+{% include cv/skill.html skill=skill %}
 {% endfor %} -->
 
-<!--
 ## Service
 
-<p style="margin-bottom: 0rem"><strong>Organizer</strong></p>
+<!-- <div class="cv-service-title"><b>Organizer</b></div>
 {% for venue in site.data.organizer %}
-{% include venue.html venue=venue %}
+{% include cv/venue.html venue=venue %}
 {% endfor %}
 
-<p style="margin-top: 0.7rem; margin-bottom: 0rem"><strong>Program Commitee</strong></p>
+<div class="cv-service-title"><b>Program Commitee</b></div>
 {% for venue in site.data.pc %}
-{% include venue.html venue=venue %}
-{% endfor %}
+{% include cv/venue.html venue=venue %}
+{% endfor %} -->
 
-<p style="margin-top: 0.7rem; margin-bottom: 0rem"><strong>Reviewer</strong></p>
+<div class="cv-service-title"><b>Reviewer</b></div>
 {% for venue in site.data.reviewer %}
-{% include venue.html venue=venue %}
+{% include cv/venue.html venue=venue %}
 {% endfor %}
 
-<p style="margin-top: 0.7rem; margin-bottom: 0rem"><strong>Member</strong></p>
+<!-- <div class="cv-service-title"><b>Institutional</b></div>
+{% for institution in site.data.institutional %}
+{% include cv/institutional.html institution=institution %}
+{% endfor %} -->
+
+<!-- <div class="cv-service-title"><b>Member</b></div>
 {% for member in site.data.memberships %}
-{% include member.html member=member %}
+{% include cv/member.html member=member %}
+{% endfor %} -->
+
+<!-- ## Design
+
+{% for design in site.data.designs %}
+{% include cv/design.html design=design %}
 {% endfor %} -->
 
 ## References
 
 {% for reference in site.data.references %}
-{% include reference.html reference=reference %}
+{% include cv/reference.html reference=reference %}
 {% endfor %}
 
+<!-- 
 ## Contact
 
-Mansi Phute
-`mphute6@gatech.edu`  
-Coda Tech Square
+Fred Hohman  
+`fredhohman@gatech.edu`  
+CODA Tech Square  
 Georgia Tech  
-756 W Peachtree St NW
+756 W Peachtree St NW  
 Atlanta, GA 30308
+<span style="background: linear-gradient(0deg, #34495e, #3498db); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: block">
+—  
+USA  
+Earth  
+Solar System  
+Milky Way  
+Local Group  
+Universe  
+</span> -->
+
 
 [cv]: {{ site.url }}/cv.pdf "My CV."
 
@@ -165,6 +266,12 @@ Atlanta, GA 30308
 [gt]: http://gatech.edu "Georgia Tech"
 [cse]: http://cse.gatech.edu "GT Computational Science and Engineering"
 [coc]: http://www.cc.gatech.edu "GT College of Computing"
+
+[fred]: http://fredhohman.com "Fred Hohman"
 [polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
+
+
+
+
 [twitter]: https:/www.twitter.com/mansiphute "@mansiphute"
 [github]: https:/www.github.com/mphute "github.com/mphute"
