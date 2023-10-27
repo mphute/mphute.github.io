@@ -5,7 +5,7 @@ permalink: papers/llmselfdefense
 id: llmselfdefense
 title: "LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked"
 authors:
-     - Mansi Phute
+    - Mansi Phute
     - Alec Helbling
     - Matthew Hull
     - Anthony Peng
@@ -17,9 +17,9 @@ venue-shorthand: arXiv
 location: https://arxiv.org/abs/2308.07308
 year: 2023
 url: /papers/llmselfdefense
-# demo: https://parametric.press
+demo: 
 pdf: /papers/19-parametric-viscomm.pdf
-# code: https://github.com/ParametricPress
+code: 
 type: preprint
 feature-title: LLM Self Defense
 feature-description: LLM's can filter out harmful content produced by themselves!
