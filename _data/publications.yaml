@@ -8,8 +8,8 @@
     - Sebastian Szyller
     - Cory Cornelius
     - Duen Horng (Polo) Chau
-  venue: arXiv
-  venue-shorthand: arXiv
+  venue: preprint
+  venue-shorthand: preprint
   year: 2023
   url: /papers/llm-selfdefense
   pdf: /papers/23-llm-selfdefense.pdf
@@ -19,8 +19,16 @@
   feature-order: 1
   featured: true
   selected: true
-  type: arxiv
-  bibtex: 
+  type: preprint
+  bibtex: |-
+  @misc{phute2023llm,
+      title={LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked}, 
+      author={Mansi Phute and Alec Helbling and Matthew Hull and ShengYun Peng and Sebastian Szyller and Cory Cornelius and Duen Horng Chau},
+      year={2023},
+      eprint={2308.07308},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+  }
 
 - id: high-semantic-shift
   title: "Semantic Shift in Online Communities: Unmasking Information Flow through Linguistic Fingerprints"
@@ -30,10 +38,10 @@
     - Amit Bhattacharjee
     - Sanchita Porwal
 
-  venue: NeurIPS
+  venue: preprint
   year: 2023
   url: 
-  type: arXiv
+  type: preprint
   feature-title: Semantic Shift in Online Communities
   feature-description: Understanding informatiuon flow in onlkine communities through shared language
   featured: true
