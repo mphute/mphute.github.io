@@ -21,14 +21,14 @@
   selected: true
   type: preprint
   bibtex: |-
-  @misc{phute2023llm,
+    @misc{phute2023llm,
       title={LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked}, 
       author={Mansi Phute and Alec Helbling and Matthew Hull and ShengYun Peng and Sebastian Szyller and Cory Cornelius and Duen Horng Chau},
       year={2023},
       eprint={2308.07308},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
-  }
+    }
 
 - id: high-semantic-shift
   title: "Semantic Shift in Online Communities: Unmasking Information Flow through Linguistic Fingerprints"
