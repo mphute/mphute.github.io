@@ -3,7 +3,7 @@ layout: paper
 categories: papers
 permalink: papers/llmselfdefense
 id: llmselfdefense
-title: "LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked"
+title: LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked
 authors:
     - Mansi Phute
     - Alec Helbling
@@ -21,6 +21,8 @@ demo:
 pdf: /papers/19-parametric-viscomm.pdf
 code: 
 type: preprint
+featured: true
+selected: true
 feature-title: LLM Self Defense
 feature-description: LLM's can filter out harmful content produced by themselves!
 bibtex: |-
