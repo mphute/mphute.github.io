@@ -14,9 +14,9 @@ sass:
   style: compressed
 
 author:
-  name: Fred Hohman
-  url: http://fredhohman.com
-  email: fred.hohman@gmail.com
+  name: Mansi Phute
+  url: http://mphute.github.io
+  email: mansiphute@gatech.edu
 
 markdown: kramdown
 highlighter: rouge
