@@ -3,7 +3,7 @@ layout: paper
 categories: papers
 permalink: papers/llmselfdefense
 id: llmselfdefense
-title: LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked
+title: "LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked"
 authors:
     - Mansi Phute
     - Alec Helbling
