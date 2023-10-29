@@ -15,7 +15,7 @@
   pdf: /papers/23-llm-selfdefense.pdf
   feature-title: LLM Self Defense
   feature-description: LLM's can filter out harmful content produced by themselves!
-  image: /images/featured/llmselfdefense.png
+  image: /images/papers/23-llmselfdefense.png
   feature-order: 1
   featured: true
   selected: true

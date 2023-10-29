@@ -1,5 +1,5 @@
 - id: llm-selfdefense
-  figure: /images/papers/20-chameleon-chi.png
+  figure: /images/papers/23-llmselfdefense.png
   caption: |
     The Chameleon interface integrates multiple coordinated views to help practitioners explore their evolving datasets.
     The <i>Data Version Timeline</i> (A) lists data versions across the top of the interface and allows users to select a primary and a secondary version to visualize below.
