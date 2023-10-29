@@ -42,18 +42,32 @@ title: Home
 
 <h2 class="feature-title">Featured <a href="/cv/#publications">Research Publications</a></h2>
 
-<p class="feature-text">
-	Latest research for fans of adversarial machine learning and language modelling.
-</p>
 
+<hr class="l-middle home-hr">
+
+<h2 class="feature-title l-middle"> Featured Publications </h2>
+<div style="height: 1rem"></div>
 <div class="cover-wrapper cover-wrapper-1-col l-page">
-	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' %}
+	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' | reverse %}
 	{% for feature in sortedPublications %}
 		{% if feature.featured == true %}
 			{% include feature.html feature=feature %}
 		{% endif %}
 	{% endfor %}
 </div>
+
+<div style="height: 4rem"></div>
+
+<!-- <h2 class="feature-title l-middle">
+	<a href="{{ site.url }}/everything-else" style="color: #303030">Everything Else</a>
+</h2>
+<div style="height: 1rem"></div>
+<div id="everything-else" class="l-middle">
+	<a href="{{ site.url }}/projects"><div>All Projects</div></a>
+	<a href="{{ site.url }}/blog"><div>Blogs</div></a>
+    <a href="{{ site.url }}/tools"><div>Tools</div></a>
+</div> -->
+
 
 
 
