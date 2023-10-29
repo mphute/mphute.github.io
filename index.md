@@ -42,11 +42,7 @@ title: Home
 
 <h2 class="feature-title">Featured <a href="/cv/#publications">Research Publications</a></h2>
 
-<p class="feature-text">
-	Latest research for fans of adversarial machine learning and language modelling.
-</p>
-
-<div class="cover-wrapper cover-wrapper-3-col l-page">
+<div class="cover-wrapper cover-wrapper-1-col l-page">
 	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' %}
 	{% for feature in sortedPublications %}
 		{% if feature.featured == true %}

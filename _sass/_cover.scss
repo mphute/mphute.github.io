@@ -100,7 +100,7 @@ $cover-width: 8.5px;
 }
 
 .cover-image {
-  width: 100%;
+  width: 40%;
   padding: 0.5rem;
 }
 
@@ -109,6 +109,7 @@ $cover-width: 8.5px;
   border: 1px solid $black-05;
   // padding: 0.25rem;
   background-color: white;
+  max-height: 163px;
 }
 
 .cover-link {
@@ -120,6 +121,8 @@ $cover-width: 8.5px;
   flex-wrap: wrap;
   gap: 0.25rem;
   align-items: flex-start;
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .cover-links > .pub-misc > a {
