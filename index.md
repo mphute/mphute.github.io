@@ -6,7 +6,7 @@ title: Home
 <div id="intro-wrapper" class="l-text">
 	<div id="intro-title-wrapper">
 		<div id="intro-image-wrapper">
-			<img id="intro-image" src="/images/portrait.jpg"></div>
+			<img id="intro-image" src="/images/portrait.png"></div>
 		<div id="intro-title-text-wrapper">
 			<h1 id="intro-title">Hi, I'm Mansi Phute</h1>
 			<div id="intro-subtitle">I'm a Masters in Computer Science student at Georgia Tech</div>
@@ -34,7 +34,7 @@ title: Home
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		I have collaborated with designers, developers, artists, and scientists at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/apple.svg"> Apple, <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/microsoft.svg"> Microsoft Research, <img class="intro-logo" style="width: 24px" src="/images/nasa.svg"> NASA Jet Propulsion Lab, and <img class="intro-logo" style="width: 24px;" src="/images/pnnl.svg"> Pacific Northwest National Lab.
+		I have collaborated with designers, developers, and scientists at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/intellabs.svg"> Intel Labs, <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/ntu.svg"> Nanyang Technological University, and <img class="intro-logo" style="width: 24px;" src="/images/dassault_logo_small.svg"> Dassault Systems.
 	</div>
 </div>
 
@@ -46,7 +46,7 @@ title: Home
 	Latest research for fans of adversarial machine learning and language modelling.
 </p>
 
-<div class="cover-wrapper cover-wrapper-3-col l-page">
+<div class="cover-wrapper cover-wrapper-1-col l-page">
 	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' %}
 	{% for feature in sortedPublications %}
 		{% if feature.featured == true %}
