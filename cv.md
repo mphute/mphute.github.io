@@ -105,12 +105,12 @@ I have collaborated with researchers, designers, and developers, at Intel Labs, 
 
 {% assign selectedBoolForBibtex = false %}
 
-### Journal
+<!-- ### Journal
 
 {% assign journal = site.categories.papers | where: 'type', "journal" %}
 {% for pub in journal %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
+{% endfor %} -->
 
 ### Conference
 
@@ -126,12 +126,12 @@ I have collaborated with researchers, designers, and developers, at Intel Labs, 
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %}
 
-### Workshop
+<!-- ### Workshop
 
 {% assign workshop = site.categories.papers | where: 'type', "workshop" %}
 {% for pub in workshop %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
+{% endfor %} -->
 
 ### Poster
 
@@ -140,19 +140,19 @@ I have collaborated with researchers, designers, and developers, at Intel Labs, 
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %}
 
-### Demo
+<!-- ### Demo
 
 {% assign demo = site.categories.papers | where: 'type', "demo" %}
 {% for pub in demo %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
+{% endfor %} -->
 
-### Miscellaneous
+<!-- ### Miscellaneous
 
 {% assign preprint = site.categories.papers | where: 'type', "misc" %}
 {% for pub in preprint %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- ## Talks
 
@@ -240,16 +240,16 @@ I have collaborated with researchers, designers, and developers, at Intel Labs, 
 {% include cv/reference.html reference=reference %}
 {% endfor %}
 
-<!-- 
+
 ## Contact
 
-Fred Hohman  
-`fredhohman@gatech.edu`  
+Mansi Phute 
+`mansiphute@gatech.edu`  
 CODA Tech Square  
 Georgia Tech  
 756 W Peachtree St NW  
 Atlanta, GA 30308
-<span style="background: linear-gradient(0deg, #34495e, #3498db); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: block">
+<span style="background: linear-gradient(0deg, #34495e, #3498db); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: block"> 
 —  
 USA  
 Earth  
@@ -257,8 +257,7 @@ Solar System
 Milky Way  
 Local Group  
 Universe  
-</span> -->
-
+</span>
 
 [cv]: {{ site.url }}/cv.pdf "My CV."
 
@@ -269,7 +268,7 @@ Universe
 
 [fred]: http://fredhohman.com "Fred Hohman"
 [polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
-
+[mansi]: http://mphute.github.io "Mansi Phute"
 
 
 

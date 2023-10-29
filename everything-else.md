@@ -32,7 +32,3 @@ The one-stop shop, including all posts from the Blog, Monthly Music, and Project
 <!-- [mm]: {{ site.url }}/monthly-music "Monthly Music." -->
 <!-- [photos]: {{ site.url }}/photos "Photos." -->
 [archive]: {{ site.url }}/archive "Archive."
-
-<!-- [d80]: http://www.nikonusa.com/en/Nikon-Products/Product-Archive/dslr-cameras/D80.html "Nikon D80."
-[insta]: https://instagram.com/fredhohman/ "My Instagram Account."
-[the-setup]: https://usesthis.com "The Setup." -->
