@@ -20,8 +20,8 @@ url: /papers/robust-principles
 pdf: /papers/23_robust-principles.pdf
 figure: /images/papers/23_robust-principles.png
 caption: "We synthesize a suite of generalizable architectural design principles to robustify CNNs, spanning a network’s macro and micro designs: (A) optimal range for depth and width configurations, (B) preferring convolutional over patchify stem stage, and (C) robust residual block design by adopting squeeze and excitation blocks, and non-parametric smooth activation functions. The principles consis- tently and markedly improve AutoAttack accuracy for CIFAR-10, CIFAR-100, and ImageNet over the wide spectrum of AT methods, model parameters, and network design spaces."
-feature-title: "Robust Principles: Architectural Design Principles for Adversarially Robust CNNs"
-feature-description: ShengYun Peng , Weilin Xu, Cory Cornelius, Matthew Hull, Kevin Li, Rahul Duggal,<b>  Mansi Phute </b>, Duen Horng Chau, Jason Martin
+feature-title: "Robust Principles"
+feature-description: "Architectural Design Principles for Adversarially Robust CNNs"
 image: /images/featured/23_robust-principles.png
 featured: true
 feature-order: 20230801
