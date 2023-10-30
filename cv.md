@@ -30,7 +30,8 @@ jsarr:
 </div> -->
 
 <div>
-I design and develop <b><span class="cv-vis">interactive interfaces</span></b> to help people <b><span class="cv-ai">understand machine learning</span></b> models and data-driven systems. Besides building tools, I also create data visualizations and write interactive articles to simply communicate complex ideas.
+My research focuses on the <b><span class="cv-vis">explainability</span></b> and <b><span class="cv-ai">security<</span></b> of multimodal foundation models. I work on developing explanations for machine learning models and analyzing them to identify vulnerabilities in existing ML systems, then find solutions to mitigate these issues.
+My work spans a wide range of application areas, including multi-task robust tracking in computer vision, developing defenses against attacks on large language models, and understanding large language models and the insights they can give us into human interactions.
 </div>
 
 <div class="cv-spacer"></div>

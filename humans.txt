@@ -1,7 +1,7 @@
 /* TEAM */
-	Author: Fred Hohman
-	Twitter: @fredhohman
-	Location: Seattle, United States
+	Author: Mansi Phute
+	Twitter: @mansiphute
+	Location: Atlanta, United States
 
 /* SITE */
     Language: English
