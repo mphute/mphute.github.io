@@ -28,7 +28,7 @@ equal-contribution:
   - Julia Kruk
   - Mansi Phute
 pdf:
-figure: /images/papers/23-high-semantic-shift.png
+figure: /images/papers/23-high-semantic-shift.svg
 caption: "Overlap between words having high semantic shift across communities. A chord represents a word having a high semantic shift in both communities it joins. Thicker chords show more overlap between the communities. Our results show high overlap between community pairs such as {relationships, relationship advice} and {news, worldnews}."
 selected: true
 type: misc
