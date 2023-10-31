@@ -102,7 +102,7 @@ I have collaborated with researchers, designers, and developers, at Intel Labs, 
 {% include cv/publication.html pub=pub %}
 {% endfor %}
 
-<!-- ### All Publications -->
+### All Publications
 
 {% assign selectedBoolForBibtex = false %}
 
@@ -148,12 +148,12 @@ I have collaborated with researchers, designers, and developers, at Intel Labs, 
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %} -->
 
-<!-- ### Miscellaneous
+### Miscellaneous
 
 {% assign preprint = site.categories.papers | where: 'type', "misc" %}
 {% for pub in preprint %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %} -->
+{% endfor %}
 
 <!-- ## Talks
 
