@@ -18,12 +18,12 @@ Research publications for fans of human-computer interaction, data visualization
     {% include project.html project=project %}
     {% endfor %}
 </div>
-<div class="project-spacer-small"></div>
+<!-- <div class="project-spacer-small"></div>
 <div class="l-page project-grid">
     {% for project in site.categories.projects %}
     {% include project.html project=project %}
     {% endfor %}
-</div>
+</div> -->
 
 <!-- ## Course Projects
 
