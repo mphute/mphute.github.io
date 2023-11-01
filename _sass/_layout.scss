@@ -19,13 +19,13 @@ main, header, footer {
 }
 
 main > * {
-	grid-column: page !important;;
+	grid-column: page;
 }
 
 // Sizes
 .l-kicker { grid-column: kicker; }
 .l-gutter { grid-column: gutter; }
-.l-text { grid-column: text; }
+.l-text { grid-column: page; }
 .l-middle { grid-column: middle; }
 .l-page { grid-column: page; }
 .l-screen { grid-column: screen; }
