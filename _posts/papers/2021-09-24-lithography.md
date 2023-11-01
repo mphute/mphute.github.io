@@ -18,7 +18,7 @@ award:
 award-link:
 code: 
 
-title: "Precision Farming Based Soil Fertility Assessment Techniques"
+title: "A Survey on Machine Learning in Lithographys"
 authors:
   - Mansi Phute
   - Aditi Sahastrabudhe
