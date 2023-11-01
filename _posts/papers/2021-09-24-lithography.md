@@ -7,7 +7,7 @@ id: lithography
 
 # cover
 feature-title: "A Survey on Machine Learning in Lithographys"
-feature-description: ""
+feature-description: "Many state-of-the-art methods use Machine Learning (ML) to identify lithography patterns that can cause issues in the future as these algorithms can predict defects in patterns which the machine has not encountered before."
 image:
 featured: false
 feature-order: 20210924
@@ -28,7 +28,7 @@ authors:
   - Swati Shilaskar
 pdf:
 figure: 
-caption: "Fertility of the soil can be predicted using hyperspectral images"
+# caption: "Fertility of the soil can be predicted using hyperspectral images"
 selected: false
 type: conference
 doi: 
