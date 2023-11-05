@@ -8,7 +8,7 @@ jsarr:
 
 <h1 id="cv-title"><a href="{{ site.url }}">Mansi Phute</a></h1>
 
-<p id="cv-subtitle"><i>Mansi Phute (<span class="cv-vis">Explainable AI</span> + <span class="cv-ai">Adversarial ML</span>)</i></p>
+<p id="cv-subtitle"><i>Mansi Phute (<span class="cv-ai">Adversarial ML</span> + <span class="cv-vis">Explainable AI</span>)</i></p>
 
 <!-- <div id="cv-toc">
 <ul class="cv-description">
@@ -30,7 +30,7 @@ jsarr:
 </div> -->
 
 <div>
-My research focuses on the <b><span class="cv-vis">explainability</span></b> and <b><span class="cv-ai">security</span></b> of multimodal foundation models. I work on developing explanations for machine learning models and analyzing them to identify vulnerabilities in existing ML systems, then find solutions to mitigate these issues.
+My research focuses on the <b><span class="cv-ai">security</span></b> and <b><span class="cv-vis">explainability</span></b> of multimodal foundation models. I work on developing explanations for machine learning models and analyzing them to identify vulnerabilities in existing ML systems, then find solutions to mitigate these issues.
 My work spans a wide range of application areas, including multi-task robust tracking in computer vision, developing defenses against attacks on large language models, and understanding large language models and the insights they can give us into human interactions.
 </div>
 
