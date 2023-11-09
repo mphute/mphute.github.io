@@ -1,6 +1,16 @@
-# - name: Best Paper, Honorable Mention at ACM IDC Conference
-#   description: For "Collaborative Machine Learning Model Building with Families Using Co-ML
-#   year: 2023
+- name: Best Scholar
+  description: Merit-based award for the ECE student with the highest undergraduate GPA in the entire department 
+  year: 2022
+
+- name: Best Outgoing Student
+  description: One of the 3 students chosen as the best outgoing student in ECE department based on overall performance throughout undergrad
+  year: 2022
+
+- name: Times NIE Student of the Year
+  description: Selected by "Times of India" as the best student in school based on overall acedamic and extracurricular performance.
+  # year: 
+
+
 
 # - name: ACM SIGCHI Outstanding Dissertation Award
 #   description: 'For my dissertation "Interactive Scalable Interfaces for Machine Learning Interpretability"'

@@ -1,9 +1,7 @@
 - title: Guaranteeing AI Robustness against Deception
   years: "2023 — 2024"
-  name: "DARPA: Defense Advance Research Funding Agency"
-  pis:
-    - Jason Martin, Cory Conelius (Intel Labs)
-    - Duen Horng (Polo) Chau
+  name: "DARPA: Defense Advance Research Projects Agency"
+  pis: Cory Conelius (Intel Labs), Duen Horng (Polo) Chau (Georgia Tech)
   title-url: https://www.darpa.mil/program/guaranteeing-ai-robustness-against-deception
   name-url: https://www.darpa.mil/program/guaranteeing-ai-robustness-against-deception
 
