@@ -250,7 +250,7 @@ CODA Tech Square
 Georgia Tech  
 756 W Peachtree St NW  
 Atlanta, GA 30308
-<span style="background: linear-gradient(0deg, #34495e, #3498db); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: block"> 
+<!-- <span style="background: linear-gradient(0deg, #34495e, #3498db); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: block"> 
 —  
 USA  
 Earth  
@@ -258,7 +258,7 @@ Solar System
 Milky Way  
 Local Group  
 Universe  
-</span>
+</span> -->
 
 [cv]: {{ site.url }}/cv.pdf "My CV."
 

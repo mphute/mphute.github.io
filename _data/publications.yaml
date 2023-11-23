@@ -4,7 +4,7 @@
     - Mansi Phute
     - Alec Helbling
     - Matthew Hull
-    - Anthiny Peng
+    - Anthony Peng
     - Sebastian Szyller
     - Cory Cornelius
     - Duen Horng (Polo) Chau
@@ -46,7 +46,7 @@
   feature-description: Understanding informatiuon flow in onlkine communities through shared language
   featured: true
   selected: true
-  image: /images/papers/23-high-semantic-shift-2.png
+  image: /images/under_construction.svg
   bibtex: 
 
 
@@ -96,7 +96,7 @@
   feature-description: A Survey on Machine Learning in Lithography
   featured: false
   selected: true
-  image: /images/papers/23-llm-self-defense.png
+  image:  /images/under_construction.svg
   bibtex: |-
     @inproceedings{phute2021survey,
       title={A Survey on Machine Learning in Lithography},
@@ -122,7 +122,7 @@
   feature-description: Predict soil fertility using hyperspectral images
   featured: false
   selected: true
-  image: /images/papers/23-llm-self-defense.png
+  image: / /images/under_construction.svg
   bibtex: |-
     @inproceedings{phute2021precision,
       title={Precision Farming Based Soil Fertility Assessment Techniques},
