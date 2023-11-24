@@ -267,7 +267,6 @@ Universe
 [cse]: http://cse.gatech.edu "GT Computational Science and Engineering"
 [coc]: http://www.cc.gatech.edu "GT College of Computing"
 
-[fred]: http://fredhohman.com "Fred Hohman"
 [polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
 [mansi]: http://mphute.github.io "Mansi Phute"
 
