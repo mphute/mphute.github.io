@@ -27,7 +27,8 @@ authors:
   - Sebastian Szyller
   - Cory Cornelius
   - Duen Horng (Polo) Chau
-pdf:
+url: /papers/llmselfdefense
+pdf: /papers/23-llmselfdefense.pdf
 figure: /images/papers/23-llmselfdefense.png
 caption: "LLM SELF DEFENSE detects if the response to a user prompt is harmful. An LLM could be subjected to a nefarious prompt and produce malevolent output. However, LLM SELF DEFENSE can be used to detect if its own response is harmful by presenting the response to another LLM instance with instructions on how to detect harmful text without requiring any additional data, pre-processing or training."
 selected: true
