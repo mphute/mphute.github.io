@@ -8,7 +8,7 @@ id: lithography
 # cover
 feature-title: "A Survey on Machine Learning in Lithographys"
 feature-description: "Many state-of-the-art methods use Machine Learning (ML) to identify lithography patterns that can cause issues in the future as these algorithms can predict defects in patterns which the machine has not encountered before."
-image:
+image: /images/under_construction.svg
 featured: false
 feature-order: 20210924
 coming-soon: false

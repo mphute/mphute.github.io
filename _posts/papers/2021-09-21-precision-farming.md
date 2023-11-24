@@ -8,7 +8,7 @@ id: precision-farming
 # cover
 feature-title: "Precision Farming Based Soil Fertility Assessment Techniques"
 feature-description: "Fertility of the soil can be predicted using hyperspectral images"
-image: 
+image:  /images/under_construction.svg
 featured: false
 feature-order: 20210921
 coming-soon: false

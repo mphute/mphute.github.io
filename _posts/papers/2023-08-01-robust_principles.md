@@ -12,7 +12,7 @@ authors:
   - Kevin Li
   - Rahul Duggal
   - Mansi Phute
-  - Duen Horng Chau
+  - Duen Horng (Polo) Chau
   - Jason Martin
 venue: British Machine Vision Conference (BMVC)
 year: 2023
