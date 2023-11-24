@@ -24,7 +24,7 @@ feature-title: "Robust Principles"
 feature-description: "Architectural Design Principles for Adversarially Robust CNNs"
 image: /images/featured/23_robust-principles.png
 featured: true
-feature-order: 20230801
+feature-order: 20230830
 award: "#1 on RobustBench CIFAR-10 leaderboard"
 award-link: https://robustbench.github.io/#div_cifar10_Linf_heading
 code: https://github.com/poloclub/robust-principles

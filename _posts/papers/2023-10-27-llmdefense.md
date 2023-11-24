@@ -10,8 +10,8 @@ feature-title: "LLM Self Defense"
 feature-description: "By Self Examination, LLMs Know They Are Being Tricked!"
 image: /images/featured/23-llmselfdefense.png
 featured: true
-feature-order: 20231027
-coming-soon: true
+feature-order: 20230815
+coming-soon: false
 venue: Under review
 year: 
 award: 
