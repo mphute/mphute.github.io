@@ -69,18 +69,18 @@ I have collaborated with researchers, designers, and developers, at Intel Labs, 
 {% endfor %}
 {:/}
 
-## Industry Research Experience
-
-{% for experience in site.data.experiences %}
-{% if experience.type == 'industry' %}
-{% include cv/experience.html experience=experience %}
-{% endif %}
-{% endfor %}
-
 ## Academic Research Experience
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'academic' %}
+{% include cv/experience.html experience=experience %}
+{% endif %}
+{% endfor %}
+
+## Industry Experience
+
+{% for experience in site.data.experiences %}
+{% if experience.type == 'industry' %}
 {% include cv/experience.html experience=experience %}
 {% endif %}
 {% endfor %}

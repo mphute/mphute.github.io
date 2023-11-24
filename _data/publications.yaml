@@ -72,8 +72,9 @@
   featured: true
   selected: true
   image: /images/papers/23-llm-self-defense.png
-  award: "#1 on RobustBench CIFAR-10 leaderboard"
-  award: "Best Poster at BMVC"
+  award: 
+        - "#1 on RobustBench CIFAR-10 leaderboard"
+        - "Best Poster at BMVC"
   bibtex: |-
     @article{peng2023robust,
       title={Robust Principles Architectural Design Principles for Adversarially Robust CNNs},
