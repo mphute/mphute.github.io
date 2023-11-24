@@ -1,16 +1,10 @@
-# - name: OS
-#   items:
-#     - Mac OS X
-#     - Ubuntu
-#     - Unix Command Line
-#     - Windows
-
 - name: Programming
   items:
     - Python
     - Matlab
     - C / C++
     - R
+    - PyTorch
 
 
 - name: Web and Writing
