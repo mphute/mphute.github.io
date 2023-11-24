@@ -33,8 +33,8 @@ caption: "Overlap between words having high semantic shift across communities. A
 selected: false
 type: misc
 doi: 
-bibtex: 
-  Coming soon!
+# bibtex: 
+#   Coming soon!
 
 ---
 
