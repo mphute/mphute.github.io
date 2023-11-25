@@ -182,11 +182,11 @@ I have collaborated with researchers, designers, and developers, at Intel Labs, 
 {% endfor %}
 {:/} -->
 
-## Grants and Funding
+<!-- ## Grants and Funding
 
 {% for fund in site.data.funding %}
 {% include cv/fund.html fund=fund %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- ## Interactive Articles
 
