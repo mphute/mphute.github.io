@@ -14,13 +14,11 @@
 #   description: "Machine learning model compression visualization"
 #   url: https://venkatesh-sivaraman.github.io/
 
-# - name: Ruanqianqian Huang
-#   intern: Apple
-#   intern-url: https://www.apple.com/
-#   year: "Summer 2023"
-#   degree: "Ph.D. in Computer Science, UC San Diego"
-#   description: "Non-expert tools for machine learning"
-#   url: https://rlisahuang.com/
+- name: Sri Ranganathan Palaniappan
+  years: "Fall 2023"
+  years-extra: "Present"
+  degree: "B.S. in Computer Science, Georgia Institute of Technology"
+  url: https://www.linkedin.com/in/sri-ranganathan-palaniappan/
 
 # - name: Samantha Robertson
 #   intern: Apple
