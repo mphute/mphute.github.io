@@ -157,7 +157,7 @@ I have collaborated with researchers, designers, and developers, at Intel Labs, 
 
 {% assign preprint = site.categories.papers %}
 {% for pub in preprint %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %} -->
+{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %} 
 {% endfor %} 
 <!-- ## Talks
 
