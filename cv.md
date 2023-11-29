@@ -158,7 +158,7 @@ I have collaborated with researchers, designers, and developers, at Intel Labs, 
 {% assign preprint = site.categories.papers %}
 {% for pub in preprint %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %} -->
-
+{% endfor %} 
 <!-- ## Talks
 
 {% assign talktitles = site.data.talks | group_by:"title" %}
@@ -180,9 +180,11 @@ I have collaborated with researchers, designers, and developers, at Intel Labs, 
 
 ## Mentoring
 
+{::nomarkdown}
 {% for mentee in site.data.mentoring %}
 {% include cv/mentee.html mentee=mentee %}
 {% endfor %}
+{:/}
 
 <!-- ## Grants and Funding
 
