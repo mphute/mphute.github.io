@@ -10,7 +10,7 @@ feature-title: "Semantic Shift in Online Communities"
 feature-description: "Unmasking Information Flow through Linguistic Fingerprints"
 image:  /images/under_construction.svg
 featured: false
-feature-order: 20230927
+feature-order: 10000000
 coming-soon: true
 venue: Under Review
 year: 
