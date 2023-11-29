@@ -12,7 +12,7 @@ image: /images/under_construction.svg
 featured: false
 feature-order: 20210924
 coming-soon: false
-venue: IEEE International Conference on Artificial Intelligence and Machine Vision
+venue: IEEE International Conference on Artificial Intelligence and Machine Vision (AIMV)
 year: 2021
 award: 
 award-link:

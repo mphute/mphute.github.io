@@ -12,7 +12,7 @@ image:  /images/under_construction.svg
 featured: false
 feature-order: 20210921
 coming-soon: false
-venue: IEEE International Conference on Advances in Computing, Communication, Embedded and Secure Systems
+venue: IEEE International Conference on Advances in Computing, Communication, Embedded and Secure Systems (ACCESS)
 year: 2021
 award: 
 award-link:
