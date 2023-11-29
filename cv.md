@@ -93,14 +93,14 @@ I have collaborated with researchers, designers, and developers, at Intel Labs, 
 
 ## Publications
 
-### Selected: Latest & Greatest
+<!-- ### Selected: Latest & Greatest
 
 {% assign selectedBoolForBibtex = true %}
 
 {% assign selected = site.categories.papers | where: 'selected', true %}
 {% for pub in selected %}
 {% include cv/publication.html pub=pub %}
-{% endfor %}
+{% endfor %} -->
 
 ### All Publications
 
@@ -113,12 +113,12 @@ I have collaborated with researchers, designers, and developers, at Intel Labs, 
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %} -->
 
-### Conference
+<!-- ### Conference
 
 {% assign conference = site.categories.papers | where: 'type', "conference" %}
 {% for pub in conference %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- ### Preprint
 
@@ -134,12 +134,12 @@ I have collaborated with researchers, designers, and developers, at Intel Labs, 
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %} -->
 
-### Poster
+<!-- ### Poster
 
 {% assign poster = site.categories.papers | where: 'type', "poster" %}
 {% for pub in poster %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- ### Demo
 
@@ -148,12 +148,16 @@ I have collaborated with researchers, designers, and developers, at Intel Labs, 
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %} -->
 
-### Miscellaneous
+<!-- ### Miscellaneous
 
 {% assign preprint = site.categories.papers | where: 'type', "misc" %}
 {% for pub in preprint %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
+{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %} -->
+<!-- {% endfor %} -->
+
+{% assign preprint = site.categories.papers %}
+{% for pub in preprint %}
+{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %} -->
 
 <!-- ## Talks
 
@@ -174,13 +178,13 @@ I have collaborated with researchers, designers, and developers, at Intel Labs, 
 {% include cv/teaching.html teach=teach %}
 {% endfor %}
 
-<!-- ## Mentoring
+## Mentoring
 
 {::nomarkdown}
 {% for mentee in site.data.mentoring %}
 {% include cv/mentee.html mentee=mentee %}
 {% endfor %}
-{:/} -->
+{:/}
 
 <!-- ## Grants and Funding
 
