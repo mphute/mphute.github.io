@@ -18,7 +18,7 @@ award:
 award-link:
 code: 
 
-title: "A Survey on Machine Learning in Lithographys"
+title: "A Survey on Machine Learning in Lithography"
 authors:
   - Mansi Phute
   - Aditi Sahastrabudhe
