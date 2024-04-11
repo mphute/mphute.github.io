@@ -17,7 +17,7 @@
   feature-description: LLM's can filter out harmful content produced by themselves!
   image: /images/papers/23-llmselfdefense.png
   feature-order: 1
-  featured: false
+  featured: true
   selected: true
   type: Article
   bibtex: |-

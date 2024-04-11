@@ -12,7 +12,7 @@ image: /images/featured/23-llmselfdefense.png
 featured: true
 feature-order: 20230815
 coming-soon: false
-venue: Under review
+venue: ICLR
 year: 
 award: 
 award-link:
