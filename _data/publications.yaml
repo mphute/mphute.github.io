@@ -8,8 +8,8 @@
     - Sebastian Szyller
     - Cory Cornelius
     - Duen Horng (Polo) Chau
-  venue: preprint
-  venue-shorthand: preprint
+  venue: International Conference on Learning Representations
+  venue-shorthand: (ICLR)
   year: 2023
   url: https://arxiv.org/abs/2308.07308
   pdf: /papers/23-llm-selfdefense.pdf
@@ -19,7 +19,7 @@
   feature-order: 1
   featured: false
   selected: true
-  type: preprint
+  type: Article
   bibtex: |-
     @misc{phute2023llm,
       title={LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked}, 
