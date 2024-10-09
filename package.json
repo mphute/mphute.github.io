@@ -1,0 +1,19 @@
+{
+  "name": "mphute.github.io",
+  "version": "1.0.0",
+  "description": "Mansi Phute's website.",
+  "main": "index.js",
+  "scripts": {
+    "start": "bundle exec jekyll serve --livereload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mphute/mphute.github.io.git"
+  },
+  "author": "Mansi Phute",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mphute/mphute.github.io/issues"
+  },
+  "homepage": "https://github.com/mphute/mphute.github.io#readme"
+}

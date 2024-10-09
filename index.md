@@ -3,80 +3,84 @@ layout: home
 title: Home
 ---
 
-<div>
-<a href="https://mansiphute.com">
-<!-- <img class="title-logo" src="/images/apw_logo.svg"> -->
-</a>
-</div>
-
-<h1 class="intro-title">Mansi Phute</h1>
-
-<!-- {% include nav.html %} -->
-
-<div class="intro">
-	
-	<div class="intro-text">
-		<p markdown="1">
-		Hello! I’m an MS student in the [College of Computing][coc] at [Georgia Tech][gt]. I'm a member of the [Polo Club of Data Science][poloclub] advised by [Polo Chau][poloclub]. 
-		</p>
-		<p markdown="1">
-       My research in **Adversarial ML** in developing effective defences against adversarial attacks. I am interested in .
-		</p>
-		<p markdown="1">
-		I have collaborated with researchers and developed solutions for the following institutions:  
-		<img class="intro-logo" style="width: 100px; padding-bottom: 10px;" src="/images/intellabs.svg">
-		<img class="intro-logo" style="width: 100px; padding-bottom: 10px;" src="/images/.svg">
-		</p>
+<div id="intro-wrapper" class="l-middle">
+	<div id="intro-title-wrapper">
+		<div id="intro-image-wrapper">
+			<img id="intro-image" src="images/portrait.png"></div>
+		<div id="intro-title-text-wrapper">
+			<h1 id="intro-title">Hi, I'm Mansi Phute</h1>
+			<div id="intro-subtitle">CS PhD at Georgia Tech</div>
+			<div id="intro-title-socials">
+				{% for link in site.data.social-links %}
+					{% if link.on-homepage == true %}
+						{% include social-link.html link=link %}
+					{% endif %}
+				{% endfor %}
+			</div>
+		</div>
 	</div>
-
-    <div class="intro-image">
-      <img src="/images/portrait.jpg" style="border-radius: 4px;">
-
-      <div class="intro-image-links">
-    	{% for link in site.data.social-links %}
-    	{% if link.on-homepage == true %}
-    	{% include social-link.html link=link %}
-    	{% endif %}
-    	{% endfor %}
-    </div>
-
-    <div class="intro-cv-wrapper">
-    	<a href="/cv" style="color: #515151">
-    	<span class="intro-cv">
-    	Here's my CV.
-    	</span></a>
-    </div>
-
-    </div>
-
-</div>
-
-<!-- <div style="padding-top:15px;"></div> -->
-
-<hr style="margin-left: 0;">
-<div class="cover-wrapper">
-	<div class="cover-side">
-		Featured <a href="/cv#publications" style="color: #303030"><strong>Research Publications</strong></a>
+	<!-- <hr class="l-middle home-hr"> -->
+	<div id="everything-else" class="l-middle">
+		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
+		<a href="{{ site.url }}/projects"><div><i class="fa fa-shapes icon icon-right-space"></i>Projects</div></a>
+		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
-{% assign sortedPublications = site.data.publications | sort: 'feature-order' %}
-{% for feature in sortedPublications %}
-{% if feature.featured == true %}
-
-{% include feature.html feature=feature %}
-
-{% endif %}
-{% endfor %}
-
+	<div>
+		My research focuses on the <b>security</b> and <b>explainability</b> of multimodal foundation models. I work on developing explanations for ML systems, analyzing them to identify vulnerabilities, and finding solutions to mitigate these issues.
+		My work spans a wide range of application areas, including multi-object robust tracking in computer vision, developing defenses against attacks on large language models, and understanding large language models and the insights they can give us into human interactions.
+	</div>
+	<div style="height: 0.5rem"></div>
+	<div>
+		I am currently a PhD student at Georgia Tech with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a> as a part of the <a href="http://poloclub.gatech.edu">Polo Club of Data Science</a>.
+		<br>
+	</div>
+	<div style="height: 1rem"></div>
+	<div>
+		I have collaborated with designers, developers, and scientists at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/intellabs.svg"> Intel Labs, <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/ntu.svg"> Nanyang Technological University, and <img class="intro-logo" style="width: 24px;" src="/images/dassault_logo_small.svg"> Dassault Systems.
+	</div>
 </div>
 
-[about]: {{ site.url }}/about
-[projects]: {{ site.url }}/projects
-[archive]: {{ site.url }}/archive "Archive."
+
+<hr class="l-middle home-hr">
+
+<h2 class="feature-title l-middle"> Featured Publications </h2>
+<div style="height: 1rem"></div>
+<div class="cover-wrapper cover-wrapper-1-col l-page">
+	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' | reverse %}
+	{% for feature in sortedPublications %}
+		{% if feature.featured == true %}
+			{% include feature.html feature=feature %}
+		{% endif %}
+	{% endfor %}
+</div>
+
+<div style="height: 4rem"></div>
+
+<!-- <h2 class="feature-title l-middle">
+	<a href="{{ site.url }}/everything-else" style="color: #303030">Everything Else</a>
+</h2>
+<div style="height: 1rem"></div>
+<div id="everything-else" class="l-middle">
+	<a href="{{ site.url }}/projects"><div>All Projects</div></a>
+	<a href="{{ site.url }}/blog"><div>Blogs</div></a>
+    <a href="{{ site.url }}/tools"><div>Tools</div></a>
+</div> -->
+
 
 [gt]: http://www.gatech.edu "Georgia Tech"
-[cse]: http://cse.gatech.edu "Georgia Tech Computer Science"
+[cse]: http://cse.gatech.edu "Georgia Tech Computational Science and Engineering"
 [coc]: http://www.cc.gatech.edu "Georgia Tech College of Computing"
 
 [cv]: {{ site.url }}/cv
-[polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau."
+[polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
 [poloclub]: http://poloclub.gatech.edu "Polo Club of Data Science"
+
+<!-- <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/poloclub.png"> <a href="http://poloclub.gatech.edu">Polo Club of Data Science</a> -->
+
+<!-- I have strong interests in building reliable algorithms and toolkits that understand, fortify and democratize AI security with an eye towards scalability and practicality in real-world settings.  -->
+
+<!-- , with an emphasis on enhancing deep learning algorithm safety and explainability. I achieve this through methods of architecture modification, multi-task learning, and visualizing model behavior under adversarial attacks. My work also spans application domains such as multimodal systems, object detection, object tracking, table representation learning, and structural health monitoring. -->
+
+
+<!-- In general, I have strong interests in creating scalable, efficient, and robust multimodal models.
+scalable and practical AI security algorithms and toolkits. -->

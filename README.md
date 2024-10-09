@@ -1,8 +1,15 @@
-I’m a Ph.D. candidate at [Georgia Tech][gt] studying [Machine Learning][ml] and [Computational Science and Engineering][cse] in the [College of Computing][coc], and this is my [Jekyll][jekyll] website using a heavily modified [Poole][poole] template based on the website of [Fred Hohman](https://fredhohman.com/).
+## Hi there 👋
+I am Mansi Phute, a CS PhD student [@Gatech](https://www.cc.gatech.edu/)    
 
-[gt]: http://gatech.edu "Georgia Tech."
-[ml]: http://ml.gatech.edu "GT Machine Learning."
-[cse]: http://cse.gatech.edu "GT Computational Science and Engineering."
-[coc]: http://www.cc.gatech.edu "GT College of Computing."
-[jekyll]: http://jekyllrb.com "Jekyll."
-[poole]: http://getpoole.com "Poole."
+### Quick start
+``` bash
+bundle exec jekyll serve
+```
+
+All featured paper images should be resized to 2500 * 1650 background color: #F6F6F6
+https://imageresizer.com/
+
+find icons here: https://fontawesome.com/v4/icons/
+
+### Acknowledgement  
+- Forked from [Fred Hohman](https://github.com/fredhohman/fredhohman.github.io)

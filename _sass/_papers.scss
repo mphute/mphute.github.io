@@ -1,63 +1,179 @@
-.paper h1, .paper h2, .paper h3, .paper h4, .paper h5, .paper h6, .paper p, .paper blockquote, .paper ul, .paper ol, .paper dl, .paper table, .paper time, .paper .message, .paper .highlight, .paper .gist-file, .paper .pagination, hr{
-	max-width: 55rem; //should match .container max-width 
-	// margin-left: 5rem;
-	// margin-right: 5rem;
+@use "sass:math";
+
+$author-size: 125px;
+$author-image-size: 80px;
+
+#paper-title-wrapper {
+	display: grid;
+	justify-items: stretch;
+	grid-template-columns: repeat(8, 1fr);
+	// grid-template-rows: 50px; /* top row is 100px in height */
+	// grid-auto-rows: 50px;     /* any new rows created are 200px in height */
+	grid-column-gap: 1.5rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+
+	grid-column: page;
+	background-color: $black-025;
+	margin-bottom: 0.25rem;
+	margin-top: 1rem;
+	border-radius: 1rem;
 }
 
-.paper figcaption {
-	text-align: left !important;
+#paper-title-wrapper > h1 {
+	grid-column: 1 / 9;
+	line-height: 1.25;
+	margin-top: 0rem;
+	// color: $gray;
+	text-align: center;
 }
 
-.paper figure figcaption.single {
-    width: 100%;
-    max-width: 55em;
-    // margin-left: auto;
-	// margin-right: auto;
-	font-size: 14px;
+#author-wrapper {
+	grid-column: 2 / 8;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 0.875rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
-.bib .highlight{
-    max-width: none;
-}
-.bib .highlight:hover{
-    background-color: #ececec;
-}
-
-.paper .highlight{
-    max-width: none;
-}
-.paper .highlight:hover{
-    background-color: #ececec;
+.author {
+	text-align: center;
+	font-size: 1.1em;
+	line-height: 1.25;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 
-.paper code {
-	word-break: keep-all;
-    white-space: pre-wrap;
+.author-image {
+	height: $author-image-size;
+	width: $author-image-size;
+	border-radius: $author-image-size/2;
+	margin: 0 auto;
+	margin-bottom: 0.5rem;
 }
 
-.paper h1 {
-	margin-bottom: 0rem;
+.author > a {
+	color: $text-color;
 }
 
-.paper h2{
-	margin-top: 1.8rem;
-	margin-bottom: 0.2rem;
+#venue-bar {
+	grid-column: 1 / 9;
+	text-align: center;
 }
 
-.paper a {
-	color: #515151;
+#venue, #paper-award, #paper-equal-contribution {
+	color: $mid-gray;
+	font-size: 1rem;
+	// text-transform: uppercase;
+	font-weight: 600;
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
 }
 
-.paper .pub-misc a {
-	color: #2196F3;
+#paper-award {
+	color: $gold;
 }
 
-.paper a:hover {
-	color: #2196F3;
+#paper-equal-contribution {
+	color: $gray;
+}
+
+.project-hr {
+	grid-column: 2 / 8;
+	margin-top: 0.65rem;
+}
+
+#paper-materials {
+	grid-column: 2 / 8;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+#paper-materials > a {
+	background-color: $white;
+	border-radius: 5rem;
+	padding: 0.75rem;
+	margin: 0.25rem;
+	text-align: center;
+	grid-column: 1fr;
+	transition: all .2s ease-in-out;
+}
+
+#paper-materials > a:hover {
+	background: $near-white;
+	transform: scale(1.03);
 	text-decoration: none;
+	background-color: $intro-blue;
+	color: $blue;
 }
 
-.paper-spacer {
-	margin-top:5px;
-	display:block;
+@media screen and (max-width: $homepage-pre-mobile) {
+
+	#paper-materials {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	
 }
+
+@media screen and (max-width: $mobile) {
+
+	#author-wrapper, .project-hr, #venue-bar, #paper-materials {
+		grid-column: 1 / 9;
+	}
+
+	#author-wrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.author {
+		display: flex;
+		align-items: center;
+		text-align: left;
+	}
+
+	.author-image {
+		width: $author-image-size/1.5;
+		height: $author-image-size/1.5;
+		margin-top: 0rem;
+		margin-bottom: 0rem;
+		margin-right: 1rem;
+		margin-left: 0rem;
+	}
+
+	#paper-title-wrapper {
+		padding-top: 0.75rem;
+		padding-bottom: 1rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	#paper-title-wrapper > h1 {
+		text-align: left;
+	}
+
+	#paper-materials {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	
+	#venue-bar {
+		text-align: left;
+	}
+
+}
+
+
+// .paper figcaption {
+// 	text-align: left !important;
+// }
+
+// .paper figure figcaption.single {
+// 	// text-align: left;
+//     width: 100%;
+//     max-width: 55em;
+//     // margin-left: auto;
+// 	// margin-right: auto;
+// 	font-size: 14px;
+// }

@@ -3,161 +3,172 @@ layout: cv
 title: CV
 permalink: cv/
 jsarr:
-  - js/scripts.js
+- js/scripts.js
 ---
 
+<h1 id="cv-title"><a href="{{ site.url }}">Mansi Phute</a></h1>
+
+<div style="height: 1rem"></div>
 <div>
-<a href="https://mansiphute.com">
-<!-- <img class="title-logo" src="/images/apw_logo.svg"> -->
-</a>
+	My research strengthens the generalization and safety of the generative AI, spanning vision models, LLMs, and VLMs. As steps towards this goal, I work on generalizable multimodal representation learning and safe and robust machine learning models.
 </div>
 
-<h1><a style="color: #313131; font-weight: 500; font-size: 1.25em" href="https://austinpwright.com">Mansi Phute</a></h1>
+<div class="cv-spacer"></div>
 
-<span class="cv-subtitle">
-*<span class="cv-ai">Adversarial ML</span> + <span class="cv-soc">Social Computing</span> researcher*
-</span>
+<div class="cv-spacer"></div>
 
-<span class="cv-max-width">
-I’m an M.S. student in the [College of Computing][coc] at [Georgia Tech][gt] advised by [Polo Chau][poloclub]. 
-</span>
-
-<span class="cv-max-width">
-My research in **Adversarial Machine Learning** aims to develop toolboxes that help us create robust, open source defenses for attacks against current ML systems. My research focuses on reliability , scalability and interpretability of solutions I develop. I also work on understanding and leveraging **Generative Models** in various applications. 
-</span>
-
-<div class="cv-image-links-wrapper" style="font-size: 16px; padding-bottom: 0;">
+<div class="cv-image-links-wrapper">
 	<div class="cv-image-links">
 		{% for link in site.data.social-links %}
 			{% if link.cv-group == 1 %}
-				{% include social-link.html link=link %}
+				{% include cv-social-link.html link=link %}
 			{% endif %}
 		{% endfor %}
 	</div>
 	<div class="cv-image-links">
 		{% for link in site.data.social-links %}
 			{% if link.cv-group == 2 %}
-				{% include social-link.html link=link %}
+				{% include cv-social-link.html link=link %}
 			{% endif %}
 		{% endfor %}
 	</div>
 </div>
 
----
+***
 
 ## Education
 
+{::nomarkdown}
 {% for degree in site.data.education %}
-{% include degree.html degree=degree %}
+{% include cv/degree.html degree=degree %}
 {% endfor %}
+{:/}
 
-## Research Experience
+## Industry Research Experience
 
 {% for experience in site.data.experiences %}
-{% include experience.html experience=experience %}
+{% if experience.type == 'industry' %}
+{% include cv/experience.html experience=experience %}
+{% endif %}
+{% endfor %}
+
+
+## Academic Research Experience
+
+{% for experience in site.data.experiences %}
+{% if experience.type == 'academic' %}
+{% include cv/experience.html experience=experience %}
+{% endif %}
 {% endfor %}
 
 ## Honors and Awards
 
 {% for award in site.data.awards %}
-{% include award.html award=award %}
+{% include cv/award.html award=award %}
 {% endfor %}
 
 ## Publications
 
-<!-- ### Selected: Latest & Greatest
-
-{% assign selectedBoolForBibtex = true %}
-{% for pub in site.data.publications %}
-{% if pub.selected %}
-{% include publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endif %}
-{% endfor %} -->
-
-<!-- ### All Publications -->
 
 {% assign selectedBoolForBibtex = false %}
-{% for pub in site.data.publications %}
-{% include publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
+{% assign journal = site.categories.papers %}
+{% for pub in journal %}
+{% if pub.type != "misc" %}
+{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
+{% endif %}
+{% endfor %}
+
+## Preprint
+
+{% assign preprint = site.categories.papers | where: 'type', "misc" %}
+{% for pub in preprint %}
+{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
+{% endfor %}
+
+## Invited Talks and Presentations
+
+{% assign talktitles = site.data.talks | group_by:"title" %}
+{% for title in talktitles %}
+{% include cv/talk.html talk=title %}
 {% endfor %}
 
 <!-- ## Press
 
 {% for press in site.data.press %}
-{% include press.html press=press %}
-{% endfor %} -->
-
-<!-- ## Talks
-
-{% assign talktitles = site.data.talks | group_by:"title" %}
-{% for title in talktitles %}
-{% include talk.html talk=title %}
-{% endfor %} -->
-
-<!--
+{% include cv/press.html press=press %}
+{% endfor %}
 
 ## Teaching
 
 {% for teach in site.data.teaching %}
-{% include teaching.html teach=teach %}
+{% include cv/teaching.html teach=teach %}
 {% endfor %} -->
 
-<!-- ## Mentoring
-
-{% for mentee in site.data.mentoring %}
-{% include mentee.html mentee=mentee %}
-{% endfor %} -->
-
-<!--
 ## Grants and Funding
 
 {% for fund in site.data.funding %}
-{% include fund.html fund=fund %}
+{% include cv/fund.html fund=fund %}
+{% endfor %}
+
+<!-- ## Interactive Articles
+
+{% for article in site.data.articles %}
+{% include cv/article.html article=article %}
 {% endfor %} -->
-<!--
-## Technology Skills
+
+<!-- ## Technology Skills
 
 {% for skill in site.data.skills %}
-{% include skill.html skill=skill %}
+{% include cv/skill.html skill=skill %}
 {% endfor %} -->
 
-<!--
 ## Service
 
-<p style="margin-bottom: 0rem"><strong>Organizer</strong></p>
+<!-- <div class="cv-service-title"><b>Organizer</b></div>
 {% for venue in site.data.organizer %}
-{% include venue.html venue=venue %}
-{% endfor %}
-
-<p style="margin-top: 0.7rem; margin-bottom: 0rem"><strong>Program Commitee</strong></p>
-{% for venue in site.data.pc %}
-{% include venue.html venue=venue %}
-{% endfor %}
-
-<p style="margin-top: 0.7rem; margin-bottom: 0rem"><strong>Reviewer</strong></p>
-{% for venue in site.data.reviewer %}
-{% include venue.html venue=venue %}
-{% endfor %}
-
-<p style="margin-top: 0.7rem; margin-bottom: 0rem"><strong>Member</strong></p>
-{% for member in site.data.memberships %}
-{% include member.html member=member %}
+{% include cv/venue.html venue=venue %}
 {% endfor %} -->
+
+<div class="cv-service-title"><b>Program Commitee</b></div>
+{% for venue in site.data.pc %}
+{% include cv/venue.html venue=venue %}
+{% endfor %}
+
+<!-- <div class="cv-service-title"><b>Institutional</b></div>
+{% for institution in site.data.institutional %}
+{% include cv/institutional.html institution=institution %}
+{% endfor %} -->
+
+<div class="cv-service-title"><b>Reviewer</b></div>
+{% for venue in site.data.reviewer %}
+{% include cv/venue.html venue=venue %}
+{% endfor %}
+
+<div class="cv-service-title"><b>Member</b></div>
+{% for member in site.data.memberships %}
+{% include cv/member.html member=member %}
+{% endfor %}
+
+<!-- ## Design
+
+{% for design in site.data.designs %}
+{% include cv/design.html design=design %}
+{% endfor %} -->
+
+## Mentoring
+
+{::nomarkdown}
+{% for mentee in site.data.mentoring %}
+{% include cv/mentee.html mentee=mentee %}
+{% endfor %}
+{:/}
 
 ## References
 
 {% for reference in site.data.references %}
-{% include reference.html reference=reference %}
+{% include cv/reference.html reference=reference %}
 {% endfor %}
 
-## Contact
-
-Austin P. Wright
-`apwright@gatech.edu`  
-Coda Tech Square
-Georgia Tech  
-756 W Peachtree St NW
-Atlanta, GA 30308
 
 [cv]: {{ site.url }}/cv.pdf "My CV."
 
@@ -165,6 +176,30 @@ Atlanta, GA 30308
 [gt]: http://gatech.edu "Georgia Tech"
 [cse]: http://cse.gatech.edu "GT Computational Science and Engineering"
 [coc]: http://www.cc.gatech.edu "GT College of Computing"
+
+[fred]: http://fredhohman.com "Fred Hohman"
 [polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
-[twitter]: https:/www.twitter.com/austin_p_wright "@austin_p_wright"
-[github]: https:/www.github.com/APWright "github.com/APWright"
+[alex]: http://va.gatech.edu/endert/ "Alex Endert"
+
+[jpl]: https://www.jpl.nasa.gov/ "NASA Jet Propulsion Lab"
+[hi]: https://www.hi.jpl.nasa.gov/ "Human Interfaces Group at NASA JPL"
+[pnnl]: https://www.pnnl.gov/ "Pacific Northwest National Laboratory"
+[dsa]: http://www.pnnl.gov/nationalsecurity/technical/capabilities/computing/data_sciences.stm "Data Sciences and Analytics Group at PNNL"
+[msr]: https://www.microsoft.com/en-us/research/ "Microsoft Research"
+[msr-hci]: https://www.microsoft.com/en-us/research/group/human-computer-interaction/ "HCI@MSR"
+
+[twitter]: https:/www.twitter.com/fredhohman "@fredhohman"
+[github]: https:/www.github.com/fredhohman "github.com/fredhohman"
+[nstrf]: https://www.nasa.gov/strg/nstrf "NASA Space Technology Research Fellowship"
+
+
+<!-- I am highly self-disciplined, strong risk-taking and fearlessness about working on novel approaches. 
+I got praise from my internship mentors about willingness to review technical approaches, receive and incorporate feedback, 
+and ask questions until understanding about reasoning behind mentor's recommendations. 
+Most importantly, my positive energy level throughout the research career is exceptional and contagious to teammates. -->
+
+
+<!-- My research focuses on trustworthy machine learning, computer vision, and multimodal foundation models, with an emphasis on enhancing deep learning algorithm safety and explainability. I achieve this through methods of architecture modification, multi-task learning, and visualizing model behavior under adversarial attacks. My work also spans application domains such as multimodal systems, object detection, object tracking, table representation learning, and structural health monitoring. -->
+
+<!-- I have strong interests in building reliable algorithms and toolkits that understand, fortify and democratize AI security with an eye towards scalability and practicality in real-world settings.  -->
+

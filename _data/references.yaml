@@ -1,9 +1,26 @@
-- name: Polo Chau
-  position: Associate Professor
-  group: School of Computational Science and Engineering
-  institution: Georgia Institute of Technology
-  location: Atlanta, GA, USA
-  phd: true
-  website: "cc.gatech.edu/~dchau/"
-  url: "https://cc.gatech.edu/~dchau/"
+# - name: Polo Chau
+#   position: Associate Professor
+#   group: School of Computational Science and Engineering
+#   institution: Georgia Institute of Technology
+#   location: Atlanta, GA, USA
+#   phd: true
+#   website: "faculty.cc.gatech.edu/~dchau"
+#   url: "faculty.cc.gatech.edu/~dchau"
 
+# - name: Lei He
+#   position: Professor
+#   group: School of Electrical and Computer Engineering
+#   institution: University of California, Los Angeles
+#   location: Los Angeles, CA, USA
+#   phd: true
+#   website: "eda.ee.ucla.edu/people/faculty.html"
+#   url: "http://eda.ee.ucla.edu/people/faculty.html"
+
+# - name: Ying Zhou
+#   position: Professor
+#   group: College of Civil Engineering
+#   institution: Tongji University
+#   location: Shanghai, China
+#   phd: true
+#   website: "https://www.journals.elsevier.com/resilient-cities-and-structures/editorial-board/ying-zhou"
+#   url: "https://www.journals.elsevier.com/resilient-cities-and-structures/editorial-board/ying-zhou"

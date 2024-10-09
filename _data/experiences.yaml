@@ -1,51 +1,136 @@
-- institution: Georgia Institute of Technology
-  location: "Atlanta, GA"
-  position: Graduate Research Assistant
-  group: School of Computational Science and Engineering
-  year: "Summer 2022 —"
-  year-extra: "Present"
-  mentors:
-    - Duen Horng (Polo) Chau
-  advisor: true
-  description: "Member of the Polo Club of Data Science where we bridge and innovate at the intersection of data mining and human-computer interaction to synthesize scalable, interactive, and interpretable tools that amplify human’s ability to understand and interact with big data."
-  institution-url: http://gatech.edu
-  group-url: https://poloclub.github.io
-  type: academic
+# - institution: Intel
+#   location: "Hillsboro, OR"
+#   position: Research Scientist Intern
+#   # group: Security Solution Lab
+#   year: "May 2022 — "
+#   year-extra: "Aug. 2022"
+#   mentors:
+#     - Weilin Xu
+#     - Jason Martin
+#   description: "Worked on DARPA Guaranteeing AI Robustness Against Deception (GARD) project; Investigated four key architectural components underpinning SOTA CNNs and Transformers that boost
+# adversarial robustness."
+#   institution-url: https://www.intel.com/content/www/us/en/homepage.html
+#   group-url: https://www.intel.com/content/www/us/en/research/security-research.html
+#   type: industry
 
-- institution: Georgia Institute of Technology
-  location: "Atlanta, GA"
-  position: Graduate Teaching Assistant
-  group: School of Computational Science and Engineering
-  year: "Spring 2022"
-  mentors:
-    - Duen Horng (Polo) Chau
-  description: ""
-  institution-url: http://gatech.edu
-  group-url: https://poloclub.github.io/cse6242-2022spring-campus/
-  type: academic
+# - institution: IBM Research
+#   location: "Armonk, NY"
+#   position: Research Scientist Intern
+#   # group: Security Solution Lab
+#   year: "Feb. 2024 — "
+#   year-extra: present
+#   mentors:
+#     - Pin-Yu Chen
+#   description: "LLM safety"
+#   institution-url: https://research.ibm.com/
+#   group-url: https://research.ibm.com/
+#   type: industry
 
-- institution: Nanyang Technological University
-  location: "Remote"
-  position: Undergraduate Research Assistant
-  group: "Cyber Security Research Centre at NTU (CYSREN)"
-  year: "Fall 2021 —"
-  year-extra: "Summer 2022"
-  mentors:
-    - Thambipillai Srikanthan
-  description: "Introduced natural language processing and data visualization tools for detecting emerging trends in the opiod epidemic."
-  institution-url: https://www.ntu.edu.sg
-  group-url: https://www.ntu.edu.sg/cysren
-  type: academic
+# - institution: Meta
+#   location: "Menlo Park, CA"
+#   position: Research Scientist Intern
+#   # group: Security Solution Lab
+#   year: "May 2024 — "
+#   year-extra: "Dec. 2024"
+#   mentors:
+#     - David Yang
+#     - Kai Sheng Tai
+#   description: "Efficient text embedding models via token merging"
+#   institution-url: https://about.meta.com/
+#   group-url: https://about.meta.com/
+#   type: industry
 
-- institution: Tech Mahindra Ltd
-  location: "Pune, India"
-  position: Intern, Web Development
-  year: "Summer 2019"
-  mentors:
-    - Rahul Bedmutha
-  description: "Introduced natural language processing and data visualization tools for detecting emerging trends in the opiod epidemic."
-  institution-url: https://www.techmahindra.com/en-in/?f=2081681769
-  type: industrial
+# - institution: Georgia Institute of Technology
+#   location: "Atlanta, GA"
+#   position: Graduate Research Assistant
+#   group: School of Computer Science
+#   year: "May 2021 —"
+#   year-extra: "present"
+#   mentors:
+#     - Duen Horng Chau
+#   description: Member of <a href="https://poloclub.github.io/">Polo Club of Data Science</a> where we bridge and innovate at the intersection of data mining and human-computer interaction to synthesize scalable, interactive, and interpretable tools that amplify human’s ability to understand and interact with big data.
+#   institution-url: http://gatech.edu
+#   group-url: https://www.scs.gatech.edu/
+#   type: academic
 
+# - institution: Fudan University
+#   location: "Shanghai, China"
+#   position: Undergraduate Research Assistant
+#   group: Shanghai Key Laboratory of Data Science
+#   year: "Sept. 2020 —"
+#   year-extra: "Dec. 2020"
+#   mentors:
+#     - Weidong Yang
+#   description: "Built a cockpit monitoring software that can locate the dashboard, extract the plane's status parameters, and interactively verify the correctness based on human guidance."
+#   institution-url: https://www.fudan.edu.cn/en/
+#   group-url: https://datascience.fudan.edu.cn/
+#   type: academic
 
+# - institution: Tongji University
+#   location: "Shanghai, China"
+#   position: Undergraduate Research Assistant
+#   group: State Key Laboratory of Disaster Reduction in Civil Engineering
+#   year: "Oct. 2017 —"
+#   year-extra: "Aug. 2020"
+#   mentors:
+#     - Ying Zhou
+#   description: "Developed a framework from the ground-up which identified structural system through a non-contact measurement method, which was widely used by multiple cities for structural health monitoring in China."
+#   institution-url: https://en.tongji.edu.cn/
+#   group-url: http://www.ilee-tj.com/En/Data/View/813
+#   type: academic
+
+# - institution: Shanghai Jiao Tong University
+#   location: "Shanghai, China"
+#   position: Undergraduate Research Assistant
+#   group: Advanced Avionics and Intelligent Information Lab
+#   year: "July 2018 —"
+#   year-extra: "Jan. 2020"
+#   mentors:
+#     - Xingcheng Zhang
+#     - Gang Xiao
+#   description: "Developed visible and infrared fusion methods on both pixel and feature levels, which solved tracking challenges including partial occlusion and low illumination.
+#   The tracker ranked first on large-scale RGBT234 tracking benchmark."
+#   institution-url: https://en.sjtu.edu.cn/
+#   group-url: http://www.avionics.icoc.in/
+#   type: academic
+
+# - institution: University of California, Los Angeles
+#   location: "Los Angeles, CA"
+#   position: Undergraduate Research Assistant
+#   group: Design Automation Lab
+#   year: "July 2019 —"
+#   year-extra: "Dec. 2019"
+#   mentors:
+#     - Yunxuan Yu
+#     - Lei He
+#   description: "Proposed a novel anchor-free tracker that achieved SOTA performances on widely-used tracking benchmarks, e.g., OTB2015, VOT2015, VOT2016, and TrackingNet."
+#   institution-url: https://www.ucla.edu/
+#   group-url: http://eda.ee.ucla.edu/
+#   type: academic
+
+# - institution: Tongji University
+#   location: "Shanghai, China"
+#   position: Undergraduate Research Assistant
+#   group: School of Materials Science and Engineering
+#   year: "Apr. 2017 —"
+#   year-extra: "Apr. 2018"
+#   mentors:
+#     - Qianrong Yang
+#   description: "Mechanical design and manufacture of a 3D concrete printer with automatic pulp feeding systems."
+#   institution-url: https://en.tongji.edu.cn/
+#   group-url: https://smse.tongji.edu.cn/English/Home.htm
+#   type: academic
+
+# - institution: Chinese Academy of Sciences
+#   location: "Beijing, China"
+#   position: Undergraduate Research Assistant
+#   group: Institute of Computing Technology
+#   year: "June 2017 —"
+#   year-extra: "Aug. 2017"
+#   mentors:
+#     - Chao Liu
+#   description: "PID control in Matlab Simulink for cruise missile and Cessna-172 aircraft flight."
+#   institution-url: https://english.cas.cn/
+#   group-url:  http://english.ict.cas.cn/
+#   type: academic
 
