@@ -1,149 +1,76 @@
-# ShengYun Peng:
-#   url: https://shengyun-peng.github.io/
-#   picture: shengyun-peng.jpg
-#   me: true
+Mansi Phute:
+  url: https://mphute.github.io
+  picture: mansi-phute.jpg
+  me: true
 
-# Duen Horng Chau:
-#   url: https://www.cc.gatech.edu/~dchau
-#   picture: polo-chau.jpg
+Duen Horng (Polo) Chau:
+  url: https://www.cc.gatech.edu/~dchau
+  picture: polo-chau.jpg
 
-# Kun Wang:
-#   url: http://eda.ee.ucla.edu/people/kun-wang/index.html#publications
-#   picture: kun-wang.jpg
+ShengYun Peng:
+  url: 
+  picture: anthony-peng.jpg
 
-# Lei He:
-#   url: http://eda.ee.ucla.edu/
-#   picture: lei-he.jpg
+Alec Helbling:
+  url: 
+  picture: alec-helbling.jpg
 
-# Ying Zhou:
-#   url: http://www.ilee-tj.com/En/Data/View/813
-#   picture: ying-zhou.jpg
+Matthew Hull:
+  url: 
+  picture: 
 
-# Bin He:
-#   url: https://robot.tongji.edu.cn/En/Home.htm
-#   picture: bin-he.jpg
+Cory Cornelius:
+  url: 
+  picture: 
 
-# LingFeng Yan:
-#   url:
-#   picture: lingfeng-yan.jpg
+Jason Martin:
+  url: 
+  picture: 
 
-# Xingchen Zhang:
-#   url: https://www.imperial.ac.uk/people/xingchen.zhang
-#   picture: xingchen-zhang.jpg
+Weilin Xu:
+  url: 
+  picture: 
 
-# Gang Xiao:
-#   url:
-#   picture: gang-xiao.jpg
+Sebastian Szyller:
+  url: 
+  picture: 
 
-# Ping Ye:
-#   url:
-#   picture: ping-ye.png
+Julia Kruk:
+  url: 
+  picture: 
 
-# Jun Liu:
-#   url:
-#   picture: jun-liu.png
+Anisha Pal:
+  url: 
+  picture:
 
-# Ke Gong:
-#   url:
-#   picture: ke-gong.png
+Judy Hoffman:
+  url: 
+  picture:  
 
-# Nilaksh Das:
-#   url: https://nilakshdas.com/
-#   picture: nilaksh-das.jpg
+Diyi Yang:
+  url: 
+  picture:
 
-# Yunxuan Yu:
-#   url: https://www.linkedin.com/in/yunxuan-yu-bab59aa6/
-#   picture: yunxuan-yu.gif
+Amit Bhttacharjee:
+  url: 
+  picture: 
 
-# Sivapriya Vellaichamy:
-#   url: https://svellaichamy3.github.io/
-#   picture: sivapriya-vellaichamy.jpeg
+Sanchita Porwal:
+  url: 
+  picture: 
 
-# Matthew Hull:
-#   url: https://www.linkedin.com/in/mdhull/
-#   picture: matthew-hull.jpeg
+Ayushi Bakshi:
+  url: 
+  picture: 
 
-# Zijie J. Wang:
-#   url: https://zijie.wang/
-#   picture: zijie-wang.jpeg
+Nirvi Badyal:
+  url: 
+  picture:
 
-# Haekyu Park:
-#   url: https://haekyu.com/
-#   picture: haekyu-park.jpeg
+Thambipillai Srikanthan:
+  url: 
+  picture: thambipillai-srikanthan.jpg
 
-# Weilin Xu:
-#   url: https://xuweilin.org/
-#   picture: weilin-xu.jpeg
-
-# Cory Cornelius:
-#   url: https://dxoig.mn/
-#   picture: cory-cornelius.jpeg
-
-# Kevin Li:
-#   url: https://www.kevinyli.com/
-#   picture: kevin-li.jpeg
-
-# Rahul Duggal:
-#   url: http://www.rahulduggal.com/
-#   picture: rahul-duggal.jpeg
-
-# Jason Martin:
-#   url: https://www.intel.com/content/www/us/en/research/researchers/jason-martin.html
-#   picture: jason-martin.jpeg
-
-# Hao Zhou:
-#   url: https://zhhoper.github.io/
-#   picture: hao-zhou.jpeg
-
-# Chao Zhang:
-#   url: http://chaozhang.org/
-#   picture: chao-zhang.jpeg
-
-# Srijan Kumar:
-#   url: https://faculty.cc.gatech.edu/~srijan/
-#   picture: srijan-kumar.png
-
-# Mansi Phute:
-#   url: https://www.linkedin.com/in/mansi-phute-413744166/
-#   picture: mansi-phute.jpeg
-
-# Raji Balasubramaniyan:
-#   url: https://www.linkedin.com/in/rajarajeswari-raji-balasubramaniyan-ph-d-753792a8/
-#   picture: raji-balasubramaniyan.jpeg
-
-# Xiaojing Wang:
-#   url: https://www.linkedin.com/in/xiaojing-wang-x00788/
-#   picture: xiaojing-wang.jpeg
-
-# Seongmin Lee:
-#   url: http://seongmin.xyz/
-#   picture: seongmin-lee.jpeg
-
-# Alec Helbling:
-#   url: https://alechelbling.com/
-#   picture: alec-helbling.jpg
-
-# Sebastian Szyller:
-#   url: https://sebszyller.com/
-#   picture: sebastian-szyller.jpeg
-
-# Benjamin Hoover:
-#   url: https://www.bhoov.com/
-#   picture: benjamin-hoover.jpg
-
-# Hendrik Strobelt:
-#   url: http://hendrik.strobelt.com/
-#   picture: hendrik-strobelt.png
-
-# Austin Wright:
-#   url: https://www.austinpwright.com/
-#   picture: austin-wright.jpg
-
-# Wenke Lee:
-#   url: https://wenke.gtisc.gatech.edu/
-#   picture: wenke-lee.jpeg
-
-# Pin-Yu Chen:
-#   url: https://sites.google.com/site/pinyuchenpage/
-#   picture: pinyu-chen.png
-
+Fred Hohman:
+  url: https://fredhohman.com
+  picture: fred-hohman.jpg

@@ -1,20 +1,17 @@
-# - title: Physical Adversarial Attack and Defense for Aerial Imagery
-#   years: "2024 — 2026"
-#   name: "Co-authored $1.1M awarded research proposal from Technology Innovation Institute (TII)"
-#   co-pis:
-#     - Duen Horng Chau
-#     - Wenke Lee
-#   title-url: 
-#   name-url: 
-#   amount: 
+- title:  AI-Infused Anomaly Visualization and Recovery for Swarm Oversight
+  years: 
+  name: Co-authored a proposal for TII
+  pis: Duen Horng (Polo) Chau and Wenke Lee (Georgia Tech)
+  title-url: 
+  name-url: 
 
-# - title: Document Understanding
-#   years: "2022 — 2023"
-#   name: "Co-authored $250k awarded research proposal from Automatic Data Processing (ADP), Inc."
-#   co-pis:
-#     - Duen Horng Chau
-#     - Chao Zhang
-#     - Srijan Kumar
-#   title-url: 
-#   name-url: 
-#   amount:
+
+- title: Guaranteeing AI Robustness against Deception
+  years: "2023 — 2024"
+  name: "DARPA: Defense Advance Research Projects Agency"
+  pis: Cory Conelius (Intel Labs), Duen Horng (Polo) Chau (Georgia Tech)
+  title-url: https://www.darpa.mil/program/guaranteeing-ai-robustness-against-deception
+  name-url: https://www.darpa.mil/program/guaranteeing-ai-robustness-against-deception
+
+
+  # amount: "$80,000/year for 3 years"

@@ -6,8 +6,8 @@ permalink: papers/semitruths
 id: semitruths
 
 # cover
-feature-title: Semii Truths
-feature-description: <b> Mansi Phute </b>, Duen Horng Chau
+feature-title: "Semi Truths: "
+feature-description: 
 image: /images/featured/
 featured: true
 feature-order: 20240815
@@ -21,8 +21,13 @@ code:
 # content
 title:
 authors:
+  - Anisha Pal
+  - Julia Kruk
   - Mansi Phute
-  - Duen Horng Chau
+  - Manognya Bhattaram
+  - Diyi Yang
+  - Polo Chau
+  - Judy Hoffman
 pdf: /papers/
 figure: /images/papers/
 caption: 

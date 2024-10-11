@@ -7,7 +7,7 @@ id: <name>
 
 # cover
 feature-title: 
-feature-description: <b> Mansi Phute </b>, Duen Horng Chau
+feature-description:
 image: /images/featured/
 featured: true
 feature-order:

@@ -1,0 +1,22 @@
+- institution: Georgia Institute of Technology
+  position: Graduate Teaching Assistant
+  location: "Atlanta, GA"
+  year: Spring 2023
+  class: "Data and Visual Analytics (CSE 6242 / CX 4242)"
+  instructor: Duen Horng (Polo) Chau
+  description: "I was a Teaching Assistant (TA) at Georgia Tech for the class Data and Visual Analytics where I worked with a team of 30 TAs to enable learning in a class of more than 1200 students. 
+I was a part of designing homework and mentoring students in their course work and project work."
+  institution-url: http://gatech.edu
+  class-url: https://poloclub.github.io/cse6242-2023spring-campus/
+  ta: true
+
+- institution: Vishwakarma Institute of Technology
+  position: Teaching Volunteer
+  location: "Pune, India"
+  year: Fall 2019
+  class: "Aashadeep: Literacy Program for underpriviledged people"
+  description: "A semester long teaching program where I created learning opportunities for increasing literacy in society aimed towards people outside the traditional schooling age. Thus proving that there is no binding of age to learn how to read or write. 
+  This program aimed at combating illiteracy in specific sections of society."
+  institution-url: http://gatech.edu
+  class-url: https://swd.vit.edu/index.php
+  ta: true
