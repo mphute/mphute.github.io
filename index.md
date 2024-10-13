@@ -26,7 +26,7 @@ title: Home
 		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div>
-		My research focuses on the <b>security</b> and <b>>explainability</b> of multimodal foundation models. I work on developing explanations for ML systems, analyzing them to identify vulnerabilities, and finding solutions to mitigate these issues.
+		My research focuses on the <b>security</b> and <b>explainability</b> of multimodal foundation models. I work on developing explanations for ML systems, analyzing them to identify vulnerabilities, and finding solutions to mitigate these issues.
 		My work spans a wide range of application areas, including multi-object robust tracking in computer vision, developing defenses against attacks on large language models, and understanding large language models and the insights they can give us into human interactions.
 	</div>
 	<div style="height: 0.5rem"></div>
