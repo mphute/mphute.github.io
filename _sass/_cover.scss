@@ -161,11 +161,12 @@ $cover-width: 26.5px;
   padding: 0.25rem 0.35rem 0.25rem 0.35rem !important;
   border-radius: 0.25rem;
   margin-right: 0rem;
+  color: $pink-dark;
 }
 
 .cover-links>.pub-misc>a:hover {
   color: #ffffff !important;
-  background-color: $blue;
+  background-color: $pink-dark;
 }
 
 @media screen and (max-width: $homepage-pre-mobile) {
