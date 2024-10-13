@@ -10,7 +10,8 @@ jsarr:
 
 <div style="height: 1rem"></div>
 <div>
-	My research strengthens the generalization and safety of the generative AI, spanning vision models, LLMs, and VLMs. As steps towards this goal, I work on generalizable multimodal representation learning and safe and robust machine learning models.
+	My research focuses on the <b><span class="cv-ai">security</span></b> and <b><span class="cv-hci">explainability</span></b> of language and vision foundation models. I work on developing explanations for machine learning models and analyzing them to identify vulnerabilities in existing ML systems, then find solutions to mitigate these issues.
+My work spans a wide range of application areas, including robust multi-object tracking in computer vision, developing defenses against attacks on large language models, and understanding large language models and the insights they can give us into human interactions.
 </div>
 
 <div class="cv-spacer"></div>
@@ -44,6 +45,14 @@ jsarr:
 {% endfor %}
 {:/}
 
+## Academic Research Experience
+
+{% for experience in site.data.experiences %}
+{% if experience.type == 'academic' %}
+{% include cv/experience.html experience=experience %}
+{% endif %}
+{% endfor %}
+
 ## Industry Research Experience
 
 {% for experience in site.data.experiences %}
@@ -52,14 +61,6 @@ jsarr:
 {% endif %}
 {% endfor %}
 
-
-## Academic Research Experience
-
-{% for experience in site.data.experiences %}
-{% if experience.type == 'academic' %}
-{% include cv/experience.html experience=experience %}
-{% endif %}
-{% endfor %}
 
 ## Honors and Awards
 
@@ -78,12 +79,12 @@ jsarr:
 {% endif %}
 {% endfor %}
 
-## Preprint
+<!-- ## Preprint
 
 {% assign preprint = site.categories.papers | where: 'type', "misc" %}
 {% for pub in preprint %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
+{% endfor %} -->
 
 ## Invited Talks and Presentations
 
@@ -92,7 +93,7 @@ jsarr:
 {% include cv/talk.html talk=title %}
 {% endfor %}
 
-<!-- ## Press
+## Press
 
 {% for press in site.data.press %}
 {% include cv/press.html press=press %}
@@ -102,7 +103,7 @@ jsarr:
 
 {% for teach in site.data.teaching %}
 {% include cv/teaching.html teach=teach %}
-{% endfor %} -->
+{% endfor %} 
 
 ## Grants and Funding
 
@@ -129,10 +130,10 @@ jsarr:
 {% include cv/venue.html venue=venue %}
 {% endfor %} -->
 
-<div class="cv-service-title"><b>Program Commitee</b></div>
+<!-- <div class="cv-service-title"><b>Program Commitee</b></div>
 {% for venue in site.data.pc %}
 {% include cv/venue.html venue=venue %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- <div class="cv-service-title"><b>Institutional</b></div>
 {% for institution in site.data.institutional %}
@@ -144,10 +145,10 @@ jsarr:
 {% include cv/venue.html venue=venue %}
 {% endfor %}
 
-<div class="cv-service-title"><b>Member</b></div>
+<!-- <div class="cv-service-title"><b>Member</b></div>
 {% for member in site.data.memberships %}
 {% include cv/member.html member=member %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- ## Design
 
@@ -177,20 +178,6 @@ jsarr:
 [cse]: http://cse.gatech.edu "GT Computational Science and Engineering"
 [coc]: http://www.cc.gatech.edu "GT College of Computing"
 
-[fred]: http://fredhohman.com "Fred Hohman"
-[polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
-[alex]: http://va.gatech.edu/endert/ "Alex Endert"
-
-[jpl]: https://www.jpl.nasa.gov/ "NASA Jet Propulsion Lab"
-[hi]: https://www.hi.jpl.nasa.gov/ "Human Interfaces Group at NASA JPL"
-[pnnl]: https://www.pnnl.gov/ "Pacific Northwest National Laboratory"
-[dsa]: http://www.pnnl.gov/nationalsecurity/technical/capabilities/computing/data_sciences.stm "Data Sciences and Analytics Group at PNNL"
-[msr]: https://www.microsoft.com/en-us/research/ "Microsoft Research"
-[msr-hci]: https://www.microsoft.com/en-us/research/group/human-computer-interaction/ "HCI@MSR"
-
-[twitter]: https:/www.twitter.com/fredhohman "@fredhohman"
-[github]: https:/www.github.com/fredhohman "github.com/fredhohman"
-[nstrf]: https://www.nasa.gov/strg/nstrf "NASA Space Technology Research Fellowship"
 
 
 <!-- I am highly self-disciplined, strong risk-taking and fearlessness about working on novel approaches. 
