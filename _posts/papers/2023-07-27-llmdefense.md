@@ -8,7 +8,7 @@ id: llm-self-defense
 # cover
 feature-title: "LLM Self Defense"
 feature-description: "By Self Examination, LLMs Know They Are Being Tricked!"
-image: /images/featured/23-llmselfdefense.png
+image: /images/featured/23-llm-self-defense.png
 featured: true
 feature-order: 20230815
 coming-soon: false

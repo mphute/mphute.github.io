@@ -45,7 +45,7 @@ title: Home
 
 <h2 class="feature-title l-middle"> Featured Publications </h2>
 <div style="height: 1rem"></div>
-<div class=" -1-col l-page">
+<div class="cover-wrapper cover-wrapper-1-col l-page">
 	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' | reverse %}
 	{% for feature in sortedPublications %}
 		{% if feature.featured == true %}
