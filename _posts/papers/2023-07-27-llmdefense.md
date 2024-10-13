@@ -13,10 +13,10 @@ featured: true
 feature-order: 20230815
 coming-soon: false
 venue: ICLR Tiny Paper
-year: 
+year: 2024
 award: 
 award-link:
-code: 
+code: https://github.com/poloclub/llm-self-defense
 
 title: "LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked"
 authors:
@@ -27,7 +27,7 @@ authors:
   - Sebastian Szyller
   - Cory Cornelius
   - Duen Horng (Polo) Chau
-url: /papers/llmselfdefense
+url: https://arxiv.org/abs/2308.07308
 pdf: /papers/23-llmselfdefense.pdf
 figure: /images/papers/23_llm-self-defense.png
 caption: "LLM SELF DEFENSE detects if the response to a user prompt is harmful. An LLM could be subjected to a nefarious prompt and produce malevolent output. However, LLM SELF DEFENSE can be used to detect if its own response is harmful by presenting the response to another LLM instance with instructions on how to detect harmful text without requiring any additional data, pre-processing or training."

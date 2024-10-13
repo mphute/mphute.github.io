@@ -1,14 +1,14 @@
 ---
 layout: paper
 categories: papers
-url: /papers/
-permalink: papers/semitruths
-id: semitruths
+url: /papers/semi-truths
+permalink: papers/semi-truths
+id: semi-truths
 
 # cover
 feature-title: "Semi Truths"
 feature-description: "A Large-Scale Dataset for Testing Robustness of AI-Generated Image Detectors"
-image: /images/featured/
+image: /images/featured/24_semi-truths.png
 featured: true
 feature-order: 20240815
 coming-soon: false
@@ -28,8 +28,8 @@ authors:
   - Diyi Yang
   - Polo Chau
   - Judy Hoffman
-pdf: /papers/
-figure: /images/papers/
+pdf: /papers/24_semi-truths.pdf
+figure: /images/papers/24_semi-truths.png
 caption: 
 selected: false
 type: conference
