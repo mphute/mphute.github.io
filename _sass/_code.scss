@@ -1,184 +1,76 @@
-$cover-size-scalar: 30;
-$cover-height: 7px;
-$cover-width: 26.5px;
-
-.cover-wrapper {
-  display: grid;
-  gap: 1rem;
+code, pre {
+  // font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: Consolas, monaco, monospace;
 }
 
-.cover-wrapper-1-col {
-  grid-template-columns: 1fr;
+code {
+  padding: .25rem .5rem;
+  font-size: 85%;
+  color: $code-color;
+  background-color: $near-white;
+  border-radius: 3px;
 }
 
-.cover-wrapper-2-col {
-  grid-template-columns: 1fr 1fr;
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
-.cover-wrapper-3-col {
-  grid-template-columns: 1fr 1fr 1fr;
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
 }
 
-.cover {
-  height: $cover-height*$cover-size-scalar;
-  // width: $cover-width*$cover-size-scalar;
-  
-  text-align: left;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
 
-  background-color: $black-025;
-  border-radius: 1.5rem;
-  transition: all .2s ease-in-out;
-}
 
-.cover:hover {
-  // border: 1px solid $dark-gray;
-  text-decoration: none;
-  background-color: $black-05;
-  transform: scale(1.03)
-}
+// Pygments via Jekyll
+// .highlight {
+//   padding: 1rem;
+//   margin-bottom: 1rem;
+//   font-size: .8rem;
+//   line-height: 1.4;
+//   background-color: #f9f9f9;
+//   border-radius: .25rem;
 
-.cover-inner {
-  padding: 0.5rem 1rem 1rem 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  flex-grow: 1;
-}
+//   pre {
+//     margin-bottom: 0;
+//     overflow-x: auto;
+//   }
 
-.cover-title {
-  font-size: 1.4rem;
-  text-transform: capitalize;
-  font-weight: 700;
-  color: $title-color;
-  line-height: 1.2;
-}
+//   .lineno {
+//     display: inline-block; // Ensures the null space also isn't selectable
+//     padding-right: .75rem;
+//     padding-left: .25rem;
+//     color: #999;
+//     // Make sure numbers aren't selectable
+//     -webkit-user-select: none;
+//        -moz-user-select: none;
+//             user-select: none;
+//   }
+// }
 
-.cover-title a {
-  color: $title-color;
-}
 
-.cover-top a:hover{
-  text-decoration: none !important;
-}
 
-.cover-subtitle {
-  font-size: 1.0rem;
-  color: $black-70;
-  padding-top: 0.40rem;
-  padding-bottom: 0.4rem;
-  line-height: 1.1rem;
-  font-weight: 350;
-}
-
-.cover-footer-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-
-.cover-venue, .cover-year, .cover-links {
-  font-size: 0.9rem;
-  // font-style: italic;
-}
-
-.cover-venue, .cover-year {
-  padding-bottom: 0.5rem;
-}
-
-.cover-venue {
-  font-style: italic;
-  font-weight: 500;
-  color: $black-60;
-}
-
-.cover-year {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  text-align: right;
-}
-
-.cover-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  padding: 1rem;
-}
-
-.cover-image > a > img {
-  border-radius: 1rem;
-  border: 1px solid $black-05;
-  padding: 0.25rem;
-  background-color: white;
-  max-height: 280px;
-  max-width: 500px;
-}
-
-.cover-link {
-  text-decoration: none;
-}
-
-.cover-links > .pub-misc {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.25rem;
-  align-items: flex-start;
-  font-size: 0.9rem;
-  font-weight: 600;
-}
-
-.cover-links > .pub-misc > a {
-  background-color: #ffffff;
-	padding: 0.25rem 0.35rem 0.25rem 0.35rem !important;
-	border-radius: 0.25rem;
-  margin-right: 0rem;
-}
-
-.cover-links > .pub-misc > a:hover {
-  color: #ffffff !important;
-  background-color: $blue;
-}
-
-@media screen and (max-width: $homepage-pre-mobile) {
-  .cover-wrapper {
-    grid-column: page;
-    justify-content: left;
-  }
-
-  .cover {
-    flex-direction: column;
-    margin-left: 0rem;
-    width: auto;
-  }
-
-  .cover-image {
-    width: 100%;
-    padding: 0.5rem;
-  }
-}
-
-@media (max-width: $mobile) {
-  .cover-wrapper {
-    grid-column: page;
-    justify-content: left;
-    grid-template-columns: 1fr;
-  }
-
-  .cover {
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-left: 0rem !important;
-    margin-right: 0rem !important;
-  }
-
-  .cover-image {
-    width: 100%;
-    padding: 0.5rem;
-  }
-}
+// // GitHub pages gist
+// .gist .gist-file {
+//   font-family: Consolas, monaco, monospace !important;
+// }
+// .gist .markdown-body {
+//   padding: 15px;
+// }
+// .gist pre {
+//   padding: 0;
+//   background-color: transparent;
+// }
+// .gist .gist-file .gist-data {
+//   font-size: .8rem !important;
+//   line-height: 1.4;
+// }
+// .gist code {
+//   padding: 0;
+//   color: inherit;
+//   background-color: transparent;
+//   border-radius: 0;
+// }

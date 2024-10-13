@@ -1,6 +1,6 @@
 $cover-size-scalar: 30;
-$cover-height: 7px;
-$cover-width: 26.5px;
+$cover-height: 13.5px;
+$cover-width: 8.5px;
 
 .cover-wrapper {
   display: grid;
@@ -25,7 +25,7 @@ $cover-width: 26.5px;
   
   text-align: left;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   justify-content: space-between;
 
   background-color: $black-025;
@@ -44,16 +44,16 @@ $cover-width: 26.5px;
   padding: 0.5rem 1rem 1rem 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-grow: 1;
 }
 
 .cover-title {
   font-size: 1.4rem;
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 600;
   color: $title-color;
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
 .cover-title a {
@@ -65,22 +65,21 @@ $cover-width: 26.5px;
 }
 
 .cover-subtitle {
-  font-size: 1.0rem;
-  color: $black-70;
-  padding-top: 0.40rem;
-  padding-bottom: 0.4rem;
+  font-size: 0.875rem;
+  color: $black-60;
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
   line-height: 1.1rem;
-  font-weight: 350;
+  font-weight: 400;
 }
 
 .cover-footer-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
 }
 
 .cover-venue, .cover-year, .cover-links {
-  font-size: 0.9rem;
-  // font-style: italic;
+  font-size: 0.75rem;
 }
 
 .cover-venue, .cover-year {
@@ -88,7 +87,7 @@ $cover-width: 26.5px;
 }
 
 .cover-venue {
-  font-style: italic;
+  // font-style: italic;
   font-weight: 500;
   color: $black-60;
 }
@@ -101,20 +100,15 @@ $cover-width: 26.5px;
 }
 
 .cover-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  padding: 1rem;
+  width: 100%;
+  padding: 0.5rem;
 }
 
 .cover-image > a > img {
   border-radius: 1rem;
   border: 1px solid $black-05;
-  padding: 0.25rem;
+  // padding: 0.25rem;
   background-color: white;
-  max-height: 280px;
-  max-width: 500px;
 }
 
 .cover-link {
@@ -126,14 +120,12 @@ $cover-width: 26.5px;
   flex-wrap: wrap;
   gap: 0.25rem;
   align-items: flex-start;
-  font-size: 0.9rem;
-  font-weight: 600;
 }
 
 .cover-links > .pub-misc > a {
   background-color: #ffffff;
-	padding: 0.25rem 0.35rem 0.25rem 0.35rem !important;
-	border-radius: 0.25rem;
+	padding: 0.25rem 0.55rem 0.25rem 0.55rem !important;
+	border-radius: 1rem;
   margin-right: 0rem;
 }
 
@@ -149,14 +141,8 @@ $cover-width: 26.5px;
   }
 
   .cover {
-    flex-direction: column;
     margin-left: 0rem;
     width: auto;
-  }
-
-  .cover-image {
-    width: 100%;
-    padding: 0.5rem;
   }
 }
 
@@ -168,17 +154,11 @@ $cover-width: 26.5px;
   }
 
   .cover {
-    flex-direction: column;
     width: 100%;
     height: auto;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     margin-left: 0rem !important;
     margin-right: 0rem !important;
-  }
-
-  .cover-image {
-    width: 100%;
-    padding: 0.5rem;
   }
 }
