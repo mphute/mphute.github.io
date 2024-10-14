@@ -13,7 +13,7 @@ authors:
   - Kevin Li
   - Rahul Duggal
   - Mansi Phute
-  - Duen Horng Chau
+  - Duen Horng (Polo) Chau
   - Jason Martin
 venue: BMVC
 year: 2023

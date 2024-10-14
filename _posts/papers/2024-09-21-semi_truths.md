@@ -26,7 +26,7 @@ authors:
   - Mansi Phute
   - Manognya Bhattaram
   - Diyi Yang
-  - Polo Chau
+  - Duen Horng (Polo) Chau
   - Judy Hoffman
 pdf: /papers/24_semi-truths.pdf
 figure: /images/papers/24_semi-truths.png

@@ -27,7 +27,7 @@ authors:
     - Alec Helbling
     - ShengYun Peng
     - Mansi Phute
-    - Duen Horng Chau
+    - Duen Horng (Polo) Chau
     -  Minsuk Kahng
 pdf: /papers/
 figure: /images/papers/
