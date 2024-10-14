@@ -93,6 +93,7 @@ $author-image-size: 80px;
 }
 
 #paper-materials > a {
+	color: $pink-dark;
 	background-color: $white;
 	border-radius: 5rem;
 	padding: 0.75rem;
@@ -106,8 +107,8 @@ $author-image-size: 80px;
 	background: $near-white;
 	transform: scale(1.03);
 	text-decoration: none;
-	background-color: $intro-blue;
-	color: $blue;
+	background-color: #f29b9b1c;
+	color: $pink-dark;
 }
 
 @media screen and (max-width: $homepage-pre-mobile) {
