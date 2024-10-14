@@ -14,7 +14,7 @@ feature-order: 20230815
 coming-soon: false
 venue: ICLR Tiny Paper
 year: 2024
-award: 
+award: Deployed at ADP
 award-link:
 code: https://github.com/poloclub/llm-self-defense
 
