@@ -61,10 +61,10 @@
   institution-url: http://www.vit.edu
   type: academic
 
-  - institution: Vishwakarma Institute of Technology
+- institution: Vishwakarma Institute of Technology
   location: "India"
   position: Undergraduate Research Assistant
-  group: 
+  group: School of Electronics and Telecommunication
   year: "Fall 2020"
   mentors:
     - Abha Marathe
