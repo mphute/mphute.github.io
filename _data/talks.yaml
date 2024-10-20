@@ -2,3 +2,9 @@
   location: "Georgia Institute of Technology, Course on Large Language Models"
   month: "June"
   year: 2024
+  invited: true
+
+- title: "LLM Self Defense: By Self Examinations, LLMs Know They Are Being Tricked!"
+  location: "IBM, San Jose CA"
+  month: "October"
+  year: 2023
