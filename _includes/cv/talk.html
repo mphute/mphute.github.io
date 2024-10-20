@@ -3,14 +3,14 @@
 {% for talk in title.items %}
 <div class="cv-left-date">{{ talk.month }} {{ talk.year }}</div>
 <div>{{ talk.location }}</div>
-
-
-    {% if talk.invited %}
+<div class="talk-misc">
+{% if talk.invited %}
         <a>
-            <i class="fas fa-star" aria-hidden="true">Invited</i> 
+            <i class="fas fa-star" aria-hidden="true"></i> Invited
         </a>
-    {% endif %}
-
+{% endif %}
+</div>
 {% endfor %}
+
 
 <div class="cv-spacer"></div>
