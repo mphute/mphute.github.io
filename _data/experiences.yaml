@@ -61,6 +61,17 @@
   institution-url: http://www.vit.edu
   type: academic
 
+  - institution: Vishwakarma Institute of Technology
+  location: "India"
+  position: Undergraduate Research Assistant
+  group: 
+  year: "Fall 2020"
+  mentors:
+    - Abha Marathe
+  description: "Conducted a thorough literature survey on the use of AI in finance and the various ways it is used for risk management in the stock market"
+  institution-url: http://www.vit.edu
+  type: academic
+
 - institution: Tech Mahindra Ltd
   location: "Pune, India"
   position: Intern, Web Development

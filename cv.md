@@ -45,7 +45,7 @@ My work spans a wide range of application areas, including robust multi-object t
 {% endfor %}
 {:/}
 
-## Academic Research Experience
+## Research Experience
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'academic' %}
@@ -53,7 +53,7 @@ My work spans a wide range of application areas, including robust multi-object t
 {% endif %}
 {% endfor %}
 
-## Industry Research Experience
+<!-- ## Industry Research Experience -->
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'industry' %}
@@ -86,7 +86,7 @@ My work spans a wide range of application areas, including robust multi-object t
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %} -->
 
-## Invited Talks and Presentations
+## Talks and Presentations
 
 {% assign talktitles = site.data.talks | group_by:"title" %}
 {% for title in talktitles %}

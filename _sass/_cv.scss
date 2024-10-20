@@ -180,9 +180,11 @@
 }
 
 .talk-misc{
-	color: $gold;
+	color: $gold !important;
 	font-weight: 600;
 	font-size: 0.75rem;
+	margin-right: 0.5rem;
+	white-space: nowrap;
 }
 
 .equal-contribution {
