@@ -7,7 +7,8 @@ id: semi-truths
 
 # cover
 feature-title: "Semi Truths"
-feature-description: "A Large-Scale Dataset for Testing Robustness of AI-Generated Image Detectors"
+feature-description: "A Large-Scale Dataset for 
+Testing Robustness of AI-Generated Image Detectors"
 image: /images/featured/24_semi-truths.png
 featured: true
 feature-order: 20240815
