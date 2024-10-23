@@ -11,7 +11,8 @@ jsarr:
 <div style="height: 1rem"></div>
 <div>
 	My research focuses on the <b><span class="cv-ai">security</span></b> and <b><span class="cv-hci">explainability</span></b> of language and vision foundation models. I work on developing explanations for machine learning models and analyzing them to identify vulnerabilities in existing ML systems, then find solutions to mitigate these issues.
-My work spans a wide range of application areas, including robust multi-object tracking in computer vision, developing defenses against attacks on large language models, and understanding large language models and the insights they can give us into human interactions.
+
+My work spans a wide range of application areas, including robust multi-object tracking in computer vision, developing defenses against attacks on large language models, and understanding large language models and the insights they can give us into human interactions. I have also worked with 3D simulation software like CARLA and Unreal Engine.
 </div>
 
 <div class="cv-spacer"></div>
