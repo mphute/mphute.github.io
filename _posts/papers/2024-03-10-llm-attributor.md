@@ -12,7 +12,7 @@ image: /images/featured/24-llm-attributor.png
 featured: true
 feature-order: 20240101
 coming-soon: false
-venue: ACL
+venue: ACL demo
 year: 2024
 award: 
 award-link:
@@ -29,7 +29,7 @@ authors:
     - Mansi Phute
     - Duen Horng (Polo) Chau, 
     - Minsuk Kahng
-pdf: /papers/24_llm-attributor
+pdf: /papers/24_llm-attributor.pdf
 figure: /images/papers/24-llm-attributor.png
 caption: 
 selected: false
