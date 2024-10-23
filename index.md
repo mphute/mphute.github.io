@@ -27,7 +27,7 @@ title: Home
 	</div>
 	<div>
 		My research focuses on the <b>security</b> and <b>explainability</b> of multimodal foundation models. I work on developing explanations for ML systems, analyzing them to identify vulnerabilities, and finding solutions to mitigate these issues.
-		My work spans a wide range of application areas, including multi-object robust tracking in computer vision, developing defenses against attacks on large language models, and understanding large language models and the insights they can give us into human interactions.
+		My work spans a wide range of application areas, including multi-object robust tracking in computer vision, developing defenses against attacks on large language models, and understanding large language models and the insights they can give us into human interactions. I have also worked with 3D simulation software like CARLA and Unreal Engine. 
 	</div>
 	<div style="height: 0.5rem"></div>
 	<div>
