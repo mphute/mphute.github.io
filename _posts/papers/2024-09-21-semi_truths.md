@@ -16,7 +16,7 @@ venue: NeurIPS
 year: 2024
 award: 
 award-link:
-code: 
+code: https://github.com/J-Kruk/SemiTruths
 
 # content
 title: "Semi Truths: A Large-Scale Dataset for Testing Robustness of AI-Generated Image Detectors"
@@ -29,6 +29,7 @@ authors:
   - Duen Horng (Polo) Chau
   - Judy Hoffman
 pdf: /papers/24_semi-truths.pdf
+url: https://arxiv.org/pdf/2411.07472
 figure: /images/papers/24_semi-truths.png
 caption: 
 selected: false
