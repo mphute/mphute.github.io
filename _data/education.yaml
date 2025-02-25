@@ -1,8 +1,8 @@
-- degree: "Ph.D. in Computer Science"ß
+- degree: "Ph.D. in Computer Science"
   institution: Georgia Institute of Technology
   location: "Atlanta, GA"
   years: "Fall 2024 — "
-  institution-url: https://www.gatech.edu/
+  institution-url: https://www.gatech.edu/\
 
 - degree: "M.S. in Coßmputer Science"
   description:
