@@ -32,10 +32,15 @@ authors:
 pdf: /papers/24_llm-attributor.pdf
 figure: /images/papers/24-llm-attributor.png
 caption: 
-selected: false
+selected: true
 type: conference
 doi: 
 bibtex: |-
-
+    @article{lee2024llm,
+    title={LLM Attributor: Interactive Visual Attribution for LLM Generation},
+    author={Lee, Seongmin and Wang, Zijie J and Chakravarthy, Aishwarya and Helbling, Alec and Peng, ShengYun and Phute, Mansi and Chau, Duen Horng and Kahng, Minsuk},
+    journal={arXiv preprint arXiv:2404.01361},
+    year={2024}
+    }
 
 ---
