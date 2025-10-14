@@ -24,7 +24,7 @@ pdf:
 selected: true
 figure: /images/papers/25-llm-interpretation-safety-survey.png
 image: /images/papers/25-llm-interpretation-safety-survey.png
-featured: true
+featured: false
 feature-order: 4
 feature-title: Render Bender
 feature-description: Survey on Adversarial Attacks Using Differentiable Rendering

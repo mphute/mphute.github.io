@@ -26,7 +26,7 @@ caption: "We synthesize a suite of generalizable architectural design principles
 feature-title: "Robust Principles:"
 feature-description: Architectural Design Principles for Adversarially Robust CNNs
 image: /images/featured/23_robust-principles.png
-featured: true
+featured: false
 feature-order: 20230801
 award: Best Poster Award
 award-link: /papers/award/23_robust-principles.pdf
