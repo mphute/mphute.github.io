@@ -12,8 +12,8 @@ image: /images/featured/
 featured: true
 feature-order:
 coming-soon: false
-venue: 
-year: 
+venue: arXiV
+year: 2025
 award: 
 award-link:
 code: 
