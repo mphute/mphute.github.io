@@ -1,3 +1,18 @@
+- institution: HiddenLayer, Inc.
+  location: "Austin, TX"
+  position: Research Assistant
+  group: Adversarial Robustness Team
+  year: "Summer 2025 — Fall 2025"
+  year-extra: "Present"
+  mentors:
+    - Jason Martin
+    - Ravi Balakrishnan
+  description: "Helped pioneer transition of AI defense systems to account for multimodal attacks. Developed universal transferrable multimodal steering images that can alter model behavior using the input channel without requiring access to the model internals. My work during the internship was implemented into the product [AIDR (AI Detection and Response)](https://www.hiddenlayer.com/aidr/)"
+  institution-url: https://hiddenlayer.com
+  group-url: https://www.hiddenlayer.com
+  type: industry
+
+
 - institution: Georgia Institute of Technology
   location: "Atlanta, GA"
   position: Graduate Research Assistant

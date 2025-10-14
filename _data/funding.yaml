@@ -1,7 +1,6 @@
-# - title:  AI-Infused Anomaly Visualization and Recovery for Swarm Oversight
-#   years: 2024
-#   name: Co-authored a proposal for TII (Technology Innovation Institute) in Abu Dhabi, UAE 
-#   pis: Duen Horng (Polo) Chau and Wenke Lee (Georgia Tech)
+# - title:  Immersive AI Learning for the Next Generation
+#   name:  
+#   pis: Duen Horng (Polo) Chau
 #   title-url: 
 #   name-url: 
 
@@ -12,4 +11,4 @@
   co-p: Cory Conelius (Intel Labs), Duen Horng (Polo) Chau (Georgia Tech)
   title-url: https://www.darpa.mil/program/guaranteeing-ai-robustness-against-deception
   name-url: https://www.darpa.mil/program/guaranteeing-ai-robustness-against-deception
-  # amount: "$80,000/year for 3 years"
+  amount: "$80,000/year for 3 years"
