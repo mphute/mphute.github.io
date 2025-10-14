@@ -16,8 +16,8 @@ authors:
   - Martin Andreoni 
   - Wenke Lee 
   - Duen Horng Chau
-venue: Main, Conference on Empirical Methods in Natural Language Processing
-venue-shorthand: EMNLP
+venue: International Joint Conference on Artificial Intelligence (IJCAI)
+venue-shorthand: IJCAI'25
 year: 2025
 url: 
 pdf: 
