@@ -21,10 +21,10 @@ venue-shorthand: arXiv
 year: 2025
 url: https://arxiv.org/pdf/2508.11854
 pdf: https://arxiv.org/pdf/2508.11854
-selected: true
+selected: false
 figure: 
 image: 
-featured: true
+featured: false
 feature-order: 20251001
 feature-title: ComplicitSplat
 feature-description: "Downstream models are vulnerable to blackbox attacks by 3dgs camouflages"
