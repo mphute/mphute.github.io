@@ -10,7 +10,7 @@ feature-title: VISOR++
 feature-description: Transferrable Visual Input based Steering for Output Redirection in Large Vision Language Models
 image: /images/featured/
 featured: true
-feature-order:
+feature-order: 20250901
 coming-soon: false
 venue: arXiV
 year: 2025
@@ -28,7 +28,7 @@ figure: /images/papers/
 caption: 
 selected: false
 type: conference
-doi:          v 
+doi:    
 bibtex: |-
 
 
