@@ -9,7 +9,7 @@ id: llm-attributor
 feature-title: LLM Attributor
 feature-description: Interactive Visual Attribution for LLM Generation
 image: /images/featured/24-llm-attributor.png
-featured: true
+featured: false
 feature-order: 20240101
 coming-soon: false
 venue: ACL demo
@@ -32,7 +32,7 @@ authors:
 pdf: /papers/24_llm-attributor.pdf
 figure: /images/papers/24-llm-attributor.png
 caption: 
-selected: true
+selected: false
 type: conference
 doi: 
 bibtex: |-
