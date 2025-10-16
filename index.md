@@ -26,8 +26,11 @@ title: Home
 		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div>
-		My research focuses on the <b>security</b> and <b>explainability</b> of machinen learning models. I work on developing explanations for ML systems, analyzing them to identify vulnerabilities, and finding solutions to mitigate these issues.
-		My work spans a wide range of application areas, including multi-object robust tracking in computer vision, developing defenses against attacks on large language models, and leveraging vision language models to develop large scale datasets for testing model robustness. I have also worked with 3D simulation software like CARLA and Unreal Engine to create software frameworks. 
+		My research focuses on the <b>security</b> and <b>explainability</b> of machinne learning models. 
+		My general interests are reponsible AI and AI safety.
+		I work on developing explanations for ML systems, analyzing them to identify vulnerabilities, and finding solutions to mitigate these issues.
+		My Undream system offers .... 
+		Some of the other work I have to .. is LLM Self Defense 
 	</div>
 	<div style="height: 0.5rem"></div>
 	<div>
