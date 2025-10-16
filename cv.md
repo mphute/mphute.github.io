@@ -51,18 +51,18 @@ jsarr:
 ## Research Experience
 
 {% for experience in site.data.experiences %}
-<!-- {% if experience.type == 'academic' %} -->
+{% if experience.type == 'academic' %}
 {% include cv/experience.html experience=experience %}
-<!-- {% endif %} -->
+{% endif %}
 {% endfor %}
 
-<!-- ## Industry Research Experience -->
-<!-- 
+## Industry Research Experience -->
+
 {% for experience in site.data.experiences %}
 {% if experience.type == 'industry' %}
 {% include cv/experience.html experience=experience %}
 {% endif %}
-{% endfor %} -->
+{% endfor %}
 
 
 ## Honors and Awards
