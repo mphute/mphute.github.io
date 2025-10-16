@@ -1,7 +1,7 @@
 ---
 layout: paper
 categories: papers
-url: /papers/
+url: https://www.arxiv.org/abs/2509.25533
 permalink: papers/visor-pp
 id: visor-pp
 
@@ -23,7 +23,7 @@ title: VISOR++ - Transferrable Visual Input based Steering for Output Redirectio
 authors:
   - Ravi Balakrishnan
   - Mansi Phute
-pdf: /papers/
+pdf: https://www.arxiv.org/pdf/2509.25533
 figure: /images/papers/
 caption: 
 selected: false
