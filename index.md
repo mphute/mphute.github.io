@@ -25,12 +25,12 @@ title: Home
 		<a href="{{ site.url }}/projects"><div><i class="fa fa-shapes icon icon-right-space"></i>Projects</div></a>
 		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
-	<div>
-		My research focuses on the <b>security</b> and <b>explainability</b> of machinne learning models. 
-		My general interests are reponsible AI and AI safety.
+	<div> 
+		My reserach interests are Reponsible AI and AI safety.
 		I work on developing explanations for ML systems, analyzing them to identify vulnerabilities, and finding solutions to mitigate these issues.
-		My Undream system offers .... 
-		Some of the other work I have to .. is LLM Self Defense 
+		My UNDREAM system system offers a way to bridge differentiable rendering and photorealistic simulation for end-to-end adversarial attacks, thus enabling beter transferability of attacks to the physical world.
+		Some of the other work I have that focuses on the security of LLMs is LLM Self Defense, which leverages the models own understanding of harm to protect itself from attacks.
+		My work also includes using multimodal foundational models to create large scale datasets that thoroughly test robustness of our current fake image detection systems on multiple axes.
 	</div>
 	<div style="height: 0.5rem"></div>
 	<div>

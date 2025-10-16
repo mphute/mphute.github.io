@@ -10,9 +10,11 @@ jsarr:
 
 <div style="height: 1rem"></div>
 <div>
-	My research focuses on the <b><span class="cv-ai">security</span></b> and <b><span class="cv-hci">explainability</span></b> of language and vision foundation models. I work on developing explanations for machine learning models and analyzing them to identify vulnerabilities in existing ML systems, then find solutions to mitigate these issues.
-
-My work spans a wide range of application areas, including robust multi-object tracking in computer vision, developing defenses against attacks on large language models, and understanding large language models and the insights they can give us into human interactions. I have also worked with 3D simulation software like CARLA and Unreal Engine.
+	My reserach interests are Reponsible AI and AI safety.
+	I work on developing explanations for ML systems, analyzing them to identify vulnerabilities, and finding solutions to mitigate these issues.
+	My UNDREAM system system offers a way to bridge differentiable rendering and photorealistic simulation for end-to-end adversarial attacks, thus enabling beter transferability of attacks to the physical world.
+	Some of the other work I have that focuses on the security of LLMs is LLM Self Defense, which leverages the models own understanding of harm to protect itself from attacks.
+	My work also includes using multimodal foundational models to create large scale datasets that thoroughly test robustness of our current fake image detection systems on multiple axes.
 </div>
 
 <div class="cv-spacer"></div>
