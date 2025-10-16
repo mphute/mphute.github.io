@@ -10,7 +10,7 @@ jsarr:
 
 <div style="height: 1rem"></div>
 <div>
-	My reserach interests are Reponsible AI and AI safety.
+	My reserach interests are <b>Reponsible AI</b> and <b>ML safety</b>.
 	I work on developing explanations for ML systems, analyzing them to identify vulnerabilities, and finding solutions to mitigate these issues.
 	My UNDREAM system system offers a way to bridge differentiable rendering and photorealistic simulation for end-to-end adversarial attacks, thus enabling beter transferability of attacks to the physical world.
 	My work includes LLM Self Defense, which leverages the models own understanding of harm to protect itself from attacks.
