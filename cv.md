@@ -56,7 +56,7 @@ jsarr:
 {% endif %}
 {% endfor %}
 
-## Industry Research Experience -->
+## Industry Research Experience
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'industry' %}
