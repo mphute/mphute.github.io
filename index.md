@@ -26,10 +26,10 @@ title: Home
 		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div> 
-		My reserach interests are <b>Reponsible AI</b> and <b>ML safety</b>.
-		I work on developing explanations for ML systems, analyzing them to identify vulnerabilities, and finding solutions to mitigate these issues.
-		My UNDREAM system system offers a way to bridge differentiable rendering and photorealistic simulation for end-to-end adversarial attacks, thus enabling beter transferability of attacks to the physical world.
-		Some of the other work I have that focuses on the security of LLMs is LLM Self Defense, which leverages the models own understanding of harm to protect itself from attacks.
+		My research interests are <b>Responsible AI</b> and <b>ML safety</b>.
+	I work on developing explanations for ML systems, analyzing them to identify vulnerabilities, and finding solutions to mitigate these issues.
+	My UNDREAM system system offers a way to bridge differentiable rendering and photorealistic simulation for end-to-end adversarial attacks, thus enabling beter transferability of attacks to the physical world.
+	My work includes LLM Self Defense, which leverages the model's own understanding of harm to protect itself from attacks.
 		<!-- My work also includes using multimodal foundational models to create large scale datasets that thoroughly test robustness of our current fake image detection systems on multiple axes. -->
 	</div>
 	<div style="height: 0.5rem"></div>
