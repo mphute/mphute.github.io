@@ -25,7 +25,7 @@ selected: false
 figure: 
 image: 
 featured: false
-feature-order: 20251001
+feature-order: 20250702
 feature-title: ComplicitSplat
 feature-description: "Downstream models are vulnerable to blackbox attacks by 3dgs camouflages"
 bibtex: |-
