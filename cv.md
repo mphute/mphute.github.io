@@ -108,11 +108,11 @@ jsarr:
 {% include cv/teaching.html teach=teach %}
 {% endfor %} 
 
-## Grants and Funding
+<!-- ## Grants and Funding
 
 {% for fund in site.data.funding %}
 {% include cv/fund.html fund=fund %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- ## Interactive Articles
 

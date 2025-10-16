@@ -5,10 +5,10 @@
 #   name-url: 
 
 
-- title: Guaranteeing AI Robustness against Deception
-  years: "2023 — 2024"
-  name: "Funded by DARPA: Defense Advance Research Projects Agency"
-  co-p: Cory Conelius (Intel Labs), Duen Horng (Polo) Chau (Georgia Tech)
-  title-url: https://www.darpa.mil/program/guaranteeing-ai-robustness-against-deception
-  name-url: https://www.darpa.mil/program/guaranteeing-ai-robustness-against-deception
-  amount: "$80,000/year for 3 years"
+# - title: Guaranteeing AI Robustness against Deception
+#   years: "2023 — 2024"
+#   name: "Funded by DARPA: Defense Advance Research Projects Agency"
+#   co-p: Cory Conelius (Intel Labs), Duen Horng (Polo) Chau (Georgia Tech)
+#   title-url: https://www.darpa.mil/program/guaranteeing-ai-robustness-against-deception
+#   name-url: https://www.darpa.mil/program/guaranteeing-ai-robustness-against-deception
+#   amount: "$80,000/year for 3 years"
