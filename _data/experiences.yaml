@@ -47,23 +47,10 @@
   year-extra: "Spring 2022"
   mentors:
     - Thambipillai Srikanthan
-  description: "Increasing python application security by analyzing libraries used. Developed dynamic dependency graph to trace vulnerabilities."
+  description: "Increasing python application security by analyzing libraries used. Developed dynamic dependency graph to trace vulnerabilities. Automated human resource planning and forecasting by combining business intelligence of NHS, UK with data analytics to properly shift the HR planning from manual to automated."
   institution-url: https://www.ntu.edu.sg
   group-url: https://www.ntu.edu.sg/cysren
   type: academic
-
-# - institution: Nanyang Technological University
-#   location: "Singapore"
-#   position: Undergraduate Research Assistant
-#   group: "Cyber Security Research Centre at NTU (CYSREN)"
-#   year: "Fall 2021 —"
-#   year-extra: "Spring 2022"
-#   mentors:
-#     - Thambipillai Srikanthan
-#   description: "Automated human resource planning and forecasting by combining business intelligence of NHS, UK with data analytics to properly shift the HR planning from manual to automated"
-#   institution-url: https://www.ntu.edu.sg
-#   group-url: https://www.ntu.edu.sg/cysren
-#   type: academic
 
 - institution: Vishwakarma Institute of Technology
   location: "India"
@@ -76,16 +63,16 @@
   institution-url: http://www.vit.edu
   type: academic
 
-# - institution: Vishwakarma Institute of Technology
-#   location: "India"
-#   position: Undergraduate Research Assistant
-#   group: School of Electronics and Telecommunication
-#   year: "Fall 2020"
-#   mentors:
-#     - Abha Marathe
-#   description: "Conducted a thorough literature survey on the use of AI in finance and the various ways it is used for risk management in the stock market"
-#   institution-url: http://www.vit.edu
-#   type: academic
+- institution: Vishwakarma Institute of Technology
+  location: "India"
+  position: Undergraduate Research Assistant
+  group: School of Electronics and Telecommunication
+  year: "Fall 2020"
+  mentors:
+    - Abha Marathe
+  description: "Conducted a thorough literature survey on the use of AI in finance and the various ways it is used for risk management in the stock market"
+  institution-url: http://www.vit.edu
+  type: academic
 
 - institution: Tech Mahindra Ltd
   location: "Pune, India"
