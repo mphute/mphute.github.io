@@ -2,22 +2,18 @@
   description: Awarded to a well-rounded, second-year Master's student who best embodies values of academic excellence and leadership
   year: 2024
 
-- name: Best Poster at BMVC'23
-  description: Robust Principles was awarded the Best Poster award at BMVC
-  year: 2023
+# - name: Best Poster at BMVC'23
+#   description: Robust Principles was awarded the Best Poster award at BMVC
+#   year: 2023
 
 - name: Best Scholar in ECE 
   description: Merit-based award for the ECE student with the highest undergraduate GPA in the entire department 
   year: 2022
 
-- name: Best Student in ECE
-  description: One of the 3 students chosen as the best student in ECE department based on overall performance throughout undergrad
-  year: 2022
+# - name: Best Student in ECE
+#   description: One of the 3 students chosen as the best student in ECE department based on overall performance throughout undergrad
+#   year: 2022
 
-- name: Second place in IEEE "One Million Seconds" Hackathon 
-  description: Designed an autonomous system to support healthcare workers for cleaning the isolation wards in COVID-19 hospitals in India. First Runner Up from a total of 1200 participants
-  year: 2020
-
-# - name: Times NIE Student of the Year
-#   description: Selected by "Times of India" as the best student in school based on overall acedamic and extracurricular performance.
-#   year: 2015
+# - name: Second place in IEEE "One Million Seconds" Hackathon 
+#   description: Designed an autonomous system to support healthcare workers for cleaning the isolation wards in COVID-19 hospitals in India. First Runner Up from a total of 1200 participants
+#   year: 2020
