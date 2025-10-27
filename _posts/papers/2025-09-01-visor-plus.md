@@ -8,8 +8,8 @@ id: visor-pp
 # cover
 feature-title: VISOR++
 feature-description: Transferrable Visual Input based Steering for Output Redirection in Large Vision Language Models
-image: /images/featured/
-featured: false
+image: /images/papers/25-visor-plus.png
+featured: true
 feature-order: 20250901
 coming-soon: false
 venue: arXiV
@@ -24,9 +24,9 @@ authors:
   - Ravi Balakrishnan
   - Mansi Phute
 pdf: https://www.arxiv.org/pdf/2509.25533
-figure: /images/papers/
+figure: /images/papers/25-visor-plus.png
 caption: 
-selected: false
+selected: true
 type: conference
 doi:    
 bibtex: |-
