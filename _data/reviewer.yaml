@@ -3,3 +3,9 @@
   years:
     - year: 2023
       url: https://solar-neurips.github.io
+
+- venue: ICLR 
+  venue-shorthand: ICLR
+  years:
+    - year: 2026
+      url: https://iclr.cc/
