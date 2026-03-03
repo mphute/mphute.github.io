@@ -6,7 +6,7 @@ title: Home
 <div id="intro-wrapper" class="l-middle">
 	<div id="intro-title-wrapper">
 		<div id="intro-image-wrapper">
-			<img id="intro-image" src="images/portrait.png"></div>
+			<img id="intro-image" src="images/portrait_small.png"></div>
 		<div id="intro-title-text-wrapper">
 			<h1 id="intro-title">Hi, I'm Mansi Phute</h1>
 			<div id="intro-subtitle">CS PhD at Georgia Tech</div>
