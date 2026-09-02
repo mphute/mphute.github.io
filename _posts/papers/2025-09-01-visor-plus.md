@@ -10,10 +10,11 @@ feature-title: VISOR++
 feature-description: Transferrable Visual Input based Steering for Output Redirection in Large Vision Language Models
 image: /images/papers/25-visor-plus.png
 featured: true
-feature-order: 20250901
+feature-order: 20260901
 coming-soon: false
-venue: arXiV
-year: 2025
+venue: European Conference on Computer Vision 2026
+venue-shorthand: ECCV 2026
+year: 2026
 award: 
 award-link:
 code: 
@@ -21,8 +22,8 @@ code:
 # content
 title: VISOR++ - Transferrable Visual Input based Steering for Output Redirection in Large Vision Language Models
 authors:
-  - Ravi Balakrishnan
-  - Mansi Phute
+  - Ravi Balakrishnan*
+  - Mansi Phute*
 pdf: https://www.arxiv.org/pdf/2509.25533
 figure: /images/papers/25-visor-plus.png
 caption: 

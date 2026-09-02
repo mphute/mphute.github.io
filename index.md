@@ -29,17 +29,17 @@ title: Home
 		My research interests are <b>Responsible AI</b> and <b>ML safety</b>.
 	I work on developing explanations for ML systems, analyzing them to identify vulnerabilities, and finding solutions to mitigate these issues.
 	My UNDREAM system system offers a way to bridge differentiable rendering and photorealistic simulation for end-to-end adversarial attacks, thus enabling beter transferability of attacks to the physical world.
-	My work includes LLM Self Defense, which leverages the model's own understanding of harm to protect itself from attacks.
+	My work includes VISOR and VISOR++ which create a universal, transferable steering image that can steer architecturally diverse models without requiring access to their internal model parameters at runtime.
 		<!-- My work also includes using multimodal foundational models to create large scale datasets that thoroughly test robustness of our current fake image detection systems on multiple axes. -->
 	</div>
 	<div style="height: 0.5rem"></div>
 	<div>
-		I am currently a PhD student at Georgia Tech advised by <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a> as a part of the <a href="http://poloclub.gatech.edu">Polo Club of Data Science</a>.
+		I am a PhD student at Georgia Tech advised by <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a> as a part of the <a href="http://poloclub.gatech.edu">Polo Club of Data Science</a>.
 		<br>
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		I have collaborated with designers, developers, and scientists at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/intellabs.svg"> Intel Labs, <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/ntu.svg"> Nanyang Technological University, and <img class="intro-logo" style="width: 24px;" src="/images/dassault_logo_small.svg"> Dassault Systems.
+		I have collaborated with designers, developers, and scientists at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/ibm.svg"> IBM, <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/hiddenlayer.svg"> HiddenLayer, <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/intellabs.svg"> Intel Labs, <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/ntu.svg"> Nanyang Technological University, and <img class="intro-logo" style="width: 24px;" src="/images/dassault_logo_small.svg"> Dassault Systems.
 	</div>
 </div>
 

@@ -13,7 +13,8 @@ jsarr:
 	My research interests are <b>Responsible AI</b> and <b>ML safety</b>.
 	I work on developing explanations for ML systems, analyzing them to identify vulnerabilities, and finding solutions to mitigate these issues.
 	My UNDREAM system system offers a way to bridge differentiable rendering and photorealistic simulation for end-to-end adversarial attacks, thus enabling beter transferability of attacks to the physical world.
-	My work includes LLM Self Defense, which leverages the model's own understanding of harm to protect itself from attacks.
+	My work includes VISOR and VISOR++ which create a universal, transferable steering image that can steer architecturally diverse models without requiring access to their internal model parameters at runtime.
+	<!-- My work includes LLM Self Defense, which leverages the model's own understanding of harm to protect itself from attacks. -->
 	<!-- I have worked with multimodal foundational models to create Semi-Truths, a large scale dataset that tests robustness of our current fake image detection systems on multiple axes. -->
 </div>
 
