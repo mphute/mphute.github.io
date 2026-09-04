@@ -7,7 +7,7 @@
   mentors:
     - Nathalie Baracaldo
     - Heiko Ludwig
-  description: "Worked on a way to enforce policy on Agent to agent communication in KV cache space"
+  description: "Led a project to ensure multi-agent communication using KV-cache carries policy definition without sharing in the policies in plaintext. It allows multi-modal and single modality agents tackling use cases where documents with images are needed by agent users."
   institution-url: https://www.ibm.com
   group-url: https://www.ibm.com
   type: industry
