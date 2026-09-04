@@ -83,6 +83,12 @@ jsarr:
 {% endif %}
 {% endfor %}
 
+## Patent
+
+{% for patent in site.data.patent %}
+{% include cv/patent.html patent=patent %}
+{% endfor %}
+
 <!-- ## Preprint
 
 {% assign preprint = site.categories.papers | where: 'type', "misc" %}
