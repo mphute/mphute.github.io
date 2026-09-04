@@ -1,6 +1,20 @@
+- institution: IBM.
+  location: "San Jose, CA"
+  position: Research Intern
+  group: AI Foundations Team
+  year: "Summer 2026"
+  year-extra: 
+  mentors:
+    - Nathalie Baracaldo
+    - Heiko Ludwig
+  description: "Worked on a way to enforce policy on Agent to agent communication in KV cache space"
+  institution-url: https://www.ibm.com
+  group-url: https://www.ibm.com
+  type: industry
+
 - institution: HiddenLayer, Inc.
   location: "Austin, TX"
-  position: Research Assistant
+  position: Research Intern
   group: Adversarial Robustness Team
   year: "Summer 2025 — Fall 2025"
   year-extra: 
