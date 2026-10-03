@@ -1,4 +1,4 @@
-\title: Mansi Phute
+title: Mansi Phute
 tagline: PhD at GaTech
 url: https://mphute.github.io
 baseurl: ""
@@ -32,3 +32,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
+exclude:
+  - blog.md
+  - _posts/blog
+  - blog

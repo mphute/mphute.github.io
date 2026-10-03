@@ -199,3 +199,19 @@ $cv-icon-aspect-ratio: 1.33;
 		font-weight: 500;
 	}
 }
+#news {
+	list-style: none;
+	padding-left: 0;
+	margin: 0.75rem 0 0;
+}
+
+#news li {
+	margin-bottom: 0.5rem;
+}
+
+#news .news-date {
+	display: inline-block;
+	min-width: 5rem;
+	font-weight: 600;
+	color: $mid-gray;
+}
