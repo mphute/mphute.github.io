@@ -1,7 +1,9 @@
 # Newest first. Add an entry at the top: date (free text), text (HTML allowed).
 - date: "Sep 2026"
   text: 'Featured in Georgia Tech College of Computing news: <a href="https://www.cc.gatech.edu/news/internship-highlights-industrys-role-advancing-safe-trustworthy-ai">Internship Highlights</a>.'
+# - date: "Jun 2026"
+#   text: 'New preprint: <a href="/papers/allude">ALLUDE</a>, a unified evaluation system for configurable attacks in differentiable environments.'
 - date: "Jun 2026"
-  text: 'New preprint: <a href="/papers/allude">ALLUDE</a>, a unified evaluation system for configurable attacks in differentiable environments.'
-- date: "2026"
-  text: '<a href="/papers/undream">UNDREAM</a> accepted at the Pacific Asia Conference on Knowledge and Data Discovery (PAKDD).'
+  text: 'I presented <a href="/papers/undream">UNDREAM</a> at the Pacific Asia Conference on Knowledge and Data Discovery (PAKDD).'
+- date: "Apr 2026"
+  text: 'My patent <a href="https://ppubs.uspto.gov/api/pdf/downloadPdf/US-12608861-B1?source=USPAT&requestToken=eyJzdWIiOiJmYzE2ZjNhZS0zYjliLTQ1YTEtYmIyNC02NjQ1YjQzNDg0OGEiLCJ2ZXIiOiI4MDk3ZmE4MC1iYmVkLTQ4MjUtOWNmNC0xM2Y0ODc2MTM5ZTAiLCJleHAiOjB9">US12608861B1</a> was published.' 
