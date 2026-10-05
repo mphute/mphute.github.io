@@ -25,6 +25,13 @@ title: Home
 		<a href="{{ site.url }}/projects"><div><i class="fa fa-shapes icon icon-right-space"></i>Projects</div></a>
 		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
+
+	<div style="height: 0.5rem"></div>
+	<div>
+		I am a PhD student at Georgia Tech advised by <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a> as a part of the <a href="http://poloclub.gatech.edu">Polo Club of Data Science</a>.
+		<br>
+	</div>
+	
 	<div> 
 	My research is in the field of Trustworthy, Responsible, and Secure AI. 
 	My PhD thesis aims to identify vulnerabilities in AI systems and develop practical, scalable defenses against them, with the goal of securing large-scale AI models and increasing trust in the deployed systems. 
@@ -38,11 +45,7 @@ title: Home
 	My work includes VISOR and VISOR++ which create a universal, transferable steering image that can steer architecturally diverse models without requiring access to their internal model parameters at runtime. -->
 		<!-- My work also includes using multimodal foundational models to create large scale datasets that thoroughly test robustness of our current fake image detection systems on multiple axes. -->
 	</div>
-	<div style="height: 0.5rem"></div>
-	<div>
-		I am a PhD student at Georgia Tech advised by <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a> as a part of the <a href="http://poloclub.gatech.edu">Polo Club of Data Science</a>.
-		<br>
-	</div>
+	
 	<div style="height: 1rem"></div>
 	<div>
 		I have collaborated with scientists at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/ibm.svg"> IBM, <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/hiddenlayer.svg"> HiddenLayer, <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/intellabs.svg"> Intel Labs, and <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/ntu.svg"> Nanyang Technological University
