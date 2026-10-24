@@ -1,8 +1,8 @@
 # Newest first. Add an entry at the top: date (free text), text (HTML allowed).
 - date: "Sep 2026"
-  text: 'Featured in Georgia Tech College of Computing news: <a href="https://www.cc.gatech.edu/news/internship-highlights-industrys-role-advancing-safe-trustworthy-ai">Internship Highlights</a>.'
-# - date: "Jun 2026"
-#   text: 'New preprint: <a href="/papers/allude">ALLUDE</a>, a unified evaluation system for configurable attacks in differentiable environments.'
+  text: 'I was featured in Georgia Tech College of Computing news: <a href="https://www.cc.gatech.edu/news/internship-highlights-industrys-role-advancing-safe-trustworthy-ai">Internship Highlights</a>.'
+- date: "Aug 2026"
+  text: 'I completed my Research Internship at IBM, San Jose, CA.'
 - date: "Jun 2026"
   text: 'I presented <a href="/papers/undream">UNDREAM</a> at the Pacific Asia Conference on Knowledge and Data Discovery (PAKDD).'
 - date: "Apr 2026"

@@ -62,6 +62,16 @@ title: Home
 		<li>🎉 <span class="news-date">{{ item.date }}</span> {{ item.text }}</li>
 	{% endfor %}
 </ul>
+{% if site.data.news.size > 4 %}
+<details id="news-more" class="l-middle">
+	<summary>Read more</summary>
+	<ul id="news-older">
+		{% for item in site.data.news offset:4 %}
+			<li>🎉 <span class="news-date">{{ item.date }}</span> {{ item.text }}</li>
+		{% endfor %}
+	</ul>
+</details>
+{% endif %}
 
 <hr class="l-middle home-hr">
 
