@@ -1,4 +1,5 @@
 $cv-icon-aspect-ratio: 1.33;
+$pink-glow: #fd6e6e;
 
 #intro-wrapper > div, .intro-text {
 	font-size: 1.2em;
@@ -11,7 +12,14 @@ $cv-icon-aspect-ratio: 1.33;
 #intro-title-wrapper {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 	margin-bottom: 1rem;
+	padding: 1.5rem;
+	border-radius: 1.5rem;
+	// painting washed out with a white overlay so the text stays readable
+	background:
+		linear-gradient(rgba($white, 0.82), rgba($white, 0.82)),
+		url("/images/hero-bg.jpg") center / cover no-repeat;
 }
 
 #intro-image-wrapper {
@@ -24,6 +32,8 @@ $cv-icon-aspect-ratio: 1.33;
 	border-radius: 5rem;
 	height: 8rem;
 	width: 8rem;
+	// soft pink glow, no ring
+	box-shadow: 0 0 22px 8px rgba($pink-glow, 0.4);
 }
 
 #intro-title-text-wrapper {
@@ -41,11 +51,16 @@ $cv-icon-aspect-ratio: 1.33;
 	font-size: 2rem;
 }
 
-#intro-subtitle {
-	font-size: 1.57rem;
-	color: $silver;
+// pink highlighter stroke across the lower part of a section heading
+.section-highlight {
+	background: linear-gradient(transparent 25%, #fd6e6e45 45%);
 }
 
+#intro-subtitle {
+	font-size: 1.57rem;
+	font-weight: 600;
+	color: $mid-gray;
+}
 #intro-title-socials {
 	margin-top: 0.25rem;
 	display: flex;
@@ -54,7 +69,7 @@ $cv-icon-aspect-ratio: 1.33;
 
 .social-link {
 	display: flex;
-	background-color: $black-025;
+	background-color: #fd6e6e45;
 	border-radius: 2.5rem;
 	transition: all .2s ease-in-out;
 	color: $text-color;
@@ -70,7 +85,7 @@ $cv-icon-aspect-ratio: 1.33;
 
 .social-link:hover {
 	text-decoration: none;
-	background: #fd6e6e45;
+	background: #fd6e6e80; // deeper pink so hover is still visible
 	// transform: scale(1.03);
 }
 
@@ -109,6 +124,7 @@ $cv-icon-aspect-ratio: 1.33;
 	margin-bottom: 0rem;
 	font-size: 2rem;
 	font-weight: 600;
+	color: $near-black; // darker text for contrast against the pink highlight
 	// text-align: center;
 }
 
@@ -141,7 +157,9 @@ $cv-icon-aspect-ratio: 1.33;
 }
 
 #everything-else > a {
-	background-color: $black-025;
+	background:
+		linear-gradient(rgba($white, 0.82), rgba($white, 0.82)),
+		url("/images/hero-bg.jpg") center / cover no-repeat;
 	border-radius: 5rem;
 	padding: 0.75rem 0.75rem;
 	margin: 0.25rem;

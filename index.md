@@ -28,15 +28,17 @@ title: Home
 
 	<div style="height: 0.5rem"></div>
 	<div>
-		I am a PhD student at Georgia Tech advised by <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a> as a part of the <a href="http://poloclub.gatech.edu">Polo Club of Data Science</a>.
+		I am a PhD student at Georgia Tech advised by <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a> in the <a href="http://poloclub.gatech.edu">Polo Club of Data Science</a>.
+		<br>
 		<br>
 	</div>
 	
 	<div> 
-	My research is in the field of Trustworthy, Responsible, and Secure AI. 
+	My research is in Trustworthy, Responsible, and Secure AI. 
 	My PhD thesis aims to identify vulnerabilities in AI systems and develop practical, scalable defenses against them, with the goal of securing large-scale AI models and increasing trust in the deployed systems. 
 	My work has produced two patents and two industry-deployed defenses along with papers at multiple top tier AI conferences.
-
+	<br>
+	<br>
 	My work includes VISOR and VISOR++ which create a universal, transferable steering image that can steer architecturally diverse models without requiring access to their internal model parameters at runtime.
 
 	<!-- My research interests are <b>Responsible AI</b> and <b>ML safety</b>.
@@ -56,17 +58,17 @@ title: Home
 
 <hr class="l-middle home-hr">
 
-<h2 class="feature-title l-middle"> News </h2>
+<h2 class="feature-title l-middle"> <span class="section-highlight">News</span> </h2>
 <ul id="news" class="l-middle">
 	{% for item in site.data.news limit:5 %}
 		<li>🎉 <span class="news-date">{{ item.date }}</span> {{ item.text }}</li>
 	{% endfor %}
 </ul>
-{% if site.data.news.size > 4 %}
+{% if site.data.news.size > 5 %}
 <details id="news-more" class="l-middle">
 	<summary>Read more</summary>
 	<ul id="news-older">
-		{% for item in site.data.news offset:4 %}
+		{% for item in site.data.news offset:5 %}
 			<li>🎉 <span class="news-date">{{ item.date }}</span> {{ item.text }}</li>
 		{% endfor %}
 	</ul>
@@ -75,7 +77,7 @@ title: Home
 
 <hr class="l-middle home-hr">
 
-<h2 class="feature-title l-middle"> Featured Publications </h2>
+<h2 class="feature-title l-middle"> <span class="section-highlight">Featured Publications</span> </h2>
 <div style="height: 1rem"></div>
 <div class="cover-wrapper cover-wrapper-1-col l-page">
 	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' | reverse %}

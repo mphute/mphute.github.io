@@ -45,7 +45,7 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $dark-blue;
   text-decoration: none;
   // text-decoration-color: $light-blue;
 
@@ -60,7 +60,7 @@ a {
 a:hover, a:focus {
   color: $dark-blue;
   text-decoration: underline;
-  text-decoration-color: $light-silver;
+  text-decoration-color: currentColor;
 }
 
 hr {
