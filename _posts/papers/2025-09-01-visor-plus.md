@@ -13,7 +13,7 @@ featured: true
 feature-order: 20260901
 coming-soon: false
 venue: European Conference on Computer Vision 2026
-venue-shorthand: ECCV 2026
+venue-shorthand: ECCV
 year: 2026
 award: 
 award-link:
