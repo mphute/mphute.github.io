@@ -9,6 +9,12 @@ $pink-glow: #fd6e6e;
 	margin-top: 3rem;
 }
 
+.intro-para {
+	margin: 0 0 1rem;
+	max-width: 65ch;
+	line-height: 1.6;
+}
+
 #intro-title-wrapper {
 	display: flex;
 	flex-direction: row;
@@ -173,7 +179,7 @@ $pink-glow: #fd6e6e;
 
 #everything-else > a:hover {
 	text-decoration: none;
-	background: #fd6e6e45;
+	background: #fd6e6e80;
 	transform: scale(1.03);
 }
 

@@ -27,19 +27,18 @@ title: Home
 	</div>
 
 	<div style="height: 0.5rem"></div>
-	<div>
+	<div class="intro-para">
 		I am a PhD student at Georgia Tech advised by <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a> in the <a href="http://poloclub.gatech.edu">Polo Club of Data Science</a>.
-		<br>
-		<br>
 	</div>
-	
-	<div> 
-	My research is in Trustworthy, Responsible, and Secure AI. 
-	My PhD thesis aims to identify vulnerabilities in AI systems and develop practical, scalable defenses against them, with the goal of securing large-scale AI models and increasing trust in the deployed systems. 
-	My work has produced two patents and two industry-deployed defenses along with papers at multiple top tier AI conferences.
-	<br>
-	<br>
-	My work includes VISOR and VISOR++ which create a universal, transferable steering image that can steer architecturally diverse models without requiring access to their internal model parameters at runtime.
+
+	<div class="intro-para">
+		My research is in <b>Trustworthy, Responsible, and Secure AI</b>.
+		I find vulnerabilities in AI systems and build practical, scalable defenses against them, so that large-scale models can be secured and the systems deployed with them can be trusted.
+	</div>
+
+	<div class="intro-para">
+		My work has led to <b>two patents</b> and <b>two industry-deployed defenses</b>, along with papers at top AI conferences.
+		This includes <a href="https://arxiv.org/pdf/2508.08521" target="_blank" rel="noopener">VISOR</a> and <a href="https://www.arxiv.org/pdf/2509.25533" target="_blank" rel="noopener">VISOR++</a>: a single, universal steering image that steers architecturally diverse models without access to their internals at runtime.
 
 	<!-- My research interests are <b>Responsible AI</b> and <b>ML safety</b>.
 	I work on developing explanations for ML systems, analyzing them to identify vulnerabilities, and finding solutions to mitigate these issues.
@@ -48,8 +47,7 @@ title: Home
 		<!-- My work also includes using multimodal foundational models to create large scale datasets that thoroughly test robustness of our current fake image detection systems on multiple axes. -->
 	</div>
 	
-	<div style="height: 1rem"></div>
-	<div>
+	<div class="intro-para">
 		I have collaborated with scientists at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/ibm.svg"> IBM, <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/hiddenlayer.svg"> HiddenLayer, <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/intellabs.svg"> Intel Labs, and <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/ntu.svg"> Nanyang Technological University
 		<!-- , and <img class="intro-logo" style="width: 24px;" src="/images/dassault_logo_small.svg"> Dassault Systems. -->
 	</div>
